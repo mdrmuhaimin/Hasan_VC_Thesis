@@ -19,13 +19,11 @@ By focusing on *in-destination service orchestration*, we create an immediate tr
 ### Team Commitment Evidence
 
 - Founder: Muhammad Raihan Muhaimin — full-time, background in AI/ML and religious tourism.  
-- Venture Studio (EIR role) providing structural and funding support for transition to accelerator phase with pre-seed funding.
+- Venture Studio (EIR role) providing structural and funding support for transition to accelerator phase with pre-seed funding upon qualification.
 
 ### Scrappy Problem-Solving Examples
 
-- Pre-launch pilots with Go Ziyarah Travel (BD) and TripBD Travel (BD) to run post-Hajj 2026 agency-bundled upsell tests.  
-- Planned use of expat community groups and student associations for low-cost beta testing.  
-- Multi-language launch (English, Bengali, Bahasa Indonesia, Bahasa Malaysia) to target high-volume pilgrim demographics from day one.
+- Manually curated flight-visa-hotel Umrah bundles and Hajj Packages for pilgrims via local travel agents; deployed a dua and ritual guidance app that helped pilgrims during Hajj 2026.
 
 ### Wedge
 
