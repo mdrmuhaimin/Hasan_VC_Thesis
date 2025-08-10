@@ -57,7 +57,7 @@ Religious Tourism (Hajj/Umrah) and In-Destination Travel Technology.
 
 ### Opportunity Description
 
-The global Muslim travel market is projected to exceed **$225 billion by 2028** ([source][4]), with Hajj and Umrah as its most logistically complex and spiritually significant segments. While booking flights and packages has largely digitized, the *in-destination experience* remains fragmented, offline, and dependent on unverified, often overpriced local operators.
+The global Muslim travel market is projected to exceed **$225 billion by 2028** ([source][19]), with Hajj and Umrah as its most logistically complex and spiritually significant segments. While booking flights and packages has largely digitized, the *in-destination experience* remains fragmented, offline, and dependent on unverified, often overpriced local operators.
 
 ### Core Problem
 
@@ -93,7 +93,7 @@ Characteristics:
 | -------------------------------------------------------------------------------------------------------- | --------------------------------------------------------- | ------------------------- |
 | **Seven Umrah companies suspended (Jun 17 2025)** for failing transport commitments                      | Travellers stranded; ministry had to arrange alternatives | ([Saudi Press Agency][2]) |
 | **Ten travel offices shut (Jul 13 2025)** for running unlicensed Umrah services                          | Bookings voided; deposits at risk                         | ([Gulf News][3])          |
-| **Real-world delay:** Malaysian pilgrim waited **2 days under airport canopies** then bought new tickets | Lost 48 h + paid extra airfare                            | ([RSIS International][5]) |
+| **Real-world delay:** Malaysian pilgrim waited **2 days under airport canopies** then bought new tickets | Lost 48 h + paid extra airfare                            | ([RSIS International][4]) |
 
 ### Quantified Pain
 
@@ -113,9 +113,9 @@ Independent Umrah pilgrims in Saudi Arabia struggle with ritual anxiety, overpri
 
 | Company / Cluster                                          | Role & Core Offer                 | Focus       | Strengths                         | Weaknesses vs Us                            | Exploitable Gap                                                                |
 | ---------------------------------------------------------- | --------------------------------- | ----------- | --------------------------------- | ------------------------------------------- | ------------------------------------------------------------------------------ |
-| **Official rails (e.g., Nusuk; Maqam GDS)**                | Permits/B2B supply infrastructure | KSA inbound | Regulatory compliance, inventory  | No personal concierge or exploration engine | **Layer our in-trip AI, Ziyarah Explorer & licensed bundles onto their rails** |
-| **Umrah OTAs (e.g., Umrahme, Zamzam, TBO Umrah, Funadiq)** | Packages, visas, hotels           | GCC/SEA     | Full-package funnel, supply reach | No in-trip support or offline ritual        | **Offline Ritual Mode + license-badged marketplace + curated city plans**      |
-| **Large KSA OTAs (Almosafer/Seera)**                       | Full OTA experience               | KSA/global  | Brand scale, flights & hotels     | Generic UX, non fiqh-aware                  | **Pilgrimage-specific concierge + exploration + Solo/Hire toggle**             |
+| **Official rails (e.g., [Nusuk][5]; [Maqam GDS][7])**       | Permits/B2B supply infrastructure | KSA inbound | Regulatory compliance, inventory  | No personal concierge or exploration engine | **Layer our in-trip AI, Ziyarah Explorer & licensed bundles onto their rails** |
+| **Umrah OTAs (e.g., [Umrahme][8], [Zamzam][10], [TBO Umrah][11], [Funadiq][15])** | Packages, visas, hotels           | GCC/SEA     | Full-package funnel, supply reach | No in-trip support or offline ritual        | **Offline Ritual Mode + license-badged marketplace + curated city plans**      |
+| **Large KSA OTAs ([Almosafer][12]/[Seera][14])**            | Full OTA experience               | KSA/global  | Brand scale, flights & hotels     | Generic UX, non fiqh-aware                  | **Pilgrimage-specific concierge + exploration + Solo/Hire toggle**             |
 
 ---
 
@@ -123,23 +123,38 @@ Independent Umrah pilgrims in Saudi Arabia struggle with ritual anxiety, overpri
 
 | Company                      | Location     | Business Model             | Pricing Strategy                    | Target Market                | Revenue/Funding Stage                   | Strengths                                      | Weaknesses                                   | Exploitable Gap                                        |
 | ---------------------------- | ------------ | -------------------------- | ----------------------------------- | ---------------------------- | --------------------------------------- | ---------------------------------------------- | -------------------------------------------- | ------------------------------------------------------ |
-| **Umrahme**                  | Dubai, UAE   | B2C OTA                    | Commission per booking              | GCC, SEA, diaspora           | Backed by Certares & Global Ventures    | Nusuk-accredited, holistic packages            | No in-trip or offline features               | Add Ritual Mode + licensed marketplace                 |
-| **Zamzam.com**               | Jeddah, KSA  | B2B/B2C OTA                | Package pricing                     | Global pilgrims              | JV with TBO; undisclosed funding        | Visa + hotel integration, multilingual support | No exploration/offline features              | Curated city plans + licensed services                 |
-| **TBO Umrah**                | UAE/KSA      | B2B OTA                    | Agency commission-based             | Travel agents (GCC/SEA)      | Regional player                         | Agent distribution network                     | No D2C presence or in-trip UX                | D2C Ritual Mode + upsell via agents                    |
-| **Funadiq**                  | Pakistan/KSA | B2C OTA via Maqam GDS      | OTA package pricing                 | Global pilgrims via GDS      | Limited public data                     | Maqam-certified GDS connectivity               | No in-trip concierge or exploration features | Integrate Ritual Mode + curated city plans             |
-| **Almosafer / Seera**        | Riyadh, KSA  | OTA                        | OTA pricing                         | KSA/global travelers         | Seera publicly held (\~\$1.6B rev est.) | Brand, supply breadth                          | Not fiqh-aware, generic UX                   | Add Ritual Mode + exploration overlay                  |
-| **Flynas (Umrah Services)**  | Riyadh, KSA  | Airline + Umrah packages   | Dynamic bundle pricing              | Budget pilgrims              | Airline revenue significant             | Transport integrated with tours                | No offline/ritual guidance                   | Layer Ritual Mode + Ziyarah Explorer                   |
-| **Saudia Airlines Packages** | Jeddah, KSA  | Airline + Umrah bundles    | Package pricing (PKR 60k–180k est.) | Pakistani & SEA pilgrims     | Government carrier                      | Trust, flight + stay bundles                   | No pilgrimage-specific UI                    | Add Ritual Mode integration                            |
-| **Amal (Malaysia Airlines)** | Kuala Lumpur | Chartered Umrah arm        | Charter/package pricing             | SEA markets                  | Owned by Malaysia Aviation Group        | Religious flight brand positioning             | No in-destination tools                      | Bundle Ritual Mode + licensed services                 |
-| **Muslim Pro (Umrah)**       | Global (App) | App-based booking links    | Commission from OTA fees            | Muslim diaspora              | 170M+ downloads, strong base            | Nusuk integration, massive user base           | No offline support or licensing transparency | Offline Ritual Mode + licensed marketplace             |
-| **HalalTrip**                | Singapore    | Content + OTA              | Commission/ad revenue               | Global Muslim travelers      | Backed by CrescentRating                | SEO + content-driven reach                     | No Umrah concierge or licensed services      | Integrate ritual content + licensed bookings           |
-| **ShareTrip**                | Bangladesh   | OTA: flight/hotel/packages | OTA pricing                         | Bangladeshi/Muslim travelers | Leading OTA in BD                       | Full travel stack: visa, flights, packages     | No in-trip ritual features                   | Embed Ritual Mode + offer licensed service bundles     |
-| **GoZayaan**                 | Bangladesh   | OTA                        | Flight deals: BDT 49k–190k          | Bangladeshi travelers        | Emerging OTA                            | Flight comparison & deals                      | No pilgrimage-specific UX or ritual tools    | Bundle offline Ritual Mode + local service marketplace |
-| **AmarSafar**                | Bangladesh   | B2B2C Travel Marketplace   | OTA-style pricing                   | Agencies & travelers         | Local focus; app-based                  | One-stop travel services: visa, flights, tours | Not pilgrimage-specific                      | Add Ritual & Ziyarah features + licensed services      |
+| **[Umrahme][8]**             | Dubai, UAE   | B2C OTA                    | Commission per booking              | GCC, SEA, diaspora           | Backed by Certares & Global Ventures    | Nusuk-accredited, holistic packages            | No in-trip or offline features               | Add Ritual Mode + licensed marketplace                 |
+| **[Zamzam.com][10]**         | Jeddah, KSA  | B2B/B2C OTA                | Package pricing                     | Global pilgrims              | JV with TBO; undisclosed funding        | Visa + hotel integration, multilingual support | No exploration/offline features              | Curated city plans + licensed services                 |
+| **[TBO Umrah][11]**          | UAE/KSA      | B2B OTA                    | Agency commission-based             | Travel agents (GCC/SEA)      | Regional player                         | Agent distribution network                     | No D2C presence or in-trip UX                | D2C Ritual Mode + upsell via agents                    |
+| **[Funadiq][15]**            | Pakistan/KSA | B2C OTA via Maqam GDS      | OTA package pricing                 | Global pilgrims via GDS      | Limited public data                     | Maqam-certified GDS connectivity               | No in-trip concierge or exploration features | Integrate Ritual Mode + curated city plans             |
+| **[Almosafer][12] / [Seera][14]** | Riyadh, KSA  | OTA                        | OTA pricing                         | KSA/global travelers         | Seera publicly held (\~\$1.6B rev est.) | Brand, supply breadth                          | Not fiqh-aware, generic UX                   | Add Ritual Mode + exploration overlay ([Zawya][12])    |
+| **[Flynas (Umrah Services)][26]** | Riyadh, KSA  | Airline + Umrah packages   | Dynamic bundle pricing              | Budget pilgrims              | Airline revenue significant             | Transport integrated with tours                | No offline/ritual guidance                   | Layer Ritual Mode + Ziyarah Explorer                   |
+| **[Saudia Airlines Packages][27]** | Jeddah, KSA  | Airline + Umrah bundles    | Package pricing (PKR 60k–180k est.) | Pakistani & SEA pilgrims     | Government carrier                      | Trust, flight + stay bundles                   | No pilgrimage-specific UI                    | Add Ritual Mode integration                            |
+| **[Amal (Malaysia Airlines)][28]** | Kuala Lumpur | Chartered Umrah arm        | Charter/package pricing             | SEA markets                  | Owned by Malaysia Aviation Group        | Religious flight brand positioning             | No in-destination tools                      | Bundle Ritual Mode + licensed services                 |
+| **[Muslim Pro (Umrah)][29]** | Global (App) | App-based booking links    | Commission from OTA fees            | Muslim diaspora              | 170M+ downloads, strong base            | Nusuk integration, massive user base           | No offline support or licensing transparency | Offline Ritual Mode + licensed marketplace             |
+| **[HalalTrip][16]**          | Singapore    | Content + OTA              | Commission/ad revenue               | Global Muslim travelers      | Backed by CrescentRating                | SEO + content-driven reach                     | No Umrah concierge or licensed services      | Integrate ritual content + licensed bookings           |
+| **[ShareTrip][30]**          | Bangladesh   | OTA: flight/hotel/packages | OTA pricing                         | Bangladeshi/Muslim travelers | Leading OTA in BD                       | Full travel stack: visa, flights, packages     | No in-trip ritual features                   | Embed Ritual Mode + offer licensed service bundles     |
+| **[GoZayaan][31]**           | Bangladesh   | OTA                        | Flight deals: BDT 49k–190k          | Bangladeshi travelers        | Emerging OTA                            | Flight comparison & deals                      | No pilgrimage-specific UX or ritual tools    | Bundle offline Ritual Mode + local service marketplace |
+| **[AmarSafar][32]**          | Bangladesh   | B2B2C Travel Marketplace   | OTA-style pricing                   | Agencies & travelers         | Local focus; app-based                  | One-stop travel services: visa, flights, tours | Not pilgrimage-specific                      | Add Ritual & Ziyarah features + licensed services      |
 
 ---
 
-### **C. Defensible Edge & Go-to-Market**
+| Company                           | What they do                                         | Strengths             | Weaknesses vs Us                              | Gap we exploit                                                                     |
+| --------------------------------- | ---------------------------------------------------- | --------------------- | --------------------------------------------- | ---------------------------------------------------------------------------------- |
+| **[HalalTrip][16]**               | Muslim travel app (food, mosques, qibla, trip ideas) | Community & utilities | Not Umrah-specific; limited in-trip logistics | **Pilgrimage-specific offline ritual + marketplace**. ([Apple][17])                |
+| **[Have Halal Will Travel (HHWT)][18]** | Media/community for halal travel                     | Reach & content       | No bookings; no Umrah concierge               | **Convert content demand into licensed services**.                                 |
+| **[CrescentRating / GMTI][19]**   | Industry research & destination ratings              | Category authority    | Not consumer concierge                        | **Use insights; don’t compete**.                                                   |
+
+---
+
+| Category                 | Players                        | What users get               | Weakness vs us                                                             | Our angle                                                                                                             |
+| ------------------------ | ------------------------------ | ---------------------------- | -------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
+| **Ride-hailing / Taxis** | **[Careem][20], [Uber][21], [Jeeny][22]** | App rides with upfront fares | Not ritual-aware; not curated for ziyarah; meter compliance still variable | **Pre-quoted, license-badged transfers; meter prompts & receipt checks**.                                             |
+| **eSIM / Connectivity**  | **[Airalo][23], [Holafly][24], [Nomad][25]** | Quick data on arrival        | No pilgrimage UX; spotty value vs local SIMs                               | **Bundle eSIM with app + offline failover**.                                                                          |
+
+---
+
+###  Defensible Edge & Go-to-Market
 
 #### Our Unique Insight
 
@@ -163,5 +178,32 @@ Partner with **licensed local travel agencies** in key origin markets to:
 [1]: https://www.vision2030.gov.sa/media/x5vfkvzj/2021-2025-pilgrim-experience-program-delivery-plan-en.pdf "Pilgrim Experience Program Delivery Plan"
 [2]: https://www.spa.gov.sa/en/N2341449 "Hajj Ministry Suspends Seven Umrah Companies Over ..."
 [3]: https://gulfnews.com/world/gulf/saudi/saudi-arabia-shuts-10-travel-offices-over-unlicensed-umrah-services-1.500196522 "Saudi Arabia shuts 10 travel offices over unlicensed Umrah ..."
-[4]: https://www.webintravel.com/muslim-travel-market-set-for-230-million-international-arrivals-by-2028-with-an-expenditure-of-usd-225-billion/ "Muslim travel market set for $230 million international arrivals"
-[5]: https://rsisinternational.org/journals/ijriss/Digital-Library/volume-8-issue-11/1207-1223.pdf "Perspectives of Malaysian Hajj and Umrah Travelers' and ..."  
+[4]: https://rsisinternational.org/journals/ijriss/Digital-Library/volume-8-issue-11/1207-1223.pdf "Perspectives of Malaysian Hajj and Umrah Travelers' and ..."
+[5]: https://www.nusuk.sa/ "Nusuk: Your Trusted Partner for a Seamless Umrah Experience"
+[6]: https://umrah.nusuk.sa/ "Nusuk Umrah Platform"
+[7]: https://saudipedia.com/en/article/1227/religion/hajj-and-umrah/the-global-distribution-system-maqam "The Global Distribution System (Maqam)"
+[8]: https://www.umrahme.com/home/en-us "Umrahme: Umrah Tours - Umrah Package, Tour, Hotels, Local ..."
+[9]: https://apps.apple.com/us/app/umrahme-umrah-travel/id1628265385 "Umrahme - Umrah Travel on the App Store - Apple"
+[10]: https://zamzam.com/ "Best umrah packages with Hotels and Flight in Your Budget"
+[11]: https://www.tbo.com/tbo-umrah "TBO Umrah - tbo.com"
+[12]: https://www.zawya.com/en/press-release/companies-news/the-ministry-of-hajj-and-umrah-partners-with-almosafer-to-enhance-pilgrim-travel-experience-in-the-kingdom-i04xv9bs "The Ministry of Hajj & Umrah partners with Almosafer to ..."
+[13]: https://mid-east.info/almosafer-named-the-official-flight-partner-for-the-direct-hajj-initiative-through-nusuk-hajj-the-official-platform-by-the-ministry-of-hajj-and-umrah/ "Almosafer named the official flight partner for the Direct ..."
+[14]: https://www.seera.sa/wp-content/uploads/2024/05/SEERA-1Q24-Investor-Presentation_vf.pdf "Investor Presentation"
+[15]: https://www.funadiq.com/ "Funadiq.com is Online Travel Agency (OTA) for Umrah ..."
+[16]: https://www.halaltrip.com/islamic-travel-app/ "HalalTrip Islamic Travel App"
+[17]: https://apps.apple.com/us/app/halal-trip-food-travel-prayer/id680194589 "Halal Trip: Food Travel Prayer - App Store"
+[18]: https://www.havehalalwilltravel.com/ "Have Halal Will Travel - Your Global Halal Travel Guide"
+[19]: https://www.crescentrating.com/reports/global-muslim-travel-index-2025.html "Global Muslim Travel Index 2025"
+[20]: https://www.careem.com/en-AE/ksa-rides/ "KSA Ride Hailing"
+[21]: https://www.uber.com/en-SA/blog/update-to-services/ "An update to our services in KSA"
+[22]: https://www.jeeny.me/ "Jeeny"
+[23]: https://www.airalo.com/saudi-arabia-esim "Saudi Arabia eSIM, from $4.50 USD"
+[24]: https://esim.holafly.com/esim-saudi-arabia/ "eSIM Saudi Arabia | Best eSIM with Unlimited Data Plans"
+[25]: https://www.getnomad.app/saudi-arabia-eSIM "Saudi Arabia eSIM, from USD 5 | Prepaid Travel eSIM"
+[26]: https://nasholidays.com/umrah_packages/en "Flynas Umrah Packages"
+[27]: https://www.saudia.com/pages/travel-with-saudia/book-with-us/umrah-by-saudia "Saudia Airlines Umrah Information"
+[28]: https.iflyamal.com/ "Amal by Malaysia Airlines"
+[29]: https://www.muslimpro.com/umrah/ "Umrah by Muslim Pro"
+[30]: https://sharetrip.net/ "ShareTrip"
+[31]: https://www.gozayaan.com/ "GoZayaan"
+[32]: https://amarsafar.com/ "AmarSafar"  
