@@ -404,8 +404,8 @@ We serve two primary customers—pilgrims (B2C) and group leaders/agencies (B2B)
 
 **Primary reference points:**
 
-- **Foreign Umrah performers in 2024**: 16.80 million (General Authority for Statistics \[GASTAT], reported by Argaam)
-- **Foreign Hajj pilgrims in 2024**: 1,611,310 (GASTAT)
+- **Foreign Umrah performers in 2024**: 16.80 million (GASTAT, reported by [Argaam](https://www.argaam.com/en/article/articledetail/id/1799151?utm_source=chatgpt.com))
+- **Foreign Hajj pilgrims in 2024**: 1,611,310 ([GASTAT — Hajj Statistics Publication 2024](https://www.stats.gov.sa/documents/20117/2435281/Hajj%2BStatistics%2BPublication%2B2024EN.pdf/ee9e1b69-731b-9976-b394-e24ec4bf6f72?t=1735306044857&utm_source=chatgpt.com))
 
 ---
 
@@ -428,7 +428,7 @@ The analysis segments monetisation opportunities into four discrete revenue stre
 - S4 is calculated on **unique users** (Umrah de-duplicated)
 
 **Regulatory considerations:**
-Hajj sales are conducted solely through authorised providers (e.g., the Nusuk Hajj platform). The recommended market entry strategy is to prioritise S2 referrals and S4 digital products, followed by S1 local services, and finally S3 OTA services once licensing or partnerships are secured.
+Hajj sales are conducted solely through authorised providers (e.g., the [Nusuk Hajj platform](https://hajj.nusuk.sa/)). The recommended market entry strategy is to prioritise S2 referrals and S4 digital products, followed by S1 local services, and finally S3 OTA services once licensing or partnerships are secured.
 
 ---
 
@@ -445,9 +445,9 @@ Hajj sales are conducted solely through authorised providers (e.g., the Nusuk Ha
 
 **Key modelling parameters:**
 
-- **Hotel OTA take-rate**: 14.3% (Booking Holdings FY2024 revenues as a percentage of gross bookings)
-- **Flight OTA take-rate**: 2% (Expedia Group FY2024 disclosures; lodging \~80% of total revenue, air \~3%)
-- **KSA hotel online penetration**: \~30%, with OTA channels capturing the majority of online share (WebInTravel, 2024)
+- **Hotel OTA take-rate**: 14.3% ([Booking Holdings FY2024 Form 10-K](https://www.sec.gov/Archives/edgar/data/1075531/000107553125000010/bkng-20241231.htm))
+- **Flight OTA take-rate**: 2% ([Expedia Group FY2024 results](https://www.expediagroup.com/investors/news-and-events/financial-releases/news/news-details/2025/Expedia-Group-Reports-Fourth-Quarter-and-Full-Year-2024-Results/default.aspx); lodging ≈80% of revenue, air ≈3%)
+- **KSA hotel online penetration**: \~30%, with OTAs capturing most online share ([WebInTravel, 2024](https://www.webintravel.com/saudi-arabia-online-travel-agency-ota-market-skyrockets-ota-air-gbv-hits-us1-9-billion-hotel-climbs-to-2-3-billion/?utm_source=chatgpt.com))
 
 **Formula overview:**
 
@@ -465,9 +465,9 @@ Hajj sales are conducted solely through authorised providers (e.g., the Nusuk Ha
 
 **Hajj quotas (2024):**
 
-* Indonesia: 241,000
-* Malaysia: 31,600
-* Bangladesh: 127,198
+- **Indonesia:** 241,000 ([Antara News](https://en.antaranews.com/news/302688/indonesia-to-send-241000-people-to-this-years-hajj-pilgrimage?utm_source=chatgpt.com))
+- **Malaysia:** 31,600 ([The Malaysian Reserve](https://themalaysianreserve.com/2024/06/14/31600-malaysian-hajj-pilgrims-start-moving-to-arafah/?utm_source=chatgpt.com))
+- **Bangladesh:** 127,198 ([The Financial Express](https://today.thefinancialexpress.com.bd/last-page/127198-can-perform-hajj-in-2024-1691000221?utm_source=chatgpt.com))
 
 ### SAM — 2024 Base (\$M, rounded to \$0.01M)
 
@@ -512,7 +512,7 @@ Hajj referrals limited to 5,000 seats/year (current targets do not exceed this t
 
 ### Section 4 — Key Risks and Mitigation Strategies
 
-1. **Regulatory framework for Hajj:** All bookings and visas are processed via authorised platforms such as Nusuk.
+1. **Regulatory framework for Hajj:** All bookings and visas are processed via authorised platforms such as [Nusuk](https://hajj.nusuk.sa/).
    *Mitigation:* Operate as a referral, education, and comparison layer aligned with authorised providers.
 
 2. **Licensing requirements for OTA operations in KSA:** Selling travel services requires a Travel & Tourism Services licence from the Ministry of Tourism, or an arrangement with a licensed partner.
@@ -543,13 +543,13 @@ Hajj referrals limited to 5,000 seats/year (current targets do not exceed this t
 
 ### Appendix B — Core Data Sources
 
-1. **Umrah 2024 foreign performers:** Argaam summary of GASTAT official statistics
-2. **Hajj 2024 foreign pilgrims:** GASTAT official publication and website
-3. **Booking Holdings FY2024 financial report:** OTA hotel take-rate (14.3%)
-4. **Expedia Group FY2024 financial report:** OTA lodging share (\~80%) and air share (\~3%)
-5. **WebInTravel (2024):** KSA hotel OTA market size and online penetration
-6. **National Hajj quotas:** Antara (Indonesia), Bernama (Malaysia), Financial Express (Bangladesh)
-7. **Regulatory context:** Nusuk Hajj platform (Ministry of Hajj and Umrah, KSA); U.S. State Department advisory
+1. **Umrah 2024 foreign performers:** [Argaam summary of GASTAT official statistics](https://www.argaam.com/en/article/articledetail/id/1799151?utm_source=chatgpt.com)
+2. **Hajj 2024 foreign pilgrims:** [GASTAT — Hajj Statistics Publication 2024](https://www.stats.gov.sa/documents/20117/2435281/Hajj%2BStatistics%2BPublication%2B2024EN.pdf/ee9e1b69-731b-9976-b394-e24ec4bf6f72?t=1735306044857&utm_source=chatgpt.com)
+3. **Booking Holdings FY2024 financial report:** [Form 10-K (revenues/GBV = 14.3%)](https://www.sec.gov/Archives/edgar/data/1075531/000107553125000010/bkng-20241231.htm)
+4. **Expedia Group FY2024 financial report:** [FY2024 results (lodging ≈80%, air ≈3%)](https://www.expediagroup.com/investors/news-and-events/financial-releases/news/news-details/2025/Expedia-Group-Reports-Fourth-Quarter-and-Full-Year-2024-Results/default.aspx)
+5. **WebInTravel (2024):** [KSA OTA market size and online penetration](https://www.webintravel.com/saudi-arabia-online-travel-agency-ota-market-skyrockets-ota-air-gbv-hits-us1-9-billion-hotel-climbs-to-2-3-billion/?utm_source=chatgpt.com)
+6. **National Hajj quotas:** [Antara — Indonesia 241,000](https://en.antaranews.com/news/302688/indonesia-to-send-241000-people-to-this-years-hajj-pilgrimage?utm_source=chatgpt.com); [The Malaysian Reserve — Malaysia 31,600](https://themalaysianreserve.com/2024/06/14/31600-malaysian-hajj-pilgrims-start-moving-to-arafah/?utm_source=chatgpt.com); [The Financial Express — Bangladesh 127,198](https://today.thefinancialexpress.com.bd/last-page/127198-can-perform-hajj-in-2024-1691000221?utm_source=chatgpt.com)
+7. **Regulatory context:** [Nusuk Hajj platform (Ministry of Hajj and Umrah)](https://hajj.nusuk.sa/); [U.S. State Department — Hajj & Umrah advisory](https://travel.state.gov/content/travel/en/international-travel/before-you-go/travelers-with-special-considerations/hajj.html)
 
 ## SECTION 8 — MVP Design Canvas
 
