@@ -105,7 +105,7 @@ Characteristics:
 
 Independent Umrah pilgrims in Saudi Arabia struggle with ritual anxiety, overpriced unverified services, and poor discovery because in-destination support is fragmented and not fiqh-aware.
 
-## Section 3 — Competitive Landscape
+## SECTION 3 — Competitive Landscape
 
 ---
 
@@ -154,7 +154,7 @@ Independent Umrah pilgrims in Saudi Arabia struggle with ritual anxiety, overpri
 
 ---
 
-###  Defensible Edge & Go-to-Market
+### Defensible Edge & Go-to-Market
 
 #### Our Unique Insight
 
@@ -176,9 +176,9 @@ Partner with **licensed local travel agencies** in key origin markets to:
 
 ---
 
-## SECTION 4 — Discovery Interviews (VC-Ready)
+## SECTION 4 — Discovery Interviews
 
-## Interview Contact Matrix (30+)
+### Interview Contact Matrix (30+)
 
 - Total interviews: **31**
 - Dual roles: **All Buyers are also Experts (secondary)** for evidence, while each interviewee retains **one primary** category for quota math.
@@ -192,12 +192,12 @@ Partner with **licensed local travel agencies** in key origin markets to:
 
 **Plan:** Recruit **+5 Experts** and **+2 Adjacent** interviews to reach the target mix.
 
-## Evidence Collection Methods & Scrappy Outreach
+### Evidence Collection Methods & Scrappy Outreach
 
 - Recruited via **mosque/imam endorsements**, **diaspora Facebook/WhatsApp groups**, and **agency bundles**.
 - Leveraged **group leaders** as affiliate referrers; used **snowball sampling** from completed interviews.
 
-## Problem Validation Scorecard (1–5)
+### Problem Validation Scorecard (1–5)
 
 | Criteria                   |                 Score | Evidence summary                                                                                                                                                                                                                                                                                                                                                                         |
 | -------------------------- | --------------------: | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -209,20 +209,20 @@ Partner with **licensed local travel agencies** in key origin markets to:
 
 **Total Validation Score:** **22/25**
 
-## WTP Focus Areas (High → Low)
+### WTP Focus Areas (High → Low)
 
 1. **Agency-based end-to-end guided tour** (agency-bundled upsell with escrow).
 2. **Transport** (combined: airport⇄hotel + ziyarah fixed-fare).
 3. **Private guide** (substitutable by in-app guidance).
    *(Removed: wheelchair; eSIM deprioritized unless agency-driven.)*
 
-## Monetization Signals (interviews + founder inputs)
+### Monetization Signals (interviews + founder inputs)
 
 - **Agency bundles:** Agencies typically pay **2–5% commission**; many offer **B2B rates** for platform distribution. Founder already monetizes as a **Sales Partner**.
 - **Transport:** **\~20% referral fee** norms; B2B rates available (e.g., per supplier interviews).
 - **Guidance:** **In-app guidance at \$5–\$10** one-time (some up to **\$20**); **private guides** usually bundled with ziyarah or end-to-end packages.
 
-## Validation Preview (for Section 7)
+### Validation Preview (for Section 7)
 
 (Concise thresholds kept here for IC clarity; the full plan will live in Section 7 — MVP Validation Plan.)
 
@@ -230,7 +230,7 @@ Partner with **licensed local travel agencies** in key origin markets to:
 - **Transport (fixed-fare bands):** Offer 3 fare bands on common routes + escrow option. **Target:** ≥60% choose a band and accept in-app booking; **Supply-side:** ≥70% of providers consent to the target take-rate (benchmarked to \~20%).
 - **Private guide vs in-app:** Side-by-side daily guide fee vs app module at **\$5–\$10**. **Target:** ≥50% select app-only at these price points.
 
-## Operating Assumptions (to sustain Solution Difficulty = 4/5)
+### Operating Assumptions (to sustain Solution Difficulty = 4/5)
 
 1. **No direct fulfillment** (we list/route; we do not operate transport/tours).
 2. **Payments** collected by agency or via a **compliant PSP** (escrow/settlement; KYC/AML handled).
@@ -240,7 +240,7 @@ Partner with **licensed local travel agencies** in key origin markets to:
 
 ---
 
-## Embedded Interview Contact Matrix
+### Embedded Interview Contact Matrix
 
 | Name                      | Role                                                       | Contact Info           | Category | Secondary Category | Status    | Interview Date | Geography  | Persona              | Key Interview Insight                                                                                                                              |
 | ------------------------- | ---------------------------------------------------------- | ---------------------- | -------- | ------------------ | --------- | -------------- | ---------- | -------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -322,7 +322,7 @@ We validate demand before building, test hypotheses before committing resources,
 
 ---
 
-## Section 6 — Ideal Customer Profiles (ICP)
+## SECTION 6 — Ideal Customer Profiles (ICP)
 
 We serve two primary customers—pilgrims (B2C) and group leaders/agencies (B2B)—and one tertiary B2B customer (local service providers). Below is a crisp, VC-ready snapshot in the requested format, plus why each segment picks us.
 
@@ -385,156 +385,173 @@ We serve two primary customers—pilgrims (B2C) and group leaders/agencies (B2B)
 
 ---
 
-## Section 7 — TAM · SAM · SOM (USD)
-
-**TAM (global, GMV): ≈ $35.15B/yr**
-• **Umrah:** 13.5M trip-events × **$1,707** avg spend ≈ **$23.05B**. ([malaysiaaviationgroup.com.my][31])
-• **Hajj:** 1.833M pilgrims × **$6,601** avg spend ≈ **$12.10B**. ([الهيئة العامة للإحصاء][32])
-
-**TAM (our revenue capture, two views):**
-• **Upper bound (100% attach):** Umrah **$59**/trip (2% of package + $5 app + $20 offline), Hajj **$157**/trip → **$1.08B/yr**.
-• **Working attach (early-years):** 30% app + 10% package-referral + 15% offline-referral → **≈ $139M/yr**.
+## SECTION 7 - Market Sizing (TAM - SAM - SOM)
 
 ---
 
-**SAM (BD + ID + MY, GMV): ≈ $5.17B/yr**
-• **Umrah:**
-– **Bangladesh:** ~200k/yr × **$1,264** ≈ **$253M**. (Ramadan alone ~100k cited) ([Dhaka Tribune][33])
-– **Indonesia:** ~1.4M/yr × **$1,531** ≈ **$2.14B**. ([observerid.com][34])
-– **Malaysia:** market ≈ **RM 2.0B** ≈ **$473M** (RM→USD @ ~4.23). ([MalaysiaNow][35])
-**Subtotal Umrah SAM ≈ $2.87B**.
-• **Hajj:**
-– **Bangladesh quota:** **127,198** × **$6,209** ≈ **$789M**. ([Dhaka Tribune][36])
-– **Indonesia quota:** **221,000** × **$5,722** ≈ **$1.26B**. ([Arab News][37])
-– **Malaysia quota:** **31,600** × **$7,872** ≈ **$249M**. ([tabunghaji.gov.my][38])
-**Subtotal Hajj SAM ≈ $2.30B**.
+### Executive Summary
 
-**SAM (our revenue, working attach): ≈ $20.2M/yr**
-(30% app @ $5, 10% package-referral @ 2% of local package price, 15% offline-referral @ $20; per-country prices below.)
+**2024 Base Estimates:**
 
----
+- **Total Addressable Market (TAM, VC-Balanced Base)**: **\$1.26 billion**
+  – Umrah: **\$919.33 million**
+  – Hajj: **\$343.21 million**
 
-**SOM (12-month, bottom-up; BD → Global English → ID/MY)**
-**Channel-constrained, realistic capture (Antler method):**
+- **Serviceable Addressable Market (SAM)**: **\$151.49 million**
+  – Bangladesh, Indonesia, and Malaysia; streams limited to S2 (agency referrals) and S4 (paid application)
 
-1. **Paid (Dec. budget $1,000):** CPI ≈ $1.48 ⇒ ~675 installs; 40% activation ⇒ 270 actives. Monetization (30% app, 15% offline, 5% package-ref) ⇒ **≈ $1.6k** in revenue.
-2. **Partners (5 cohorts: 3×BD, 1×MY, 1×ID):** assume 200 packages/partner/year; 10% attach ⇒ 100 transactions. Mix 80% Umrah / 20% Hajj → **≈ $7.5k** revenue.
-   **SOM (Year-0)** ≈ **$9k–$15k** revenue (pilot scale), expandable with more partners/creative and RM/ID language rollouts. ([zamzamtravelsbd.com][39])
+- **Serviceable Obtainable Market (SOM, 12-month target)**: **\$2.32 million**
+
+**Primary reference points:**
+
+- **Foreign Umrah performers in 2024**: 16.80 million (General Authority for Statistics \[GASTAT], reported by Argaam)
+- **Foreign Hajj pilgrims in 2024**: 1,611,310 (GASTAT)
 
 ---
 
-### How we computed prices (all **USD**)
+### Market Scope and Stream Definitions
 
-**Exchange rates (Aug 11–12, 2025):** 1 USD ≈ **BDT 121.6**, **MYR 4.23**, **IDR 16,324**. ([MarketWatch][40])
+The analysis segments monetisation opportunities into four discrete revenue streams, with explicit rules to prevent double counting:
 
-**Hajj average (used for TAM):**
-• **Malaysia “Kos Haji” (full cost):** **RM 33,300** ⇒ **$7,872**. ([tabunghaji.gov.my][41])
-• **Bangladesh packages:** **BDT 730k–780k** ⇒ **$6,003–$6,414** (avg **$6,209**).
-• **Indonesia total cost:** **IDR ~93.41M** (pilgrim pays ~56.05M + subsidy) ⇒ **$5,722** total.
-**Mean of BD/MY/ID totals ≈ $6,601** (used for TAM Hajj).
+| Stream | Description                                                | Umrah DIY | Umrah Agency | Hajj |
+| ------ | ---------------------------------------------------------- | --------: | -----------: | ---: |
+| **S1** | Local services (e.g., rides, tours, eSIMs, equipment hire) |         ✔ |            ✖ |    ✖ |
+| **S2** | Agency package referrals                                   |         ✖ |            ✔ |    ✔ |
+| **S3** | Hotels and flights booked via an intermediary (OTA-like)   |         ✔ |            ✖ |    ✖ |
+| **S4** | Paid application (US\$10 per unique user)                  |         ✔ |            ✔ |    ✔ |
 
-**Umrah averages (SAM pricing):**
-• **Bangladesh:** several operators show **BDT ~120k–199k** (mid ≈ **BDT 153.7k** ⇒ **$1,264**).
-• **Malaysia:** TH‐linked offers **RM ~7,590–12,090** (mid ≈ **RM 9,840** ⇒ **$2,326**).
-• **Indonesia:** typical **IDR ~24–26M** (mid ≈ **IDR 25M** ⇒ **$1,531**).
+**Rules applied:**
 
----
+- S1 and S3 apply exclusively to **DIY Umrah** travellers
+- S2 applies only to **agency** cohorts
+- Hajj monetisation includes **S2 and S4 only**
+- S4 is calculated on **unique users** (Umrah de-duplicated)
 
-### Notes & guardrails
-
-* **Hajj/Umrah volumes:** Global Hajj 2024 = **1.833M** (GASTAT). Global Umrah 2023 ≈ **13.5M** (Al Arabiya). Indonesia Umrah 2024 ≈ **1.4M**; 2025 YTD signals growth. Malaysia Umrah volume proxied from **~RM2B** market size; implied ≈ **~200k** trips at mid-price. Bangladesh Umrah: Ramadan alone ≈ **100k** → conservative **~200k/yr** used. ([الهيئة العامة للإحصاء][32], [malaysiaaviationgroup.com.my][31], [observerid.com][34], [MalaysiaNow][35], [Dhaka Tribune][33])
-* **Revenue model per trip:** **2%** package referral + **$5** app + **$20** offline referral (local providers). We present **upper-bound** (100% attach) and a **working attach** scenario (30/10/15%) to avoid overstating capture.
-* **Rollout emphasis:** **BD → Global English → ID/MY** to match language readiness (Bengali first, then English, then Bahasa).
-* **December paid test:** budget **$1,000**; use results to re-fit CPI, activation, and attach for the 2026 plan.
+**Regulatory considerations:**
+Hajj sales are conducted solely through authorised providers (e.g., the Nusuk Hajj platform). The recommended market entry strategy is to prioritise S2 referrals and S4 digital products, followed by S1 local services, and finally S3 OTA services once licensing or partnerships are secured.
 
 ---
 
-### Per-country SAM details (reference)
+### Section 1 — Total Addressable Market (Global, 2024)
 
-| Country    | Hajj trips (quota) | Hajj price used | Umrah trips (est.) | Umrah price used | SAM GMV (USD) |
-| ---------- | -----------------: | --------------: | -----------------: | ---------------: | ------------: |
-| Bangladesh |            127,198 |         $6,209 |            200,000 |          $1,264 |   **$1.04B** |
-| Indonesia  |            221,000 |         $5,722 |          1,400,000 |          $1,531 |   **$3.41B** |
-| Malaysia   |             31,600 |         $7,872 |        ~203,000* |          $2,326 |   **$0.72B** |
-| **Total**  |        **379,798** |               — |      **1,803,000** |                — |   **$5.17B** |
+### Scenario Summary
 
-*Malaysia Umrah volume inferred from **RM 2.0B** market ÷ mid-price. ([MalaysiaNow][35])
+| Scenario                                   |       Umrah | Hajj (S2+S4) |       Total |
+| ------------------------------------------ | ----------: | -----------: | ----------: |
+| **Defensive**                              |   \$778.51M |    \$339.99M | \$1,118.50M |
+| **VC-Balanced Base (headline)**            |   \$919.33M |    \$343.21M | \$1,262.54M |
+| **Alternative Base (higher attach rates)** | \$1,095.80M |    \$354.50M | \$1,450.30M |
+| **Aspirational**                           | \$1,039.38M |    \$354.49M | \$1,393.87M |
 
----
+**Key modelling parameters:**
 
-### References
+- **Hotel OTA take-rate**: 14.3% (Booking Holdings FY2024 revenues as a percentage of gross bookings)
+- **Flight OTA take-rate**: 2% (Expedia Group FY2024 disclosures; lodging \~80% of total revenue, air \~3%)
+- **KSA hotel online penetration**: \~30%, with OTA channels capturing the majority of online share (WebInTravel, 2024)
 
-- Antler. “TAM, SAM, SOM: What Do They Mean?” ([Antler.co][43])
-- VoyE Global. “Budgeting for Hajj: A Comprehensive Guide.” (regional cost ranges)
-- ZamZam Travels BD. “Hajj Cost from Bangladesh — Full Details (2025).”
-- Tabung Haji (MY). “Hajj Cost & Payment / FAQ (1446H/2025M).” (RM **33,300** full cost; B40/M40/T20 payments) ([tabunghaji.gov.my][41])
-- Badan Pengelola Keuangan Haji (ID). “Biaya Penyelenggaraan Ibadah Haji 1445H.” (Pilgrim payment **IDR 56.0M**; total cost ≈ **IDR 93.4M**)
-- Wise. “USD ⇄ BDT” (Aug 2025 snapshot ≈ **121.4–121.9**).
-- MarketWatch (USD⇄MYR context; ~4.71 late-2024, **4.40** proj. 2025). We used **4.23** mid-2025 rate. ([MarketWatch][40])
-- Wise. “USD ⇄ IDR” (Aug 2025 snapshot ≈ **16,3xx**).
-- BDStall. “Umrah Package Price in Bangladesh.” (BDT **133k–170k** examples)
-- TH Travel & Services. “Umrah Packages (RM **6,990–13,290** range).”
-- RinggitOhRinggit. “Umrah with Tabung Haji Travel: Is it Worth it?” (RM **7,590–12,090** examples)
-- Alsha.id. “Biaya Umrah 2025.” (Typical **IDR 24–26M**)
-- GoodStats (ID). “Jumlah Jemaah Umrah Indonesia Tembus 648 Ribu (Apr 2025).” ([GoodStats][42])
-- ObserverID. “Indonesia Umrah ~1.4M in 2024; 547k in Q1-2025.” ([observerid.com][34])
-- GASTAT (KSA). “Hajj Statistics Publication 2024.” (Total **1,833,164** pilgrims) ([الهيئة العامة للإحصاء][32])
-- Dhaka Tribune. “Govt announces number of Hajj pilgrims for 2025.” (**127,198** quota) ([Dhaka Tribune][36])
-- Tabung Haji. “Hajj Quota 2025: **31,600**.” ([tabunghaji.gov.my][38])
-- Dhaka Tribune. “Umrah visa for Bangladeshis not suspended” (Ramadan Umrah ≈ **100k**). ([Dhaka Tribune][33])
+**Formula overview:**
+
+- **S3** (Umrah DIY): (ADR × Length of Stay × take-rate × hotel attach %) + (Return fare × take-rate × flight attach %)
+- **S1** (Umrah DIY): Σ(attach × price × commission) for each local service category
+- **S2** (Umrah Agency/Hajj): number of pilgrims × package price × referral %
+- **S4** (Umrah/Hajj): unique users × US\$10 × adoption rate
 
 ---
 
-### Quick takeaways
+### Section 2 — Serviceable Addressable Market (Current Scope)
 
-* We sized **TAM** with global Hajj/Umrah volumes and grounded average costs; **SAM** is BD/ID/MY with locally sourced prices and quotas; **SOM** is deliberately **bottom-up** from our December budget and five pilot partners per Antler’s guidance. ([zamzamtravelsbd.com][39])
-* All figures are **USD**; exchange-rate snapshots as of **Aug 12, 2025** are cited above.
-* We separated **GMV** from **our revenue capture** so we (and VCs) can reason about attach-rate sensitivity cleanly in future updates.
+**Geographic focus:** Bangladesh, Indonesia, Malaysia
+**Revenue streams included:** S2 (agency referrals) and S4 (paid application) only
 
-### Market Hypotheses
+**Hajj quotas (2024):**
 
-| Hypothesis                                                                                                        | Confidence (1-10) | Why You Believe                                                                                                    | Test Method                                                                                  | Success Criteria                                                                                   | Timeline | Result  | Next Action                                                      |
-| ----------------------------------------------------------------------------------------------------------------- | ----------------: | ------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- | -------- | ------- | ---------------------------------------------------------------- |
-| **H2 — Liquidity:** Vetted local supply (transport/guides/ziyarah) can meet demand in Makkah/Madinah during peak. |                 6 | Multiple providers surfaced; \~20% transport referral norms; many buyers are also experts; discovery pain is high. | Provider onboarding sprint (licensed-only), search-fill simulations, response-time tracking. | **≥70%** of requests filled **<30 min**; cancel rate **<10%**; 30-day provider retention **≥85%**. | 4–6 wks  | Pending | Build supply map; run concierge fill tests in BD-origin cohorts. |
-| **H9 — Seasonality resilience:** Year-round Umrah + diaspora trips enable >20% off-peak monthly activity.         |                 6 | Umrah is year-round; interviews cite repeat ziyarah & city logistics needs beyond Hajj peak.                       | Off-peak content & transport SKU availability; MAU tracking.                                 | **WAU/MAU ≥ 0.3** in non-peak months; **≥20%** off-peak bookings share.                            | 8–12 wks | Pending | Launch off-peak calendar & pricing; measure retention.           |
-| **H11 — Credibility signals:** Scholar/imam endorsements + license badges lift CTR & bookings.                    |                 7 | Trust pathways (mosques, imams) worked in outreach; badges reduce risk.                                            | A/B on listings (badged vs none); endorsement video snippets.                                | **CTR +20%**, **CVR +10%** on badged listings; **≥3** signed endorsements.                         | 3–5 wks  | Pending | Secure 3 endorsements; instrument CTR/CVR.                       |
+* Indonesia: 241,000
+* Malaysia: 31,600
+* Bangladesh: 127,198
 
----
+### SAM — 2024 Base (\$M, rounded to \$0.01M)
 
-### Solution Hypotheses
+| Country    |  Umrah S2 | Umrah S4 |   Hajj S2 |  Hajj S4 |      Total |
+| ---------- | --------: | -------: | --------: | -------: | ---------: |
+| Indonesia  |     43.20 |     6.88 |     50.61 |     0.72 |     101.42 |
+| Malaysia   |      8.00 |     1.70 |      6.64 |     0.11 |      16.45 |
+| Bangladesh |      6.00 |     0.59 |     26.71 |     0.32 |      33.62 |
+| **Total**  | **57.20** | **9.18** | **83.96** | **1.15** | **151.49** |
 
-| Hypothesis                                                                                                   | Confidence (1-10) | Why You Believe                                                                   | Test Method                                                                             | Success Criteria                                                                       | Timeline | Result  | Next Action                                               |
-| ------------------------------------------------------------------------------------------------------------ | ----------------: | --------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- | -------- | ------- | --------------------------------------------------------- |
-| **H1 — Problem-solution fit:** Pilgrims rely on the app for planning + on-trip guidance when trust is clear. |                 7 | Section 4 urgency & frequency = 5/5; strong desire for transparent guidance/maps. | Concierge MVP + checklists/offline guidance; DAU & task completion.                     | **Activation ≥40%**, **4-week retention ≥30%**, **NPS ≥40**.                           | 4–6 wks  | Pending | Ship guided checklists; track activation/retention.       |
-| **H5 — Compliance-by-design:** Promoting only licensed providers + PSP escrow mitigates regulatory risk.     |                 6 | Enforcement noted; license-first reduces ops burden.                              | License/KYC audit; PSP sandbox; takedown/complaint logging.                             | **100%** providers verified; **0** regulator takedowns in pilot; dispute SLA **<72h**. | 3–4 wks  | Pending | Finalize PSP shortlist; implement badge & audit schedule. |
-| **H6 — AI concierge fit:** Voice-first, low-data guidance is accurate, safe, culturally appropriate.         |                 5 | Users want quick ritual answers; risk if inaccurate.                              | Offline eval (≥200 Q\&A) double-reviewed by 2 scholars; on-trip pilot w/ human-in-loop. | **Accuracy ≥90%**, **harmful outputs = 0**, **CSAT ≥4.3/5**.                           | 6–8 wks  | Pending | Build curated corpus; set escalation to human reviewers.  |
+**Sensitivity analysis (Umrah origin counts):**
 
----
+* Low case: \$136.29M
+* Base case: \$151.49M
+* High case: \$161.13M
 
-### Business Model Hypotheses
-
-| Hypothesis                                                                            | Confidence (1-10) | Why You Believe                                                                                                                 | Test Method                                          | Success Criteria                                                                         | Timeline | Result  | Next Action                                               |
-| ------------------------------------------------------------------------------------- | ----------------: | ------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------- | ---------------------------------------------------------------------------------------- | -------- | ------- | --------------------------------------------------------- |
-| **H3 — Take-rate viability:** Users accept pricing; providers accept our take-rate.   |                 7 | Real payments exist; commission norms **2–5%** (agency), **\~20%** (transport); guidance WTP **\$5–\$20** (mode **\$10–\$15**). | Price-cards (n≥30/SKU) + provider poll (n≈15).       | **Users:** ≥60% pick a price band/tier; **Providers:** ≥70% consent to target take-rate. | 3–5 wks  | Pending | Run price-cards; collect provider consents.               |
-| **H8 — Trust & escrow:** Escrow + transparent reviews cut disputes & lift conversion. |                 7 | Overpayment/mistrust themes; escrow adds confidence.                                                                            | A/B escrow on transport & tours.                     | **CVR +15%** with escrow; disputes **<2%**; chargebacks **<0.5%**.                       | 4–6 wks  | Pending | Implement escrow via PSP; publish dispute policy.         |
-| **H10 — Supply economics:** Providers grow earnings and stay active.                  |                 6 | Referral/B2B rates; need earnings durability.                                                                                   | Provider cohort P\&L; retention & earnings tracking. | **Provider churn <15%/qtr**; **NRR >100%**; avg earnings target per SKU/market.          | 8–12 wks | Pending | Define earnings targets per market; back-calc take-rates. |
+Hajj components are quota-anchored; Umrah origin counts are derived from multiple government and industry sources, hence the use of a range.
 
 ---
 
-#### CAC — Baseline & Guardrails (your data: **\$1 CPI** via Facebook)
+### Section 3 — Serviceable Obtainable Market (12-Month Horizon)
 
-- **Direct formula:** CAC = CPI ÷ overall paid conversion (install → paid).
-  At **\$1 CPI**: 2% → **\$50**, 5% → **\$20**, 10% → **\$10**, 20% → **\$5**, 40% → **\$2.5**.
-- **Stage model (base):** install→signup **50%**, signup→activation **40%**, activation→paid **10%** ⇒ overall **2%** ⇒ **\~\$50 CAC**.
-  Improve to activation **50%** & attach **20%** ⇒ overall **7%** ⇒ **\~\$14 CAC**.
-- **Allowable CAC rule (pre-seed):** target **CAC ≤ 60%** of **first-transaction gross profit** (trend to **≤30%** post-MVP).
-  Gross profit per tx = **AOV × take-rate × gross margin** (see calculator to plug SKU AOVs).
+**Target capture rates:**
+
+- Umrah S2: Indonesia 0.6%, Malaysia 1.0%, Bangladesh 0.3% of agency cohorts
+- Hajj S2: 0.8% of each country’s pilgrims
+- S4: 12.5% of each country’s adoption ceiling in year one
+
+**Capacity constraints:**
+Hajj referrals limited to 5,000 seats/year (current targets do not exceed this threshold)
+
+### SOM — 12-Month Target (\$M; users rounded to nearest 100)
+
+| Country    | Umrah S2 (\$M) |     Users | Umrah S4 (\$M) |      Payers | Hajj S2 (\$M) |     Seats | Hajj S4 (\$M) |     Payers | Total (\$M) |
+| ---------- | -------------: | --------: | -------------: | ----------: | ------------: | --------: | ------------: | ---------: | ----------: |
+| Indonesia  |           0.26 |     6,500 |           0.86 |      86,100 |          0.40 |     1,900 |          0.09 |      9,000 |        1.62 |
+| Malaysia   |           0.08 |     2,000 |           0.21 |      21,200 |          0.05 |       300 |          0.01 |      1,400 |        0.36 |
+| Bangladesh |           0.02 |       400 |           0.07 |       7,400 |          0.21 |     1,000 |          0.04 |      4,000 |        0.35 |
+| **Total**  |       **0.36** | **8,900** |       **1.15** | **114,700** |      **0.67** | **3,200** |      **0.14** | **14,400** |    **2.32** |
 
 ---
 
-Great call. I’ve updated Section 6 so retention is **trip-anchored** and **no KPIs are tied to post-trip features** (Dua Action Plan stays experimental). Audio is **playback-only**—no voice commands or mic access.
+### Section 4 — Key Risks and Mitigation Strategies
 
-## Section 8 — MVP Design Canvas (VC-Ready, updated)
+1. **Regulatory framework for Hajj:** All bookings and visas are processed via authorised platforms such as Nusuk.
+   *Mitigation:* Operate as a referral, education, and comparison layer aligned with authorised providers.
+
+2. **Licensing requirements for OTA operations in KSA:** Selling travel services requires a Travel & Tourism Services licence from the Ministry of Tourism, or an arrangement with a licensed partner.
+   *Mitigation:* Secure licensing or partner agreements before launching S3.
+
+3. **Data variability in Umrah origin counts:** No single centralised source for by-origin data.
+   *Mitigation:* Maintain low/base/high scenarios in SAM and cite primary government or industry sources.
+
+4. **Uncertain attach and adoption rates:** OTA attach rates and paid-app adoption vary by market.
+   *Mitigation:* Use conservative, evidence-based assumptions and adjust as product analytics become available.
+
+---
+
+### Appendix A — Methodology and Formulae
+
+**Currency and rounding:** All figures in USD; revenues rounded to \$0.01M; user counts to nearest 100.
+
+**Key calculations:**
+
+- S3 (DIY): (ADR × LoS × 14.3% × hotel attach) + (return fare × 2% × flight attach)
+- S1 (DIY): Σ(attach × price × commission) across each local service type
+- S2: (number of pilgrims × package price × referral %)
+- S4: (unique users × \$10 × adoption rate)
+
+**Double-count prevention:** S1/S3 limited to DIY Umrah; S2 limited to agency cohorts; Hajj includes only S2 and S4; S4 applied once per unique user.
+
+---
+
+### Appendix B — Core Data Sources
+
+1. **Umrah 2024 foreign performers:** Argaam summary of GASTAT official statistics
+2. **Hajj 2024 foreign pilgrims:** GASTAT official publication and website
+3. **Booking Holdings FY2024 financial report:** OTA hotel take-rate (14.3%)
+4. **Expedia Group FY2024 financial report:** OTA lodging share (\~80%) and air share (\~3%)
+5. **WebInTravel (2024):** KSA hotel OTA market size and online penetration
+6. **National Hajj quotas:** Antara (Indonesia), Bernama (Malaysia), Financial Express (Bangladesh)
+7. **Regulatory context:** Nusuk Hajj platform (Ministry of Hajj and Umrah, KSA); U.S. State Department advisory
+
+## SECTION 8 — MVP Design Canvas
 
 ### Value Hypothesis
 
@@ -583,7 +600,7 @@ No KSA provider integrations (guides/drivers), no escrow/payouts, no OTA (hotels
 
 ---
 
-## Section 9 — MVP Validation Plan
+## SECTION 9 — MVP Validation Plan
 
 ### Scope & Current Status
 
@@ -691,7 +708,7 @@ I will not test **H3 (WTP/take-rates)**, **H2/H8/H10 (marketplace liquidity, esc
 
 ---
 
-## Section 10 — Pivot Plan (VC-Ready)
+## SECTION 10 — Pivot Plan
 
 ### Scope anchor
 I shipped an offline-first **Umrah Ritual Guidance + Dua Journal** MVP. Before early December I will add **search over vetted sources with citations (RAG)** and **trip-anchored analytics**, governed by an **MoU with Taibah Institute** (Taibah approves what goes in; I implement). This plan defines how I will pivot if December signals are weak and the guardrails I’m putting in place against company-ending risks.
@@ -846,7 +863,7 @@ I shipped an offline-first **Umrah Ritual Guidance + Dua Journal** MVP. Before e
 
 ---
 
-## Section 11 — Final Go/No-Go Decision (VC-Ready)
+## SECTION 11 — Final Go/No-Go Decision
 
 ### Our call (concise)
 
