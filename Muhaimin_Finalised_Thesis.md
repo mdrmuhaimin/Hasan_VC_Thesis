@@ -393,17 +393,17 @@ We serve two primary customers—pilgrims (B2C) and group leaders/agencies (B2B)
   – Umrah: **\$1,095.83 million**
   – Hajj: **\$354.49 million**
 
-- **Serviceable Addressable Market (SAM)**: **\$151.49 million**
+- **Serviceable Addressable Market (SAM)**: **\$151.48 million**
   – Bangladesh, Indonesia, and Malaysia; streams limited to **S2** (agency referrals) and **S4** (paid app)
 
-- **Serviceable Obtainable Market (SOM, 12-month target)**: **\$2.32 million**¹
+- **Serviceable Obtainable Market (SOM, 12-month target)**: **\$2.33 million**¹
 
 **Primary reference points:**
 
 - **Foreign Umrah performers (2024):** 16.80 million (GASTAT, summarized by [Argaam](https://www.argaam.com/en/article/articledetail/id/1799151))
 - **Foreign Hajj pilgrims (2024):** 1,611,310 ([GASTAT — Hajj Statistics Publication 2024](https://www.stats.gov.sa/documents/20117/2435281/Hajj%2BStatistics%2BPublication%2B2024EN.pdf))
 
-**Full derivation:** see **[Detailed TAM Calculation (2024)](https://www.notion.so/TAM-CALCULATION-24e2ba3e525180899f80dd7d4924fc00?source=copy_link)**
+**Full derivation:** see **[Detailed TAM Calculation (2024)](https://www.notion.so/TAM-CALCULATION-24e2ba3e525180899f80dd7d4924fc00)**
 
 > ¹ Totals computed from **unrounded** subtotals; displayed components may not sum due to rounding (≤\$0.01M).
 
@@ -513,6 +513,7 @@ We segment monetization into four discrete streams, with explicit **no-double-co
 | **Total**  |       **0.36** | **8,900** |       **1.15** | **114,700** |      **0.67** | **3,200** |      **0.14** | **14,400** |    **2.32** |
 
 > **Define S4 adoption ceiling:** list per-country **unique user bases + sources** in the Appendix or the linked TAM doc; keep S4 at **\$10**.
+> *Totals computed from unrounded subtotals; displayed components may not sum due to rounding (≤$0.01M).*
 
 ---
 
@@ -539,10 +540,10 @@ We segment monetization into four discrete streams, with explicit **no-double-co
 
 **Core calculations:**
 
-* **S3 (DIY):** (ADR × LOS × **14.3%** × hotel attach) + (Return fare × **2%** × flight attach)
-* **S1 (DIY):** Σ(attach × price × commission) across local services
-* **S2:** pilgrims × package price × referral %
-* **S4:** unique users × **\$10** × adoption
+- **S3 (DIY):** (ADR × LOS × **14.3%** × hotel attach) + (Return fare × **2%** × flight attach)
+- **S1 (DIY):** Σ(attach × price × commission) across local services
+- **S2:** pilgrims × package price × referral %
+- **S4:** unique users × **\$10** × adoption
 
 ---
 
@@ -554,7 +555,8 @@ We segment monetization into four discrete streams, with explicit **no-double-co
 4. **Expedia Group FY2024:** Results overview — lodging ≈80% of revenue; air low-margin — [https://www.expediagroup.com/investors/news-and-events/financial-releases/news/news-details/2025/Expedia-Group-Reports-Fourth-Quarter-and-Full-Year-2024-Results/default.aspx](https://www.expediagroup.com/investors/news-and-events/financial-releases/news/news-details/2025/Expedia-Group-Reports-Fourth-Quarter-and-Full-Year-2024-Results/default.aspx)
 5. **Hajj quotas 2024:** Indonesia — [https://en.antaranews.com/news/302688/indonesia-to-send-241000-people-to-this-years-hajj-pilgrimage](https://en.antaranews.com/news/302688/indonesia-to-send-241000-people-to-this-years-hajj-pilgrimage) • Malaysia — [https://themalaysianreserve.com/2024/06/14/31600-malaysian-hajj-pilgrims-start-moving-to-arafah/](https://themalaysianreserve.com/2024/06/14/31600-malaysian-hajj-pilgrims-start-moving-to-arafah/) • Bangladesh — [https://today.thefinancialexpress.com.bd/last-page/127198-can-perform-hajj-in-2024-1691000221](https://today.thefinancialexpress.com.bd/last-page/127198-can-perform-hajj-in-2024-1691000221)
 6. **Regulatory context:** Nusuk (Ministry of Hajj & Umrah) — [https://hajj.nusuk.sa/](https://hajj.nusuk.sa/) • U.S. State Dept — Hajj & Umrah advisory — [https://travel.state.gov/content/travel/en/international-travel/before-you-go/travelers-with-special-considerations/hajj.html](https://travel.state.gov/content/travel/en/international-travel/before-you-go/travelers-with-special-considerations/hajj.html)
-7. **Cross-reference:** [Detailed TAM Calculation (2024)](https://www.notion.so/TAM-CALCULATION-24e2ba3e525180899f80dd7d4924fc00?source=copy_link)
+7. **KSA OTA context:** WebInTravel (2024) — Saudi online travel/OTA market overview  - [https://www.webintravel.com/saudi-arabia-online-travel-agency-ota-market-skyrockets-ota-air-gbv-hits-us1-9-billion-hotel-climbs-to-2-3-billion/](https://www.webintravel.com/saudi-arabia-online-travel-agency-ota-market-skyrockets-ota-air-gbv-hits-us1-9-billion-hotel-climbs-to-2-3-billion/)
+8. **Cross-reference:** [Detailed TAM Calculation (2024)](https://www.notion.so/TAM-CALCULATION-24e2ba3e525180899f80dd7d4924fc00)
 
 ---
 
