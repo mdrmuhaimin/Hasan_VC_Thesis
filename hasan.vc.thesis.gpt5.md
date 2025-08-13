@@ -311,7 +311,70 @@ Partner with **licensed local travel agencies** in key origin markets to:
 
 ---
 
-## Section 6 — TAM · SAM · SOM (USD)
+## Section 6 — Ideal Customer Profiles (ICP)
+
+We serve two primary customers—pilgrims (B2C) and group leaders/agencies (B2B)—and one tertiary B2B customer (local service providers). Below is a crisp, VC-ready snapshot in the requested format, plus why each segment picks us.
+
+---
+
+### ICP #1 — Pilgrim (B2C)
+
+- **Target industry:** Faith travel (Umrah/Hajj)
+- **Role/Persona:** First-time or occasional pilgrim; the family’s “tech helper” who plans for others
+- **Geography:** Bangladesh, Malaysia, Indonesia + diaspora (GCC/UK/US/CA)
+- **Business size (if B2B):** N/A
+- **Pain points:**
+  Clarity on exact steps and sequence; trusted rulings (school/fiqh variants); poor on-site connectivity; cognitive overload during peak days; fragmented guidance across YouTube/WhatsApp/books; language/localization gaps
+- **Current solutions used:**
+  Human guides/imams; agency briefings; WhatsApp groups; printed handouts/books; YouTube/TikTok; official apps (e.g., Nusuk; local ministry apps)
+- **Why they pick us (fit):**
+  Offline-first, step-by-step rituals and a simple dua journal, with **cited, scholar-approved** content that reduces confusion at the moment of need.
+
+---
+
+### ICP #2 — Group Leader / Agency (B2B) — *also uses us as a sales channel*
+
+- **Target industry:** Imam-led cohorts; Umrah/Hajj tour operators; mosque groups
+- **Role/Persona:** Imam or group leader; agency owner/operations lead who needs standardized, cited guidance for cohorts and lighter support load
+- **Geography:** Bangladesh, Malaysia, Indonesia; export segments in GCC/UK/US/CA
+- **Business size (if B2B):**
+  Imam/mosque cohorts: \~30–150 pilgrims per group
+  Mid-size agencies: \~200–3,000 pilgrims per season
+- **Pain points:**
+  Inconsistent training quality; repetitive Q\&A on WhatsApp; multilingual content gaps; ensuring pilgrims actually follow steps; lack of printable/offline materials; seasonality in demand
+- **Current solutions used:**
+  In-person workshops; PDFs/printouts; WhatsApp broadcasts; DIY slide decks; reliance on on-site human guides only
+- **Why they pick us (fit):**
+
+  - **Cited, scholar-approved content** they can hand to every pilgrim (less repetitive Q\&A).
+  - **White-label/cohort tools** to standardize prep across groups.
+  - **Sales channel:** we can route pilgrims to their packages and cohorts, supporting **B2B rates** and **2–5% commission norms** (from interviews and our sales-partner experience), creating incremental demand rather than cannibalizing their existing channels.
+
+---
+
+### ICP #3 — Local Service Provider (B2B, tertiary) — *uses us as a sales channel*
+
+- **Target industry:** Transport operators (airport⇄hotel; ziyarah routes), private guides, local ziyarah tour providers
+- **Role/Persona:** SME/owner-operator in KSA serving BD/MY/ID pilgrims; wants predictable demand and reputation building
+- **Geography:** Primarily KSA (Makkah/Madinah) with BD/MY/ID pilgrim traffic
+- **Business size (if B2B):** Micro to SME (single owner-operators up to small fleets)
+- **Pain points:**
+  Discovery and trust; inconsistent referrals; opaque pricing; disputes and cancellations; compliance/payments friction
+- **Current solutions used:**
+  Word-of-mouth; brokered WhatsApp groups; agency referrals; ad-hoc Facebook pages
+- **Why they pick us (fit):**
+
+  - **Targeted sales channel** to reach relevant pilgrims and groups.
+  - **Standardized listings & reviews** to build trust and repeat business.
+  - **(Later) Payments/escrow and B2B pricing** to smooth cash flow and reduce disputes—activated only after trust KPIs are met.
+
+---
+
+**Positioning note:** We start with **Pilgrim (B2C)** for trust and usage proof, while **Group Leaders/Agencies (B2B)** provide amplification and early revenue optionality (white-label, commission-based referrals). **Local Providers (B2B)** are a tertiary lane we unlock once guidance trust and governance are established.
+
+---
+
+## Section 7 — TAM · SAM · SOM (USD)
 
 **TAM (global, GMV): ≈ $35.15B/yr**
 • **Umrah:** 13.5M trip-events × **$1,707** avg spend ≈ **$23.05B**. ([malaysiaaviationgroup.com.my][31])
@@ -460,7 +523,7 @@ Partner with **licensed local travel agencies** in key origin markets to:
 
 Great call. I’ve updated Section 6 so retention is **trip-anchored** and **no KPIs are tied to post-trip features** (Dua Action Plan stays experimental). Audio is **playback-only**—no voice commands or mic access.
 
-## Section 7 — MVP Design Canvas (VC-Ready, updated)
+## Section 8 — MVP Design Canvas (VC-Ready, updated)
 
 ### Value Hypothesis
 
@@ -508,7 +571,8 @@ No KSA provider integrations (guides/drivers), no escrow/payouts, no OTA (hotels
 **Note:** **Dua Action Plan** is part of the experience but **not a KPI** at MVP. We’ll observe usage qualitatively only.
 
 ---
-## Section 8 — MVP Validation Plan
+
+## Section 9 — MVP Validation Plan
 
 ### Scope & Current Status
 
@@ -616,7 +680,7 @@ I will not test **H3 (WTP/take-rates)**, **H2/H8/H10 (marketplace liquidity, esc
 
 ---
 
-## Section 9 — Pivot Plan (VC-Ready)
+## Section 10 — Pivot Plan (VC-Ready)
 
 ### Scope anchor
 I shipped an offline-first **Umrah Ritual Guidance + Dua Journal** MVP. Before early December I will add **search over vetted sources with citations (RAG)** and **trip-anchored analytics**, governed by an **MoU with Taibah Institute** (Taibah approves what goes in; I implement). This plan defines how I will pivot if December signals are weak and the guardrails I’m putting in place against company-ending risks.
@@ -771,7 +835,7 @@ I shipped an offline-first **Umrah Ritual Guidance + Dua Journal** MVP. Before e
 
 ---
 
-## Section 10 — Final Go/No-Go Decision (VC-Ready)
+## Section 11 — Final Go/No-Go Decision (VC-Ready)
 
 ### Our call (concise)
 
@@ -858,69 +922,6 @@ We will deploy pre-seed to:
 ---
 
 **Bottom line:** we proceed with **GO**, release funds against these gates, and treat December as a validation **stage to fine-tune direction**, not as the go/no-go determinant.
-
----
-
-## Section 11 — Ideal Customer Profiles (ICP)
-
-We serve two primary customers—pilgrims (B2C) and group leaders/agencies (B2B)—and one tertiary B2B customer (local service providers). Below is a crisp, VC-ready snapshot in the requested format, plus why each segment picks us.
-
----
-
-### ICP #1 — Pilgrim (B2C)
-
-- **Target industry:** Faith travel (Umrah/Hajj)
-- **Role/Persona:** First-time or occasional pilgrim; the family’s “tech helper” who plans for others
-- **Geography:** Bangladesh, Malaysia, Indonesia + diaspora (GCC/UK/US/CA)
-- **Business size (if B2B):** N/A
-- **Pain points:**
-  Clarity on exact steps and sequence; trusted rulings (school/fiqh variants); poor on-site connectivity; cognitive overload during peak days; fragmented guidance across YouTube/WhatsApp/books; language/localization gaps
-- **Current solutions used:**
-  Human guides/imams; agency briefings; WhatsApp groups; printed handouts/books; YouTube/TikTok; official apps (e.g., Nusuk; local ministry apps)
-- **Why they pick us (fit):**
-  Offline-first, step-by-step rituals and a simple dua journal, with **cited, scholar-approved** content that reduces confusion at the moment of need.
-
----
-
-### ICP #2 — Group Leader / Agency (B2B) — *also uses us as a sales channel*
-
-- **Target industry:** Imam-led cohorts; Umrah/Hajj tour operators; mosque groups
-- **Role/Persona:** Imam or group leader; agency owner/operations lead who needs standardized, cited guidance for cohorts and lighter support load
-- **Geography:** Bangladesh, Malaysia, Indonesia; export segments in GCC/UK/US/CA
-- **Business size (if B2B):**
-  Imam/mosque cohorts: \~30–150 pilgrims per group
-  Mid-size agencies: \~200–3,000 pilgrims per season
-- **Pain points:**
-  Inconsistent training quality; repetitive Q\&A on WhatsApp; multilingual content gaps; ensuring pilgrims actually follow steps; lack of printable/offline materials; seasonality in demand
-- **Current solutions used:**
-  In-person workshops; PDFs/printouts; WhatsApp broadcasts; DIY slide decks; reliance on on-site human guides only
-- **Why they pick us (fit):**
-
-  - **Cited, scholar-approved content** they can hand to every pilgrim (less repetitive Q\&A).
-  - **White-label/cohort tools** to standardize prep across groups.
-  - **Sales channel:** we can route pilgrims to their packages and cohorts, supporting **B2B rates** and **2–5% commission norms** (from interviews and our sales-partner experience), creating incremental demand rather than cannibalizing their existing channels.
-
----
-
-### ICP #3 — Local Service Provider (B2B, tertiary) — *uses us as a sales channel*
-
-- **Target industry:** Transport operators (airport⇄hotel; ziyarah routes), private guides, local ziyarah tour providers
-- **Role/Persona:** SME/owner-operator in KSA serving BD/MY/ID pilgrims; wants predictable demand and reputation building
-- **Geography:** Primarily KSA (Makkah/Madinah) with BD/MY/ID pilgrim traffic
-- **Business size (if B2B):** Micro to SME (single owner-operators up to small fleets)
-- **Pain points:**
-  Discovery and trust; inconsistent referrals; opaque pricing; disputes and cancellations; compliance/payments friction
-- **Current solutions used:**
-  Word-of-mouth; brokered WhatsApp groups; agency referrals; ad-hoc Facebook pages
-- **Why they pick us (fit):**
-
-  - **Targeted sales channel** to reach relevant pilgrims and groups.
-  - **Standardized listings & reviews** to build trust and repeat business.
-  - **(Later) Payments/escrow and B2B pricing** to smooth cash flow and reduce disputes—activated only after trust KPIs are met.
-
----
-
-**Positioning note:** We start with **Pilgrim (B2C)** for trust and usage proof, while **Group Leaders/Agencies (B2B)** provide amplification and early revenue optionality (white-label, commission-based referrals). **Local Providers (B2B)** are a tertiary lane we unlock once guidance trust and governance are established.
 
 ---
 
