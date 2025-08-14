@@ -1,0 +1,30 @@
+site_name: HajjGuide Thesis for Hasan.VC Venture Studio
+site_description: Business read-only one-pager
+# site_url: https://<your-username>.github.io/<your-repo>/
+# repo_url: https://github.com/<your-username>/<your-repo>
+
+nav:
+  - Thesis: index.md
+  - Full TAM Calculation: tam_calculation.md
+
+theme:
+  name: material
+  logo: assets/logo.png
+  palette:
+    # Light mode (default)
+    - scheme: default
+      primary: black
+      accent: custom
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    # Dark mode (optional toggle)
+    - scheme: slate
+      primary: black
+      accent: custom
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+
+extra_css:
+  - assets/fonts.css

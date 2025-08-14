@@ -483,7 +483,7 @@ We serve two primary customers—pilgrims (B2C) and group leaders/agencies (B2B)
 - **Foreign Umrah performers (2024):** 16.80 million (GASTAT, summarized by [Argaam](https://www.argaam.com/en/article/articledetail/id/1799151))
 - **Foreign Hajj pilgrims (2024):** 1,611,310 ([GASTAT — Hajj Statistics Publication 2024](https://www.stats.gov.sa/documents/20117/2435281/Hajj%2BStatistics%2BPublication%2B2024EN.pdf))
 
-**Full derivation:** see **[Detailed TAM Calculation (2024)](https://www.notion.so/TAM-CALCULATION-24e2ba3e525180899f80dd7d4924fc00)**; supporting assumptions, sources, S4 adoption bases, and SAM/SOM details are in Appendices A–E at the end of this document.
+**Full derivation:** see **[Detailed TAM Calculation (2024)](tam_calculation.md)**; supporting assumptions, sources, S4 adoption bases, and SAM/SOM details are in Appendices A–E at the end of this document.
 
 ---
 
@@ -1156,7 +1156,7 @@ We will deploy pre-seed to:
 - **Hajj quotas 2024** — ID: [https://en.antaranews.com/news/302688/…](https://en.antaranews.com/news/302688/…) • MY: [https://themalaysianreserve.com/2024/06/14/31600-malaysian-hajj-pilgrims-start-moving-to-arafah/](https://themalaysianreserve.com/2024/06/14/31600-malaysian-hajj-pilgrims-start-moving-to-arafah/) • BD: [https://today.thefinancialexpress.com.bd/last-page/127198-can-perform-hajj-in-2024-1691000221](https://today.thefinancialexpress.com.bd/last-page/127198-can-perform-hajj-in-2024-1691000221)
 - **KSA OTA context (WebInTravel, 2024)**: [https://www.webintravel.com/saudi-arabia-online-travel-agency-ota-market-skyrockets-ota-air-gbv-hits-us1-9-billion-hotel-climbs-to-2-3-billion/](https://www.webintravel.com/saudi-arabia-online-travel-agency-ota-market-skyrockets-ota-air-gbv-hits-us1-9-billion-hotel-climbs-to-2-3-billion/)
 - **Regulatory rails** — Nusuk: [https://hajj.nusuk.sa/](https://hajj.nusuk.sa/) • US State Dept advisory: [https://travel.state.gov/content/travel/en/international-travel/before-you-go/travelers-with-special-considerations/hajj.html](https://travel.state.gov/content/travel/en/international-travel/before-you-go/travelers-with-special-considerations/hajj.html)
-- **Full derivation** — Detailed TAM Calculation (Notion): [https://www.notion.so/TAM-CALCULATION-24e2ba3e525180899f80dd7d4924fc00](https://www.notion.so/TAM-CALCULATION-24e2ba3e525180899f80dd7d4924fc00)
+- **Full derivation** — [Detailed TAM Calculation](tam_calculation.md) (Notion): [https://www.notion.so/TAM-CALCULATION-24e2ba3e525180899f80dd7d4924fc00](https://www.notion.so/TAM-CALCULATION-24e2ba3e525180899f80dd7d4924fc00)
 
 ---
 

@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&family=Gelasio:wght@400;500;600;700&display=swap');
+
+
+
+/* Apply body font */
+body, .md-content, .md-typeset {
+  font-family: 'Gelasio', serif;
+}
+
+/* Apply heading font */
+.md-typeset h1,
+.md-typeset h2,
+.md-typeset h3,
+.md-typeset h4,
+.md-typeset h5,
+.md-typeset h6,
+.md-header__title {
+  font-family: 'Lora', serif;
+}
+
+.md-typeset h1 {
+  font-size: 2.2em;
+  font-weight: 600;
+}
+.md-typeset h2 {
+  /* font-family: 'Cinzel', serif; */
+  font-weight: 600;
+  letter-spacing: -0.5px;
+}
+.md-content {
+  font-size: 17px;
+  line-height: 1.7;
+}
+
+:root {
+  --md-accent-fg-color: #cfa93f; /* subtle Kaaba gold accent */
+}
