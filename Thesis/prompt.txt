@@ -1,0 +1,98 @@
+GOALS
+
+Make traction, governance, and market math precise and consistent.
+
+Fix typos, dangling formatting, rounding, headers, and link hygiene.
+
+Standardize terminology (CAC vs CPI, in-destination, etc.).
+
+Do not restructure the narrative beyond simple insertions/replacements listed here.
+
+EDIT RULES (DO ALL)
+
+Executive Summary — Traction wording
+
+Find the sentence containing: 91 organic installs at $0.87 blended Customer Acquisition Cost (CAC)
+
+Replace exactly with:
+91 total installs (51 organic) with blended **CPI** ≈ **$0.87** and paid **CPI** ≈ **$1.48**.
+(Note: use CPI, not CAC.)
+
+Executive Summary — Governance status
+
+Find: secured a governance partnership with Taibah Institute
+
+Replace with: a governance partnership (MoU) in progress with Taibah Institute
+(If you also mention Taibah elsewhere as “secured” or “partnership”, change to “MoU in progress” for consistency unless a later section explicitly states it’s executed.)
+
+S3 hotel take-rate consistency
+
+Throughout Section 7 and Appendices where you list modeling inputs for S3, change the hotel take-rate to 14.0% (not 14.3%) in text and tables only so it matches the already-calculated Base totals.
+
+Do not change any dollar totals in tables that are already computed; this step is to align the labeled percentage with existing totals.
+
+Rounding harmonization
+
+Where SAM is shown as 151.48 vs 151.49, normalize to $151.49M everywhere.
+
+Where SOM is shown as 2.33 vs 2.32, normalize to $2.32M everywhere.
+
+Add a small note once in Section 7: *Displayed values may differ by ±$0.01M due to rounding.* if not already present.
+
+Evaluation Scores block (SECTION 1)
+
+In the “Evaluation Scores” list, remove standalone numeric ratings if not all categories have them. Specifically, remove Market Timing: 9/10 there to avoid a partial-scored block. Keep the descriptive bullets.
+
+NPS targets alignment (labels, not numbers)
+
+Keep NPS ≥30 for v1/MVP gates (Success Metrics table in Section 8 and any “Ship public beta only if…” gate).
+
+Keep Trip NPS ≥40 where you describe December success or “Go (scale…)” post-beta.
+
+Add clarifying labels if missing, e.g., “(v1 gate)” next to NPS ≥30 and “(post-beta target)” next to Trip NPS ≥40.
+
+Remove any stray NPS targets that contradict these two.
+
+SOM table header clarity (Section 7)
+
+In the SOM table, change the column header immediately to the right of Umrah S2 ($M) from Users to Referrals. Leave S4 columns labeled Payers.
+
+Typos and formatting
+
+Cresent Rating → CrescentRating
+
+Heading **Competitive Differentiation** that currently renders with a dangling ** → make it Competitive Differentiation with normal bolding/heading as appropriate.
+
+Fix duplicated phrase: change these are these are to these are.
+
+In Appendix B, complete the truncated word commissio to commission.
+
+Remove the duplicated KPI bullet block that reappears under “Out of Scope for This Cycle (Deferred)” (keep the first occurrence only).
+
+Normalize capitalization: use lower-case we mid-sentence (not We), except at sentence starts and headings.
+
+Standardize in-destination spelling with a hyphen everywhere.
+
+License note up-front
+
+In Executive Summary (end of the Guardrails/Why Now paragraph or as its own sentence), insert:
+**Licensing note:** No direct Hajj sales; OTA-like flows (S3) will run only via licensed partners or post-licensure.
+
+Use of funds (2 lines max)
+
+In Executive Summary – The Ask, append a concise “Use of funds” clause at the end (keep to one sentence, no new numbers):
+Use of funds: content governance & scholar reviews, offline Android reliability, concierge ops for liquidity tests, and trip-anchored analytics.
+
+Link hygiene
+
+Remove utm_source=chatgpt.com (and any ?utm_* query params) from links in Appendices and footnotes without changing the base URLs. Do not alter anchors or non-UTM parameters.
+
+Currency/metrics labels
+
+Ensure all $ figures use the $ prefix with no extra spaces (e.g., $1.48, not $ 1.48).
+
+Ensure CPI is used only for install cost metrics; avoid calling it CAC anywhere unless it truly measures cost per paying customer.
+
+Do not change numbers except where explicitly directed above.
+
+No recalculation. No altering totals. Only labels/wording/rounding and the specific replacements described.
