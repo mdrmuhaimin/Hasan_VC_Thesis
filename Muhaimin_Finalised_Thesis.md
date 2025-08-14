@@ -1,24 +1,37 @@
 # HajjGuide: Venture Studio Thesis
 
+## Executive Summary
+
+We are building HajjGuide, a venture-studio backed platform addressing the **$1.45B** religious tourism technology market. We target the critical post-booking, in-destination gap for 16.8 million annual Umrah pilgrims and 1.6 million Hajj pilgrims.
+
+**The Opportunity:** The in-destination pilgrimage experience remains fragmented, with pilgrims losing hours and money to unverified services, poor guidance, and logistical confusion.
+
+**Our Solution:** We deliver an offline-first ritual companion, licensed service marketplace, and curated exploration platform for the four key pilgrimage cities (Makkah, Madinah, Taif, Jeddah).
+
+**Traction:** We have validated demand through 31 customer interviews, shipped an MVP with 91 organic installs at **$0.87** blended Customer Acquisition Cost (CAC), and secured a governance partnership with Taibah Institute for content verification.
+
+**The Ask:** We seek pre-seed funding to validate our core hypotheses through controlled market tests while building toward a **$2.33M** serviceable obtainable market in our first 12 months.
+
 ## SECTION 1: STRATEGIC EXECUTION MODEL
 
+We have identified a critical gap in the $1.45B religious tourism market:
 **Selected Approach:** **Hybrid Model** – Rocket Internet rigor on supply onboarding, pricing control, and unit economics, combined with BCGDV Solve Model for high-context, regulated in-destination Umrah workflows.
 
 **Justification:**
-We occupy the **post-booking gap** where generic OTAs fail — delivering an offline Ritual Mode, licensed local services marketplace, and curated Ziyarah Explorer for Makkah, Madinah, Taif, and Jeddah.  
-This hybrid approach leverages proven marketplace and OTA mechanics while solving unique, “hair-on-fire” pilgrimage needs — compliance, offline usability, and high-context guidance.  
+We occupy the **post-booking gap** where generic OTAs fail — delivering an offline Ritual Mode, licensed local services marketplace, and curated Ziyarah Explorer for Makkah, Madinah, Taif, and Jeddah.
+This hybrid approach leverages proven marketplace and OTA mechanics while solving unique, “hair-on-fire” pilgrimage needs — compliance, offline usability, and high-context guidance.
 By focusing on *in-destination service orchestration*, we create an immediate trust moat in a highly regulated, culturally sensitive environment.
 
 ### Evaluation Scores
 
 - **Market Timing:** 9/10 – Umrah volumes are rapidly growing post-pandemic, supported by Saudi Vision 2030’s target of 30 million annual pilgrims ([source][1]). Regulatory enforcement against unlicensed operators is increasing, pushing market demand toward compliant, verified services ([SPA suspension][2], [Gulf News][3]).
-- **Team Capability:** 8/10 – Founder Muhammad Raihan Muhaimin (full-time) brings dual strengths in pilgrimage domain expertise and AI/ML product development. Accelerator and pre-seed support from venture studio adds operational leverage.  
-- **Resource Requirements:** 7/10 – Licensing, marketplace build, AI-driven offline companion development, multi-language content, and compliance infrastructure require moderate-to-high upfront investment.  
-- **Competitive Landscape:** 8/10 – No dominant, vertically integrated in-destination digital platform exists; competitors are either generic OTAs or fragmented offline operators. Our license-first marketplace and offline mode create strong defensibility.
+- **Team Capability:** – Founder Muhammad Raihan Muhaimin (full-time) brings dual strengths in pilgrimage domain expertise and AI/ML product development. Accelerator and pre-seed support from venture studio adds operational leverage.
+- **Resource Requirements:** – Licensing, marketplace build, AI-driven offline companion development, multi-language content, and compliance infrastructure require moderate-to-high upfront investment.
+- **Competitive Landscape:** – No dominant, vertically integrated in-destination digital platform exists; competitors are either generic OTAs or fragmented offline operators. Our license-first marketplace and offline mode create strong defensibility.
 
 ### Team Commitment Evidence
 
-- Founder: Muhammad Raihan Muhaimin — full-time, background in AI/ML and religious tourism.  
+- Founder: Muhammad Raihan Muhaimin — full-time, background in AI/ML and religious tourism.
 - Venture Studio (EIR role) providing structural and funding support for transition to accelerator phase with pre-seed funding upon qualification.
 
 ### Scrappy Problem-Solving Examples
@@ -35,16 +48,16 @@ Rapid market expansion + enforcement-driven shift to licensed operators = timing
 
 ### 12-Month “Must Be True” Gates (relative to public beta)
 
-- **Activation:** ≥60% of trip users complete ≥3 meaningful actions in 14 days.  
-- **Marketplace:** ≥25% of active users buy ≥1 local service; take rate ≥12%; refunds ≤5%.  
-- **Compliance:** 100% of fulfilled jobs by licensed suppliers; complaints <2/100 orders.  
-- **Outcome:** ≥70% report ≥5 hours saved or overpayment avoided.  
+- **Activation:** ≥60% of trip users complete ≥3 meaningful actions in 14 days.
+- **Marketplace:** ≥25% of active users buy ≥1 local service; take rate ≥12%; refunds ≤5%.
+- **Compliance:** 100% of fulfilled jobs by licensed suppliers; complaints <2/100 orders.
+- **Outcome:** ≥70% report ≥5 hours saved or overpayment avoided.
 - **Retention:** ≥20% cross-purchase during trip; ≥30% return to Ziyarah Map within trip.
 
 ### Guardrails (Day-1)
 
-- Hajj packages only via authorized providers; D2C focus on Umrah and in-destination services.  
-- PDPL-ready consent logs for location/mic; minimal data collection.  
+- Hajj packages only via authorized providers; D2C focus on Umrah and in-destination services.
+- PDPL-ready consent logs for location/mic; minimal data collection.
 - License-first marketplace (license ID + expiry displayed).
 
 ---
@@ -57,48 +70,48 @@ Religious Tourism (Hajj/Umrah) and In-Destination Travel Technology.
 
 ### Opportunity Description
 
-The global Muslim travel market is projected to exceed **$225 billion by 2028** ([source][17]), with Hajj and Umrah as its most logistically complex and spiritually significant segments. While booking flights and packages has largely digitized, the *in-destination experience* remains fragmented, offline, and dependent on unverified, often overpriced local operators.
+The global Muslim travel market is projected to exceed **$225B by 2028** ([Cresent Rating][17]), with Hajj and Umrah as its most logistically complex and spiritually significant segments. While booking flights and packages has largely digitized, the *in-destination experience* remains fragmented, offline, and dependent on unverified, often overpriced local operators.
 
 ### Core Problem
 
 Once in Saudi Arabia, first-time and DIY Umrah travelers face:
 
-- Ritual anxiety from fear of making religious errors.  
-- Opaque, overpriced local services without license verification.  
-- Language barriers and cultural friction.  
-- Crowd and closure uncertainty at key sites.  
-- Weak discovery of authentic ziyarah locations.  
-- Risk of getting separated from companions in high-density environments.  
+- Ritual anxiety from fear of making religious errors.
+- Opaque, overpriced local services without license verification.
+- Language barriers and cultural friction.
+- Crowd and closure uncertainty at key sites.
+- Weak discovery of authentic ziyarah locations.
+- Risk of getting separated from companions in high-density environments.
 Instead of focusing on worship, travelers are forced into constant logistical problem-solving and app juggling.
 
 ### Ideal Customer Profile (ICP)
 
-DIY and semi-DIY Umrah travelers aged 25–45 from Indonesia, Malaysia, Bangladesh, and diaspora markets.  
+DIY and semi-DIY Umrah travelers aged 25–45 from Indonesia, Malaysia, Bangladesh, and diaspora markets.
 Characteristics:
 
-- App-native and comfortable with digital tools.  
-- Booking flights/hotels via mainstream OTAs.  
-- Coordinating trips via WhatsApp and social groups.  
+- App-native and comfortable with digital tools.
+- Booking flights/hotels via mainstream OTAs.
+- Coordinating trips via WhatsApp and social groups.
 - Seeking offline ritual guidance, licensed service providers, and trustworthy exploration.
 
 ### Why Incumbents Don’t Win
 
-- OTAs optimize for pre-trip cart conversion, not in-trip decision-making.  
-- Pilgrimage decisions are dynamic, context-specific, and fiqh-aware — requiring real-time, personalized guidance.  
+- OTAs optimize for pre-trip cart conversion, not in-trip decision-making.
+- Pilgrimage decisions are dynamic, context-specific, and fiqh-aware — requiring real-time, personalized guidance.
 - Official channels are essential for permits and inventory, but not designed for concierge-level personalization or hybrid Solo ↔ Hire service models.
 
 ### "Hair-on-Fire" Evidence
 
 | Evidence                                                                                                 | Impact on Pilgrims                                        | Source                    |
 | -------------------------------------------------------------------------------------------------------- | --------------------------------------------------------- | ------------------------- |
-| **Seven Umrah companies suspended (Jun 17 2025)** for failing transport commitments                      | Travellers stranded; ministry had to arrange alternatives | ([Saudi Press Agency][2]) |
-| **Ten travel offices shut (Jul 13 2025)** for running unlicensed Umrah services                          | Bookings voided; deposits at risk                         | ([Gulf News][3])          |
+| **Seven Umrah companies suspended (Jun 17 2024)** for failing transport commitments                      | Travellers stranded; ministry had to arrange alternatives | ([Saudi Press Agency][2]) |
+| **Ten travel offices shut (Jul 13 2024)** for running unlicensed Umrah services                          | Bookings voided; deposits at risk                         | ([Gulf News][3])          |
 | **Real-world delay:** Malaysian pilgrim waited **2 days under airport canopies** then bought new tickets | Lost 48 h + paid extra airfare                            | ([RSIS International][4]) |
 
 ### Quantified Pain
 
-- **Time Loss:** Hours wasted per trip resolving logistics and finding trusted services.  
-- **Financial Loss:** Overpayment on key services like transport, tours, and mobility aids.  
+- **Time Loss:** Hours wasted per trip resolving logistics and finding trusted services.
+- **Financial Loss:** Overpayment on key services like transport, tours, and mobility aids.
 - **Frequency:** Pain recurs every trip; high stakes for first-timers amplify stress and dissatisfaction.
 
 ### One-Sentence Pitch (YC Format)
@@ -127,7 +140,7 @@ Independent Umrah pilgrims in Saudi Arabia struggle with ritual anxiety, overpri
 | **[Zamzam.com][8]**         | Jeddah, KSA  | B2B/B2C OTA                | Package pricing                     | Global pilgrims              | JV with TBO; undisclosed funding        | Visa + hotel integration, multilingual support | No exploration/offline features              | Curated city plans + licensed services                 |
 | **[TBO Umrah][9]**          | UAE/KSA      | B2B OTA                    | Agency commission-based             | Travel agents (GCC/SEA)      | Regional player                         | Agent distribution network                     | No D2C presence or in-trip UX                | D2C Ritual Mode + upsell via agents                    |
 | **[Funadiq][13]**            | Pakistan/KSA | B2C OTA via Maqam GDS      | OTA package pricing                 | Global pilgrims via GDS      | Limited public data                     | Maqam-certified GDS connectivity               | No in-trip concierge or exploration features | Integrate Ritual Mode + curated city plans             |
-| **[Almosafer][11] / [Seera][12]** | Riyadh, KSA  | OTA                        | OTA pricing                         | KSA/global travelers         | Seera publicly held (\~\$1.6B rev est.) | Brand, supply breadth                          | Not fiqh-aware, generic UX                   | Add Ritual Mode + exploration overlay ([Zawya][10])    |
+| **[Almosafer][11] / [Seera][12]** | Riyadh, KSA  | OTA                        | OTA pricing                         | KSA/global travelers         | Seera publicly held (~**$1.6B** rev est.) | Brand, supply breadth                          | Not fiqh-aware, generic UX                   | Add Ritual Mode + exploration overlay ([Zawya][10])    |
 | **[Flynas (Umrah Services)][24]** | Riyadh, KSA  | Airline + Umrah packages   | Dynamic bundle pricing              | Budget pilgrims              | Airline revenue significant             | Transport integrated with tours                | No offline/ritual guidance                   | Layer Ritual Mode + Ziyarah Explorer                   |
 | **[Saudia Airlines Packages][25]** | Jeddah, KSA  | Airline + Umrah bundles    | Package pricing (PKR 60k–180k est.) | Pakistani & SEA pilgrims     | Government carrier                      | Trust, flight + stay bundles                   | No pilgrimage-specific UI                    | Add Ritual Mode integration                            |
 | **[Amal (Malaysia Airlines)][26]** | Kuala Lumpur | Chartered Umrah arm        | Charter/package pricing             | SEA markets                  | Owned by Malaysia Aviation Group        | Religious flight brand positioning             | No in-destination tools                      | Bundle Ritual Mode + licensed services                 |
@@ -178,7 +191,7 @@ Partner with **licensed local travel agencies** in key origin markets to:
 
 ## SECTION 4 — Discovery Interviews
 
-### Interview Contact Matrix (30+)
+### Key Insights from Discovery (Interview Contact Matrix) (30+)
 
 - Total interviews: **31**
 - Dual roles: **All Buyers are also Experts (secondary)** for evidence, while each interviewee retains **one primary** category for quota math.
@@ -192,8 +205,8 @@ Partner with **licensed local travel agencies** in key origin markets to:
 
 ### Evidence Collection Methods & Scrappy Outreach
 
-- Recruited via **mosque/imam endorsements**, **diaspora Facebook/WhatsApp groups**, and **agency bundles**.
-- Leveraged **group leaders** as affiliate referrers; used **snowball sampling** from completed interviews.
+- Recruited via **Known Members**, **diaspora Facebook/WhatsApp groups**, and **agency work experiences**.
+- Leveraged **group leaders** as affiliate referrers.
 
 ### Problem Validation Scorecard (1–5)
 
@@ -217,12 +230,10 @@ Partner with **licensed local travel agencies** in key origin markets to:
 ### Monetization Signals (interviews + founder inputs)
 
 - **Agency bundles:** Agencies typically pay **2–5% commission**; many offer **B2B rates** for platform distribution. Founder already monetizes as a **Sales Partner**.
-- **Transport:** **\~20% referral fee** norms; B2B rates available (e.g., per supplier interviews).
+- **Transport:** \~**20% referral fee** norms; B2B rates available (e.g., per supplier interviews).
 - **Guidance:** **In-app guidance at \$5–\$10** one-time (some up to **\$20**); **private guides** usually bundled with ziyarah or end-to-end packages.
 
 ### Validation Preview (for Section 7)
-
-(Concise thresholds kept here for IC clarity; the full plan will live in Section 7 — MVP Validation Plan.)
 
 - **Agency-guided tour (bundled tiers):** Present Lite/Standard/Premium anchored to B2B rates and 2–5% commission norms. **Target:** ≥40% choose any paid tier in interview simulations (or meet channel-benchmark attach if baseline is lower).
 - **Transport (fixed-fare bands):** Offer 3 fare bands on common routes + escrow option. **Target:** ≥60% choose a band and accept in-app booking; **Supply-side:** ≥70% of providers consent to the target take-rate (benchmarked to \~20%).
@@ -289,23 +300,23 @@ To keep this report concise, the **initial hypotheses (H0_raw)** and the full **
 
 ## SECTION 5 — Hypothesis Mapping
 
-At this pre-seed stage, our hypotheses draw from 30+ discovery interviews and early MVP deploys (e.g., Hajj-peak test with basic tracker yielding 68 installs). Full quantitative validation awaits funding for analytics. Each includes our belief, test method, and status (validated via interviews, partially validated via deploy, or needs testing).
+At this pre-seed stage, We draw our hypotheses from 30+ discovery interviews and early MVP deploys (e.g., Hajj-peak test with basic tracker yielding 68 installs). Full quantitative validation awaits funding for analytics. Each includes our belief, test method, and status (validated via interviews, partially validated via deploy, or needs testing).
 
 ### **Interview-validated core hypotheses**
 
 | Hypothesis | Why do we believe this? | **How have we validated via interviews (no build)** | Preliminary result | Next step |
 | --- | --- | --- | --- | --- |
-| **H1 — Core pilgrim problem–solution fit** | Recurrent pains: wayfinding, fragmented guidance, price opacity; trust is paramount. | In 31 interviews, **≥90%** described guidance/wayfinding/price issues; multiple pilgrims asked for a single trusted app with **offline “Ritual Mode.”** Founder’s 2024 guide role echoed these gaps. | **Supported.** | When ready: concierge MVP; target **Activation ≥40%**, **4-wk retention ≥30%**, **NPS ≥40**. |
+| **H1 — Core pilgrim problem–solution fit** | Recurrent pains: wayfinding, fragmented guidance, price opacity; trust is paramount. | In 31 interviews, **≥90%** described guidance/wayfinding/price issues; multiple pilgrims asked for a single trusted app with **offline “Ritual Mode.”** Founder’s 2024 guide role echoed these gaps. | **Supported.** | When ready: concierge MVP; target **Activation ≥40%**, **2-wk retention ≥30%**, **Net Promoter Score (NPS) ≥40**. |
 | **H2 — Marketplace liquidity** | Licensed transport/guides exist; discovery—not raw capacity—drives pain. | Provider/buyer interviews (e.g., agency owners; Driver Solaiman) reported capacity, typical response times, and peak patterns; collected **license/permit** statements and SLA promises. | **Provisionally supported.** (No live fill-rate yet.) | Small **concierge fill log** (no app): measure time-to-confirm & cancels across peak windows. |
-| **H3 — WTP / take-rate viability** | Pilgrims already pay for agency bundles, tours, transport; guidance WTP **$5–$20** (mode **$10–$15**). Agencies pay **2–5%**; transport referrals ~**20%**. | Buyers (who are also experts) confirmed **commission norms & B2B rates**; multiple users expressed willingness to pay for **in-app guidance**; founder has **paid sales-partner income**. | **Supported (provisional).** | Structure **price-card tallies** (n≥30/SKU) + **provider poll** (n≈15) to lock price points & take-rates. |
-| **H4 — Acquisition cost repeatability** | Imam/mosque endorsements, group leaders, agency bundles, diaspora FB/WA groups surfaced as effective. | Interviewees named these as **trusted join paths**; referrer influence noted; we logged **acceptable incentives** qualitatively. | **Qualitatively supported.** | Quantify **CAC by channel** (CPI≈$1 benchmark); aim **payback <3 months**; keep affiliate CAC as commission. |
+| **H3 — WTP / take-rate viability** | Pilgrims already pay for agency bundles, tours, transport; guidance WTP **\$5–\$20** (mode **\$10–\$15**). Agencies pay **2–5%**; transport referrals \~**20%**. | Buyers (who are also experts) confirmed **commission norms & B2B rates**; multiple users expressed willingness to pay for **in-app guidance**; founder has **paid sales-partner income**. | **Supported (provisional).** | Structure **price-card tallies** (n≥30/SKU) + **provider poll** (n≈15) to lock price points & take-rates. |
+| **H4 — Acquisition cost repeatability** | Imam/mosque endorsements, group leaders, agency bundles, diaspora FB/WA groups surfaced as effective. | Interviewees named these as **trusted join paths**; referrer influence noted; we logged **acceptable incentives** qualitatively. | **Qualitatively supported.** | Quantify **Customer Acquisition Cost (CAC) by channel** (Cost Per Install (CPI)\~\$1 benchmark); aim **payback <3 months**; keep affiliate CAC as commission. |
 | **H5 — Regulatory compliance** | Permit/route enforcement & driver legality are common themes; license-first lowers risk. | Users and providers described **checks, stops, and documentation**; **license badges** perceived as trust-building; comfort with **escrow/KYC** discussed. | **Supported.** | Shortlist **PSP/escrow (TBD)**; draft **license audit** cadence & **<72h** dispute SOP. |
 | **H6 — Guidance engine (AI + curated, offline)** | Desire for authoritative, low-distraction answers; strong preference for **scholar-endorsed** content. | Pilgrims reacted positively to the idea of **compiled, concise rulings**; caution on accuracy and screen usage during rituals; acceptance higher with **named scholars**. | **Provisionally supported.** | Build curated Q&A; set **scholar double-review**; later evaluate AI (accuracy ≥90%, harmful=0, CSAT ≥4.3/5). |
 | **H7 — Group-aware routing & tent coordination** | Lost/meeting-point confusion is frequent; printed maps are cumbersome. | Multiple pilgrims recounted **tent-finding** and regrouping issues; interest in **meeting-point cards** and simple timed routes; willingness to **share location** in group contexts. | **Supported.** | Pilot GPS group mode later; targets: **ETA error ±15%**, **lost-person ↓50%** vs baseline. |
-| **H8 — Trust, safety, dispute resolution** | Fear of overpaying/middlemen; appetite for **fixed fares + escrow** and transparent reviews. | Users preferred **escrowed fixed-fare** over open-ended quotes; providers indicated comfort with platform-mediated payouts; review usefulness acknowledged. | **Supported.** | A/B escrow copy & refund terms during pilots; aim **CVR +15%**, **disputes <2%**, **chargebacks <0.5%**. |
-| **H9 — Seasonality resilience** | Umrah is year-round; diaspora and ziyarah logistics persist off-peak. | Some pilgrims indicated **post-Hajj** and **off-peak** needs; intensity varies by segment and country. | **Partial.** | Define off-peak segments & content; later track **WAU/MAU ≥0.3** and **≥20%** off-peak bookings. |
+| **H8 — Trust, safety, dispute resolution** | Fear of overpaying/middlemen; appetite for **fixed fares + escrow** and transparent reviews. | Users preferred **escrowed fixed-fare** over open-ended quotes; providers indicated comfort with platform-mediated payouts; review usefulness acknowledged. | **Supported.** | A/B escrow copy & refund terms during pilots; aim **conversion rate (CVR) +15%**, **disputes <2%**, **chargebacks <0.5%**. |
+| **H9 — Seasonality resilience** | Umrah is year-round; diaspora and ziyarah logistics persist off-peak. | Some pilgrims indicated **post-Hajj** and **off-peak** needs; intensity varies by segment and country. | **Partial.** | Define off-peak segments & content; later track **Weekly to Monthly Active User ratio (WAU/MAU) ≥0.3** [RMN] and **≥20%** off-peak bookings. |
 | **H10 — Supply-side economics & retention** | Providers value predictable payouts and B2B pricing; retention hinges on earnings. | Providers discussed **payout expectations**, **B2B rates**, and service preferences; churn drivers surfaced qualitatively. | **Partial.** | Set **earnings targets** per SKU/market; later track **churn <15%/qtr**, **NRR >100%**. |
-| **H11 — Brand credibility & endorsements** | Imam/scholar endorsements and **license badges** reduce perceived risk and nudge choice. | Interview ranking exercises placed **endorsements/badges** high among trust signals; outreach via mosques worked. | **Supported.** | Secure **≥3** endorsements; later A/B **badge presence** (target **CTR +20%**, **CVR +10%**). |
+| **H11 — Brand credibility & endorsements** | Imam/scholar endorsements and **license badges** reduce perceived risk and nudge choice. | Interview ranking exercises placed **endorsements/badges** high among trust signals; outreach via mosques worked. | **Supported.** | Secure **≥3** endorsements; later A/B **badge presence** (target **CTR +20%**, **conversion rate +10%**). |
 | **H12 — OTA / halal travel adjacency (Phase 2)** | Consolidated booking desire exists; not core to pre-seed. | Interviewees expressed interest in **one-stop** options; also cited existing solutions; focus remained on core SKUs. | **Adjacent—defer.** | After core validation, test **affiliate APIs**; aim **hotel attach ≥2%**, **CPA within OTA norms**. |
 
 ### **MVP-testable future hypotheses**
@@ -316,13 +327,13 @@ Based on our primary Hypothesis validation these are these are the future hypoth
 | --- | --- | --- | --- |
 | FH1: ≥60% of users complete ≥3 meaningful actions in 14 days (Activation). | Interviews show high ritual/logistics pains (e.g., discovery in 28/30); early deploy implied engagement via 68 installs and K=1.28 virality. | Track via TripID analytics in full beta post-funding; benchmark vs. 40% first-session target. | Validated via Interviews (28/30 support); Partially Validated via Deploy (virality signals positive); Needs Beta Testing for metrics. |
 | FH2: ≥25% buy ≥1 service; take rate ≥12% (Marketplace). | Transport opacity in 20/30 interviews; WTP mentions (e.g., 1000 Taka) suggest demand. | Marketplace pilot with escrow; measure refunds ≤5% in post-funding beta. | Validated via Interviews (25/30 support); Needs Beta Testing (no transaction data yet). |
-| FH3: Users willing to pay $5-10 for premium features (WTP—updated to your $5 sub). | Inferred from mentions (e.g., 70-200 Riyal/600-1500 Taka); low explicit but consistent scam avoidance signals. | Mock upsells/surveys in beta; test $5 sub conversion post-funding. | Partially Validated via Interviews (1/30 explicit, but implied in 20/30 pains); Needs Beta Testing for conversion rates. |
+| FH3: Users willing to pay \$5-10 for premium features (WTP). | Inferred from mentions (e.g., 70-200 Riyal/600-1500 Taka); low explicit but consistent scam avoidance signals. | Mock upsells/surveys in beta; test \$5 sub conversion post-funding. | Partially Validated via Interviews (1/30 explicit, but implied in 20/30 pains); Needs Beta Testing for conversion rates. |
 | FH4: Offline mode reduces anxiety for rituals (Usability). | Lap counting in 7/30; strong signals for ritual tools (e.g., H6 at 26/30). | Usability tests (E2); ≥95% error-free completion in post-funding pilots. | Validated via Interviews (25/30 support); Partially Validated via Deploy (basic tracker live, user feedback pending); Needs Beta Testing for error rates. |
 | FH5: 100% compliance with licensed suppliers (Trust). | Permit constraints in 21/30; agency distrust in 11/30 highlight verification needs. | Supplier audits; complaints <2/100 in beta fulfillment. | Validated via Interviews (23/30 support); Needs Beta Testing (guardrails in thesis, but no live fulfillment yet). |
 | FH6: Language/ritual tools preferred over incumbents (Preference). | Language barrier in 19/30; JTBD like phrasebooks show gaps in WhatsApp/YouTube. | A/B test vs. incumbents; measure preference in post-funding usability. | Validated via Interviews (26/30 support); Partially Validated via Deploy (tracker implies preference over manual tools); Needs Beta Testing for direct comparisons. |
 | FH7: ≥20% cross-purchase; ≥30% map returns (Retention). | Discovery pains recur (28/30); connectivity in 19/30 drive repeat use. | Analytics on repeat actions during trip in full beta. | Validated via Interviews (21/30 support); Partially Validated via Deploy (virality suggests stickiness); Needs Beta Testing for repeat metrics. |
 | FH8: Escrow/fixed fares cut overpayment (Value). | Wheelchair/transport opacity (20/30); WTP for scam avoidance evident. | User reports of hours saved/overpayment avoided (≥70% ≥5 hours) post-funding. | Validated via Interviews (21/30 support); Needs Beta Testing (no value reports yet). |
-| FH9: eSIM bundles as failover (Connectivity). | SIM issues in 19/30; pre-trip JTBD indicate utility. | Onboarding tests; adoption rate in beta. | Validated via Interviews (19/30 support); Needs Beta Testing (as Could feature). |
+| FH9: eSIM bundles as failover (Connectivity). | SIM issues in 19/30; pre-trip JTBD indicate utility. | Onboarding tests; adoption rate in beta. | Validated via Interviews (19/30 support); Needs Beta Testing. |
 | FH10: B2B agency upsell viable (Monetization). | Referral patterns in interviews (e.g., agency distrust in 11/30); low explicit B2B. | Pilot white-label with agencies; commission uptake post-funding. | Partially Validated via Interviews (11/30 support); Needs Beta Testing for upsell pilots. |
 
 **Our Validation Philosophy**: **Interviews → Deploy → Scale**
@@ -344,11 +355,11 @@ We serve two primary customers—pilgrims (B2C) and group leaders/agencies (B2B)
 - **Geography:** Bangladesh, Malaysia, Indonesia + diaspora (GCC/UK/US/CA)
 - **Business size (if B2B):** N/A
 - **Pain points:**
-  Clarity on exact steps and sequence; trusted rulings (school/fiqh variants); poor on-site connectivity; cognitive overload during peak days; fragmented guidance across YouTube/WhatsApp/books; language/localization gaps
+  - Clarity on exact steps and sequence; trusted rulings (school/fiqh variants); poor on-site connectivity; cognitive overload during peak days; fragmented guidance across YouTube/WhatsApp/books; language/localization gaps
 - **Current solutions used:**
-  Human guides/imams; agency briefings; WhatsApp groups; printed handouts/books; YouTube/TikTok; official apps (e.g., Nusuk; local ministry apps)
+  - Human guides/imams; agency briefings; WhatsApp groups; printed handouts/books; YouTube/TikTok; official apps (e.g., Nusuk; local ministry apps)
 - **Why they pick us (fit):**
-  Offline-first, step-by-step rituals and a simple dua journal, with **cited, scholar-approved** content that reduces confusion at the moment of need.
+  - Offline-first, step-by-step rituals and a simple dua journal, with **cited, scholar-approved** content that reduces confusion at the moment of need.
 
 ---
 
@@ -358,15 +369,14 @@ We serve two primary customers—pilgrims (B2C) and group leaders/agencies (B2B)
 - **Role/Persona:** Imam or group leader; agency owner/operations lead who needs standardized, cited guidance for cohorts and lighter support load
 - **Geography:** Bangladesh, Malaysia, Indonesia; export segments in GCC/UK/US/CA
 - **Business size (if B2B):**
-  Imam/mosque cohorts: \~30–150 pilgrims per group
-  Mid-size agencies: \~200–3,000 pilgrims per season
+  - Imam/mosque cohorts: \~30–150 pilgrims per group
+  - Mid-size agencies: \~200–3,000 pilgrims per season
 - **Pain points:**
-  Inconsistent training quality; repetitive Q\&A on WhatsApp; multilingual content gaps; ensuring pilgrims actually follow steps; lack of printable/offline materials; seasonality in demand
+  - Inconsistent training quality; repetitive Q&A on WhatsApp; multilingual content gaps; ensuring pilgrims actually follow steps; lack of printable/offline materials; seasonality in demand
 - **Current solutions used:**
-  In-person workshops; PDFs/printouts; WhatsApp broadcasts; DIY slide decks; reliance on on-site human guides only
+  - In-person workshops; PDFs/printouts; WhatsApp broadcasts; DIY slide decks; reliance on on-site human guides only
 - **Why they pick us (fit):**
-
-  - **Cited, scholar-approved content** they can hand to every pilgrim (less repetitive Q\&A).
+  - **Cited, scholar-approved content** they can hand to every pilgrim (less repetitive Q&A).
   - **White-label/cohort tools** to standardize prep across groups.
   - **Sales channel:** we can route pilgrims to their packages and cohorts, supporting **B2B rates** and **2–5% commission norms** (from interviews and our sales-partner experience), creating incremental demand rather than cannibalizing their existing channels.
 
@@ -379,11 +389,10 @@ We serve two primary customers—pilgrims (B2C) and group leaders/agencies (B2B)
 - **Geography:** Primarily KSA (Makkah/Madinah) with BD/MY/ID pilgrim traffic
 - **Business size (if B2B):** Micro to SME (single owner-operators up to small fleets)
 - **Pain points:**
-  Discovery and trust; inconsistent referrals; opaque pricing; disputes and cancellations; compliance/payments friction
+  - Discovery and trust; inconsistent referrals; opaque pricing; disputes and cancellations; compliance/payments friction
 - **Current solutions used:**
-  Word-of-mouth; brokered WhatsApp groups; agency referrals; ad-hoc Facebook pages
+  - Word-of-mouth; brokered WhatsApp groups; agency referrals; ad-hoc Facebook pages
 - **Why they pick us (fit):**
-
   - **Targeted sales channel** to reach relevant pilgrims and groups.
   - **Standardized listings & reviews** to build trust and repeat business.
   - **(Later) Payments/escrow and B2B pricing** to smooth cash flow and reduce disputes—activated only after trust KPIs are met.
@@ -396,18 +405,18 @@ We serve two primary customers—pilgrims (B2C) and group leaders/agencies (B2B)
 
 ## SECTION 7 — Market Sizing (TAM • SAM • SOM)
 
-### Executive Summary
+### Summary
 
 **2024 Headline (Base):**
 
-- **Total Addressable Market (TAM, Base)**: **\$1.45 billion**
-  – Umrah: **\$1,095.83 million**
-  – Hajj: **\$354.49 million**
+- **Total Addressable Market (TAM, Base)**: **$1.45B**
+  – Umrah: **$1,095.83M**
+  – Hajj: **$354.49M**
 
-- **Serviceable Addressable Market (SAM)**: **\$151.48 million**
+- **Serviceable Addressable Market (SAM)**: **$151.48M**
   – Bangladesh, Indonesia, and Malaysia; streams limited to **S2** (agency referrals) and **S4** (paid app)
 
-- **Serviceable Obtainable Market (SOM, 12-month target)**: **\$2.33 million**¹
+- **Serviceable Obtainable Market (SOM, 12-month target)**: **$2.33M**
 
 **Primary reference points:**
 
@@ -415,8 +424,6 @@ We serve two primary customers—pilgrims (B2C) and group leaders/agencies (B2B)
 - **Foreign Hajj pilgrims (2024):** 1,611,310 ([GASTAT — Hajj Statistics Publication 2024](https://www.stats.gov.sa/documents/20117/2435281/Hajj%2BStatistics%2BPublication%2B2024EN.pdf))
 
 **Full derivation:** see **[Detailed TAM Calculation (2024)](https://www.notion.so/TAM-CALCULATION-24e2ba3e525180899f80dd7d4924fc00)**; supporting assumptions, sources, S4 adoption bases, and SAM/SOM details are in Appendices A–E at the end of this document.
-
-> Totals computed from **unrounded** subtotals; displayed components may not sum due to rounding (≤\$0.01M).
 
 ---
 
@@ -443,16 +450,16 @@ We segment monetization into four discrete streams, with explicit **no-double-co
 
 | Scenario                                              |           Umrah |  Hajj (S2+S4) |           Total |
 | :---------------------------------------------------- | --------------: | ------------: | --------------: |
-| **Defensive**                                         |       \$778.51M |     \$339.99M |     \$1,118.50M |
-| **Conservative Base** *(previous “VC-Balanced Base”)* |       \$919.33M |     \$343.21M |     \$1,262.54M |
-| **Base** *(matches Detailed TAM doc)*                 | **\$1,095.83M** | **\$354.49M** | **\$1,450.32M** |
-| **Aspirational**                                      |     \$1,039.38M |     \$354.49M |     \$1,393.87M |
+| **Defensive**                                         |       **$778.51M** |     **$339.99M** |     **$1,118.50M** |
+| **Conservative Base** *(previous “VC-Balanced Base”)* |       **$919.33M** |     **$343.21M** |     **$1,262.54M** |
+| **Base** *(matches Detailed TAM doc)*                 | **$1,095.83M** | **$354.49M** | **$1,450.32M** |
+| **Aspirational**                                      |     **$1,039.38M** |     **$354.49M** |     **$1,393.87M** |
 
 #### Base Stream Breakdown (2024)
 
 | Scenario |      Umrah S1 |      Umrah S3 |      Umrah S2 |      Umrah S4 |       **UMRAH** |       Hajj S2 |      Hajj S4 |      **HAJJ** |       **TOTAL** |
 | :------- | ------------: | ------------: | ------------: | ------------: | --------------: | ------------: | -----------: | ------------: | --------------: |
-| **Base** | **\$141.52M** | **\$408.31M** | **\$403.20M** | **\$142.80M** | **\$1,095.83M** | **\$338.38M** | **\$16.11M** | **\$354.49M** | **\$1,450.32M** |
+| **Base** | **$141.52M** | **$408.31M** | **$403.20M** | **$142.80M** | **$1,095.83M** | **$338.38M** | **$16.11M** | **$354.49M** | **$1,450.32M** |
 
 > **S3 per-DIY correction:** (ADR \$80 × LOS 6 × **14.3%** × **80%**) + (Return fare \$700 × **2%** × **50%**) = **\$60.76** per DIY; **6.72M × 60.76 = \$408.31M**.
 
@@ -497,10 +504,8 @@ We segment monetization into four discrete streams, with explicit **no-double-co
 | Bangladesh |      6.00 |     0.59 |     26.71 |     0.32 |      33.62 |
 | **Total**  | **57.20** | **9.17** | **83.96** | **1.15** | **151.49** |
 
-**Sensitivity (Umrah origin counts):** Low **\$136.29M** • Base **\$151.49M** • High **\$161.13M**
+**Sensitivity (Umrah origin counts):** Low **$136.29M** • Base **$151.49M** • High **$161.13M**
 *(Hajj components are quota-anchored; Umrah origin counts draw from multiple official/industry sources.)*
-
-> **Rounding policy:** Totals reflect **unrounded** subtotals; component sums may differ by ≤\$0.01M.
 
 ---
 
@@ -524,7 +529,6 @@ We segment monetization into four discrete streams, with explicit **no-double-co
 | **Total**  |       **0.36** | **8,900** |       **1.15** | **114,700** |      **0.67** | **3,200** |      **0.14** | **14,400** |    **2.32** |
 
 > **Defined S4 adoption ceiling:** list per-country **unique user bases + sources** in the Appendix or the linked TAM doc; keep S4 at **\$10**.
-> *Totals computed from unrounded subtotals; displayed components may not sum due to rounding (≤$0.01M).*
 
 ---
 
@@ -542,6 +546,8 @@ We segment monetization into four discrete streams, with explicit **no-double-co
 4. **Attach/adoption uncertainty:** OTA attach and paid-app adoption vary by market.
    *Mitigation:* Use conservative bands; tighten with product analytics post-MVP.
 
+> Note: All calculations use unrounded subtotals; displayed values may not sum exactly due to rounding.
+
 ---
 
 ## SECTION 8 - MVP Canvas Plan — HajjGuide (Pre-Seed)
@@ -550,7 +556,7 @@ We segment monetization into four discrete streams, with explicit **no-double-co
 
 - **Goal:** Prove problem–solution fit and live marketplace feasibility for DIY Umrah, with strict compliance.
 - **Scope:** Offline-first rituals, compliant routing, license-first marketplace, ziyarah discovery, phrasebook; light eSIM.
-- **Primary success gates (v1 beta):** Activation ≥ **40%** in 14 days, Marketplace purchase rate ≥ **25%**, blended take-rate ≥ **12%**, on-time fulfillment ≥ **90%**, refund ≤ **5%**, NPS ≥ **30**.
+- **Primary success gates (v1 beta):** Activation ≥ **40%** in 14 days, Marketplace purchase rate ≥ **25%**, blended take-rate ≥ **12%**, on-time fulfillment ≥ **90%**, refund ≤ **5%**, Net Promoter Score (NPS) ≥ **30**.
 
 ---
 
@@ -647,7 +653,7 @@ We segment monetization into four discrete streams, with explicit **no-double-co
 - Language: `phrase_audio_played`, `translation_used`
 - Acquisition: `install_source_attrib` (imam\_referral, agency\_bundle, fb\_group, wa\_group, organic)
 
-**Computed metrics:** Activation, purchase rate, fill-rate, confirm-time P50/P90, on-time %, WAU/MAU, NPS.
+**Computed metrics:** Activation, purchase rate, fill-rate, confirm-time median (P50) and 90th percentile (P90), on-time %, Weekly to Monthly Active User ratio (WAU/MAU), NPS.
 
 ---
 
@@ -666,8 +672,8 @@ We segment monetization into four discrete streams, with explicit **no-double-co
    Three SKUs with n ≥ 30 per arm; maintain target commission with conversion loss ≤20%.
 
 Optional:
-**E5 — Escrow Copy A/B** (CVR +15% without disputes rising).
-**E6 — Endorsement Badge A/B** (CTR +20%, CVR +10%).
+**E5 — Escrow Copy A/B** (conversion rate +15% without disputes rising).
+**E6 — Endorsement Badge A/B** (CTR +20%, conversion rate +10%).
 
 ---
 
@@ -755,7 +761,7 @@ Feedback → Light Upsell
 
 ### Scope & Current Status
 
-We shipped an **offline-first Umrah guidance MVP** (FlutterFlow) with two modules: **Ritual Mode** (step-by-step checklists) and a **Dua Journal**. The released build had **no audio**, **no AI**, **no ziyarah cards**, and **no provider integrations**. Before December, Wewill add **RAG search (answers with citations)** and **trip-anchored analytics**; Wewill also formalize an **MoU with Taibah Institute**, who will approve and curate content. We will deploy **whatever is production-ready in the first week of December**.
+We shipped an **offline-first Umrah guidance MVP** (FlutterFlow) with two modules: **Ritual Mode** (step-by-step checklists) and a **Dua Journal**. The released build had **no audio**, **no AI**, **no ziyarah cards**, and **no provider integrations**. Before December, We will add **RAG search (answers with citations)** and **trip-anchored analytics**; We will also formalize an **MoU with Taibah Institute**, who will approve and curate content. We will deploy **whatever is production-ready in the first week of December**.
 
 ### Field Signal to Date (Hajj-peak test, June 5–13, 2025; Makkah)
 
@@ -785,7 +791,7 @@ We shipped an **offline-first Umrah guidance MVP** (FlutterFlow) with two module
 ### Hypotheses in Scope (readable narrative + metrics)
 
 **H1 — Problem–solution fit (Umrah guidance, in peak conditions).**
-In December we will validate whether guidance solves an immediate need **during busy periods**. we will consider this passed if **≥50%** of new signups complete a key action in their first session (start a checklist step or create a dua). Because the window is short, **Trip-Day Coverage** will be reported descriptively; for trips that finish within the window, we am targeting **Trip NPS ≥ 40**.
+In December we will validate whether guidance solves an immediate need **during busy periods**. we will consider this passed if **≥50%** of new signups complete a key action in their first session (start a checklist step or create a dua). Because the window is short, **Trip-Day Coverage** will be reported descriptively; for trips that finish within the window, we are targeting **Trip NPS ≥ 40**.
 
 **H1a — Live-during-ritual usage vs pre/post usage.**
 We want to know **when** people actually use guidance (e.g., Tawaf). We will classify events into:
@@ -822,7 +828,7 @@ We will observe whether users prefer **preset duas** or adding **their own**; We
 Activation **≥40%**, **Trip NPS ≥40**, **source-view ≥25%**, **CPI** in band, **K ≥0.70**, **harmful = 0**, crash-free **≥99%**.
 Directional signals: **Live Usage ≥30%** → continue live ritual UX; **Card Engagement high** → expand TripAdvisor-like content; **RAG adoption ≥20%** → continue investing in RAG; **Dua revisits ≥20%** → explore post-trip habit features.
 
-**Iterate (tighten trust/UX)** if a single KPI misses by **≤20%** with clear fixes (shorten onboarding to lift Activation; surface citations earlier to lift source-view; refine chunks/reranker to reduce ambiguity; reword card titles to raise card engagement).
+**Iterate (tighten trust/UX)** if a single Key Performance Indicator (KPI) misses by **≤20%** with clear fixes (shorten onboarding to lift Activation; surface citations earlier to lift source-view; refine chunks/reranker to reduce ambiguity; reword card titles to raise card engagement).
 
 **Pivot (content model)** if **harmful outputs persist** or **Trip NPS < 0** despite fixes: move to **curated, scholar-controlled guidance** under Taibah editorial ownership (no RAG answers), keep analytics, and reassess AI later.
 
@@ -863,7 +869,7 @@ We will not test **H3 (WTP/take-rates)**, **H2/H8/H10 (marketplace liquidity, es
 
 ### Scope anchor
 
-We shipped an offline-first **Umrah Ritual Guidance + Dua Journal** MVP. Before early December we will add **search over vetted sources with citations (RAG)** and **trip-anchored analytics**, governed by an **MoU with Taibah Institute** (Taibah approves what goes in; we implement). This plan defines how we will pivot if December signals are weak and the guardrails we're putting in place against company-ending risks.
+We shipped an offline-first **Umrah Ritual Guidance + Dua Journal** MVP. Before early December we will add **search over vetted sources with citations (RAG)** and **trip-anchored analytics**, governed by an **MoU with Taibah Institute** (Taibah approves what goes in; we implement). This plan defines how we will pivot if December signals are weak and the guardrails we are putting in place against company-ending risks.
 
 ---
 
@@ -879,142 +885,140 @@ We shipped an offline-first **Umrah Ritual Guidance + Dua Journal** MVP. Before 
 
 ### Pivot triggers (explicit)
 
-- **Pre-Umrah Trainer:** Live Usage Ratio **<10%** (vs Pre/Post) despite UX improvements.  
-- **Curated Companion (no RAG):** any harmful output, or trust stays low (**NPS < 0**) after fixes.  
-- **Agency-Led Edition:** activation **<25%** after a confirmation test.  
+- **Pre-Umrah Trainer:** Live Usage Ratio **<10%** (vs Pre/Post) despite UX improvements.
+- **Curated Companion (no RAG):** any harmful output, or trust stays low (**NPS < 0**) after fixes.
+- **Agency-Led Edition:** activation **<25%** after a confirmation test.
 - **Partner-only OTA:** Umrah license remains out of reach; sell via licensed agencies until licensing is viable.
 
 ---
 
-### What Wewill watch for (feature-direction signals)
+### What We will watch for (feature-direction signals)
 
-- **Live vs Pre/Post usage** in Tawaf/Sa’i → direction of investment (live UX vs pre-trip lessons).  
-- **Ziyarah/Local cards** (content-only) → if ≥50% of active travelers open ≥2 cards with healthy dwell time, expand toward a **TripAdvisor-like** layer.  
-- **AI (RAG) usage** → if <20% of actives use RAG while **source-views** remain high, prioritize **curated** answers.  
+- **Live vs Pre/Post usage** in Tawaf/Sa’i → direction of investment (live UX vs pre-trip lessons).
+- **Ziyarah/Local cards** (content-only) → if ≥50% of active travelers open ≥2 cards with healthy dwell time, expand toward a **TripAdvisor-like** layer.
+- **AI (RAG) usage** → if <20% of actives use RAG while **source-views** remain high, prioritize **curated** answers.
 - **Dua behavior** → preset vs custom; any **post-trip revisits** may justify light habit features.
 
 ---
 
 ### 30 company-ending risks — with guardrails/mitigations
 
-(Grouped; each shows Likelihood/Impact and the specific guardrail we are implementing now.)
-
 #### Market (10)
 
-1) **Fail to secure presence in Indonesia, Malaysia, Bangladesh (local + online).** — *L:Med I:High*  
+1) **Fail to secure presence in Indonesia, Malaysia, Bangladesh (local + online).** — *L:Med I:High*
    **Guardrail:** focus on BD first (language fit); seed through imam/agency cohorts; instrument geo funnel and shift spend by CPA.
 
-2) **Strong disinterest in paying for religious apps.** — *L:Med I:High*  
+2) **Strong disinterest in paying for religious apps.** — *L:Med I:High*
    **Guardrail:** keep core free; delay paywalls; validate B2B licensing/white-label before any B2C pricing.
 
-3) **Pilgrims prefer human guides over apps.** — *L:Med I:High*  
+3) **Pilgrims prefer human guides over apps.** — *L:Med I:High*
    **Guardrail:** position as scholar-endorsed companion; distribute via group leaders; maintain printable packs.
 
-4) **Phones are hard to use during rituals.** — *L:High I:High*  
+4) **Phones are hard to use during rituals.** — *L:High I:High*
    **Guardrail:** optimize for pre-trip learning; one-tap quick-glance screens; no mandatory live flows.
 
-5) **Low trust in religious answers from an app.** — *L:Med I:High*  
+5) **Low trust in religious answers from an app.** — *L:Med I:High*
    **Guardrail:** Taibah MoU; citations by default; refusal policy; curated fallback switch.
 
-6) **Highly seasonal demand.** — *L:High I:Med*  
+6) **Highly seasonal demand.** — *L:High I:Med*
    **Guardrail:** lean cost base; plan around Umrah peaks; create pre-trip training that works off-peak.
 
-7) **Language/fiqh differences cause confusion.** — *L:Med I:Med*  
+7) **Language/fiqh differences cause confusion.** — *L:Med I:Med*
    **Guardrail:** label sources/schools; Bangla/English now, Bahasa next; show variants transparently.
 
-8) **App fatigue for short trips.** — *L:Med I:Med*  
+8) **App fatigue for short trips.** — *L:Med I:Med*
    **Guardrail:** ≤60s onboarding to first action; QR flows via imams; web/print previews.
 
-9) **Word-of-mouth stalls outside early network.** — *L:Med I:Med*  
+9) **Word-of-mouth stalls outside early network.** — *L:Med I:Med*
    **Guardrail:** referral hooks in group settings; community partnerships; track K and shift budget accordingly.
 
-10) **Content for different schools appears blasphemous to one another.** — *L:Low I:High*  
+10) **Content for different schools appears blasphemous to one another.** — *L:Low I:High*
     **Guardrail:** editorial notes + citations; clearly surface multiple opinions; rapid correction protocol with Taibah.
 
 #### Execution (8)
 
-11) **RAG answers wrong/unclear too often.** — *L:Med I:High*  
+11) **RAG answers wrong/unclear too often.** — *L:Med I:High*
     **Guardrail:** refusal-first defaults; 24-hour scholar review queue; instant kill-switch to curated content.
 
-12) **Analytics not ready in December (no learnings).** — *L:Med I:High*  
+12) **Analytics not ready in December (no learnings).** — *L:Med I:High*
     **Guardrail:** minimal TripID event set shipped first; dry-run dashboards; redundant log export.
 
-13) **Onboarding friction; activation remains low.** — *L:Med I:High*  
+13) **Onboarding friction; activation remains low.** — *L:Med I:High*
     **Guardrail:** one-screen value prop; WhatsApp/phone login; auto-start first checklist step.
 
-14) **FlutterFlow/tech limits cause offline/perf issues.** — *L:Low I:Med*  
+14) **FlutterFlow/tech limits cause offline/perf issues.** — *L:Low I:Med*
     **Guardrail:** small content bundles; staged rollouts; crash monitoring; offload search to service.
 
-15) **Content licensing/permissions gaps.** — *L:Low I:Med*  
+15) **Content licensing/permissions gaps.** — *L:Low I:Med*
     **Guardrail:** rights inventory; permissive sources; swap-out plan vetted by counsel.
 
-16) **Scholar review bandwidth too thin.** — *L:Med I:Med*  
+16) **Scholar review bandwidth too thin.** — *L:Med I:Med*
     **Guardrail:** narrow scope (Top-100); batch reviews; templated annotations; secondary reviewers.
 
-17) **KSA censorship makes key cloud/components unavailable.** — *L:Med I:High*  
+17) **KSA censorship makes key cloud/components unavailable.** — *L:Med I:High*
     **Guardrail:** offline-first packs; region-redundant hosting; avoid blocked services; pre-trip value focus.
 
-18) **App performance degraded on low-end Android devices.** — *L:Med I:High*  
+18) **App performance degraded on low-end Android devices.** — *L:Med I:High*
     **Guardrail:** test on low-RAM devices; limit animations; compress assets; strict APK size budget.
 
 #### Competitive & reputational (5)
 
-19) **Official/Nusuk or large apps ship superior guidance + endorsements.** — *L:Med I:High*  
+19) **Official/Nusuk or large apps ship superior guidance + endorsements.** — *L:Med I:High*
     **Guardrail:** differentiate on cited depth, offline UX, and pre-trip training; explore partnerships/white-label.
 
-20) **Agencies replicate checklists inside WhatsApp.** — *L:Med I:Med*  
+20) **Agencies replicate checklists inside WhatsApp.** — *L:Med I:Med*
     **Guardrail:** provide better content + analytics; offer white-label packs to agencies.
 
-21) **Published content or AI misguides pilgrims to miss a key ritual.** — *L:Low I:High*  
+21) **Published content or AI misguides pilgrims to miss a key ritual.** — *L:Low I:High*
     **Guardrail:** conservative wording; no prescriptive timing/directions; insurance + crisis comms plan; curated fallback.
 
-22) **Viral misinformation (sectarian/foreign influence claims).** — *L:Med I:Med*  
+22) **Viral misinformation (sectarian/foreign influence claims).** — *L:Med I:Med*
     **Guardrail:** transparent sourcing page; community spokespeople; rapid clarification posts with scholars.
 
-23) **App-store delisting (policy/misinformation).** — *L:Low I:High*  
+23) **App-store delisting (policy/misinformation).** — *L:Low I:High*
     **Guardrail:** policy audit; staged rollouts; appeal kit ready; alternate distribution plan.
 
 #### Financial & regulatory (4)
 
-24) **Restrictions on moving funds between user-pay countries and my company’s country.** — *L:Med I:High*  
+24) **Restrictions on moving funds between user-pay countries and our company’s country.** — *L:Med I:High*
     **Guardrail:** multi-currency accounts; invoicing via partners; conservative cash buffers.
 
-25) **Ban on vendors selling Umrah packages without a license, blocking white-label/resell.** — *L:Med I:High*  
+25) **Ban on vendors selling Umrah packages without a license, blocking white-label/resell.** — *L:Med I:High*
     **Guardrail:** avoid resale until licensed; partner-led distribution; prepare license dossier.
 
-26) **CPI spikes above sustainable bands across peaks.** — *L:Med I:Med*  
+26) **CPI spikes above sustainable bands across peaks.** — *L:Med I:Med*
     **Guardrail:** bid caps; creative rotation; imam/agency channels to lift virality (K).
 
-27) **Runway ends before proof points.** — *L:Med I:High*  
+27) **Runway ends before proof points.** — *L:Med I:High*
     **Guardrail:** ruthless scope; investor snapshot pre-built; B2B pilots; grant/accelerator pipeline.
 
 #### Team (3)
 
-28) **Bad hire or no hire for BD lead to build Saudi relationships.** — *L:Med I:High*  
+28) **Bad hire or no hire for BD lead to build Saudi relationships.** — *L:Med I:High*
     **Guardrail:** interim advisors; part-time BD; clear partner criteria; staged targets.
 
-29) **Context switching (build/sales/content) reduces quality.** — *L:Med I:Med*  
+29) **Context switching (build/sales/content) reduces quality.** — *L:Med I:Med*
     **Guardrail:** blocked maker time; weekly priority review; async updates; cut non-critical work.
 
-30) **Burnout during or after December.** — *L:Med I:High*  
+30) **Burnout during or after December.** — *L:Med I:High*
     **Guardrail:** scope freeze for the sprint; daily “must-ship” list; recovery buffer post-launch.
 
 ---
 
 ### High-priority mitigation program (cross-cutting)
 
-1) **Trust & safety first:** Taibah MoU, citations everywhere, refusal-first RAG, 24-hour review, curated kill-switch.  
-2) **Trip-anchored analytics:** minimal, reliable telemetry to learn from December even at small scale.  
-3) **Activation discipline:** ≤60-second onboarding, auto-start first action, localization.  
-4) **Offline reliability:** small packs, staged rollouts, low-end Android testing, crash-free target ≥99%.  
+1) **Trust & safety first:** Taibah MoU, citations everywhere, refusal-first RAG, 24-hour review, curated kill-switch.
+2) **Trip-anchored analytics:** minimal, reliable telemetry to learn from December even at small scale.
+3) **Activation discipline:** ≤60-second onboarding, auto-start first action, localization.
+4) **Offline reliability:** small packs, staged rollouts, low-end Android testing, crash-free target ≥99%.
 5) **Capital efficiency:** concentrate spend on Umrah peaks, lean ops between peaks, B2B pilots to diversify revenue.
 
 ---
 
 ### Alternate ideas (for future optionality)
 
-1) **Taibah Companion (B2B/B2C):** scholar-curated prep app + printable packs; license to agencies/imams; optional consumer prep module.  
-2) **Group Leader Console (B2B):** distribute checklists/reminders; view opt-in milestones; reduce on-trip confusion.  
+1) **Taibah Companion (B2B/B2C):** scholar-curated prep app + printable packs; license to agencies/imams; optional consumer prep module.
+2) **Group Leader Console (B2B):** distribute checklists/reminders; view opt-in milestones; reduce on-trip confusion.
 3) **Masjid Prep Kits (B2B2C):** turnkey workshop (slides + QR packs) ahead of Umrah peaks to drive organic installs.
 
 ---
@@ -1023,7 +1027,7 @@ We shipped an offline-first **Umrah Ritual Guidance + Dua Journal** MVP. Before 
 
 ### Our call (concise)
 
-**GO.** We will accept pre-seed now and keep validating while we build, using clear milestone gates and pre-committed pivots.
+**GO - We proceed with confidence based on validated demand and clear execution path.**
 
 ---
 
@@ -1108,11 +1112,6 @@ We will deploy pre-seed to:
 **Bottom line:** we proceed with **GO**, release funds against these gates, and treat December as a validation **stage to fine-tune direction**, not as the go/no-go determinant.
 
 ---
-
-Perfect—here’s a clean, **drop-in Appendix** you can paste **after Section 9** in your thesis, plus the exact places to point to it from Sections 4 and 7.
-
----
-
 ## APPENDICES
 
 ### Appendix A — Canonical Data Sources for Market Research (2024)
@@ -1211,7 +1210,6 @@ Adoption bands shown for sensitivity (**Low 8%**, **Base 12.5%**, **High 20%**).
 - **iOS paid installs:** 40 on **\$59.28** spend → CPI **\$1.48**; organic during campaign **28** → total **68** (blended ≈ **\$0.87/install**).
 - **Cumulative iOS installs:** **91**; **Play Store:** **12**.
 - App **free**, **no signup** (baseline for adoption funnel in MVP).
-  *(Use as a starting point; upgrade with cohort retention once analytics ship.)*
 
 ---
 
@@ -1246,7 +1244,7 @@ Adoption bands shown for sensitivity (**Low 8%**, **Base 12.5%**, **High 20%**).
 [23]: https://www.getnomad.app/saudi-arabia-eSIM "Saudi Arabia eSIM, from USD 5 | Prepaid Travel eSIM"
 [24]: https://nasholidays.com/umrah_packages/en "Flynas Umrah Packages"
 [25]: https://www.saudia.com/pages/travel-with-saudia/book-with-us/umrah-by-saudia "Saudia Airlines Umrah Information"
-[26]: https.iflyamal.com/ "Amal by Malaysia Airlines"
+[26]: https://iflyamal.com/ "Amal by Malaysia Airlines"
 [27]: https://www.muslimpro.com/umrah/ "Umrah by Muslim Pro"
 [28]: https://sharetrip.net/ "ShareTrip"
 [29]: https://www.gozayaan.com/ "GoZayaan"
