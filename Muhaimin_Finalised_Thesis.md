@@ -274,6 +274,17 @@ Partner with **licensed local travel agencies** in key origin markets to:
 | Solaiman                  | Hajj transport and guide provider                          | Available upon request | Buyer    | Expert             | Completed | 2024-08-08     | KSA        | Local Provider       | Transport provider; \~20% referral workable; favors fixed-fare + licensed drivers; supports escrowed bookings.                                     |
 | Md Shahjad Hussain Jishan | Performed Hajj and Umrah                                   | Available upon request | User     |                    | Completed | 2024-08-08     | Bangladesh | Pilgrim-Repeat       | transport logistics & routing; guided tour/Ziyarah expectations; compliance & permits                                                              |
 
+#### Research Provenance (Raw Hypothesis + Question Bank + Media)
+
+To keep this report concise, the **initial hypotheses (H0_raw)** and the full **question bank (QB_raw)** are **not reproduced here**. They are archived—with meeting notes (MN), and raw media (RM) our interview glossary.
+
+**Repository (view-only):** [Interview Glossary — Provenance Bundle](https://drive.google.com/drive/folders/1Nl2WR8vFc7RmS8BeiXq9PS4L2vOr__OX)
+**As of:** 2025-08-14 • **Version:** v1.0
+
+**Contents:** `HYPOTHESES_catalog`, `OPERATOR_Question_Bank`, `PILGRIM_Question_Bank`, `MN_index.csv`, `RM_index.csv` (+ consent metadata)
+
+> *Privacy note:* Personally identifying details are presented in the bundle; Only produced for Hasan.VC affiliated members.
+
 ---
 
 ## SECTION 5 — Hypothesis Mapping
@@ -403,9 +414,9 @@ We serve two primary customers—pilgrims (B2C) and group leaders/agencies (B2B)
 - **Foreign Umrah performers (2024):** 16.80 million (GASTAT, summarized by [Argaam](https://www.argaam.com/en/article/articledetail/id/1799151))
 - **Foreign Hajj pilgrims (2024):** 1,611,310 ([GASTAT — Hajj Statistics Publication 2024](https://www.stats.gov.sa/documents/20117/2435281/Hajj%2BStatistics%2BPublication%2B2024EN.pdf))
 
-**Full derivation:** see **[Detailed TAM Calculation (2024)](https://www.notion.so/TAM-CALCULATION-24e2ba3e525180899f80dd7d4924fc00)**
+**Full derivation:** see **[Detailed TAM Calculation (2024)](https://www.notion.so/TAM-CALCULATION-24e2ba3e525180899f80dd7d4924fc00)**; supporting assumptions, sources, S4 adoption bases, and SAM/SOM details are in Appendices A–E at the end of this document.
 
-> ¹ Totals computed from **unrounded** subtotals; displayed components may not sum due to rounding (≤\$0.01M).
+> Totals computed from **unrounded** subtotals; displayed components may not sum due to rounding (≤\$0.01M).
 
 ---
 
@@ -512,7 +523,7 @@ We segment monetization into four discrete streams, with explicit **no-double-co
 | Bangladesh |           0.02 |       400 |           0.07 |       7,400 |          0.21 |     1,000 |          0.04 |      4,000 |        0.35 |
 | **Total**  |       **0.36** | **8,900** |       **1.15** | **114,700** |      **0.67** | **3,200** |      **0.14** | **14,400** |    **2.32** |
 
-> **Define S4 adoption ceiling:** list per-country **unique user bases + sources** in the Appendix or the linked TAM doc; keep S4 at **\$10**.
+> **Defined S4 adoption ceiling:** list per-country **unique user bases + sources** in the Appendix or the linked TAM doc; keep S4 at **\$10**.
 > *Totals computed from unrounded subtotals; displayed components may not sum due to rounding (≤$0.01M).*
 
 ---
@@ -530,33 +541,6 @@ We segment monetization into four discrete streams, with explicit **no-double-co
 
 4. **Attach/adoption uncertainty:** OTA attach and paid-app adoption vary by market.
    *Mitigation:* Use conservative bands; tighten with product analytics post-MVP.
-
----
-
-### Appendix A — Methodology & Formulae
-
-**Currency & rounding:** USD; revenues rounded to \$0.01M; user counts to nearest 100.
-**No-double-count:** S1/S3 → DIY Umrah only; S2 → agency cohorts; Hajj → **S2+S4** only; S4 on **unique users**.
-
-**Core calculations:**
-
-- **S3 (DIY):** (ADR × LOS × **14.3%** × hotel attach) + (Return fare × **2%** × flight attach)
-- **S1 (DIY):** Σ(attach × price × commission) across local services
-- **S2:** pilgrims × package price × referral %
-- **S4:** unique users × **\$10** × adoption
-
----
-
-### Appendix B — Core Data Sources (canonical links)
-
-1. **Umrah 2024 foreign performers:** Argaam summary of GASTAT official statistics — [https://www.argaam.com/en/article/articledetail/id/1799151](https://www.argaam.com/en/article/articledetail/id/1799151)
-2. **Hajj 2024 foreign pilgrims:** GASTAT — *Hajj Statistics Publication 2024 (PDF)* — [https://www.stats.gov.sa/documents/20117/2435281/Hajj%2BStatistics%2BPublication%2B2024EN.pdf](https://www.stats.gov.sa/documents/20117/2435281/Hajj%2BStatistics%2BPublication%2B2024EN.pdf)
-3. **Booking Holdings FY2024:** Form 10-K — “Total revenues as % of gross bookings: **14.3%**.” — [https://www.sec.gov/Archives/edgar/data/1075531/000107553125000010/bkng-20241231.htm](https://www.sec.gov/Archives/edgar/data/1075531/000107553125000010/bkng-20241231.htm)
-4. **Expedia Group FY2024:** Results overview — lodging ≈80% of revenue; air low-margin — [https://www.expediagroup.com/investors/news-and-events/financial-releases/news/news-details/2025/Expedia-Group-Reports-Fourth-Quarter-and-Full-Year-2024-Results/default.aspx](https://www.expediagroup.com/investors/news-and-events/financial-releases/news/news-details/2025/Expedia-Group-Reports-Fourth-Quarter-and-Full-Year-2024-Results/default.aspx)
-5. **Hajj quotas 2024:** Indonesia — [https://en.antaranews.com/news/302688/indonesia-to-send-241000-people-to-this-years-hajj-pilgrimage](https://en.antaranews.com/news/302688/indonesia-to-send-241000-people-to-this-years-hajj-pilgrimage) • Malaysia — [https://themalaysianreserve.com/2024/06/14/31600-malaysian-hajj-pilgrims-start-moving-to-arafah/](https://themalaysianreserve.com/2024/06/14/31600-malaysian-hajj-pilgrims-start-moving-to-arafah/) • Bangladesh — [https://today.thefinancialexpress.com.bd/last-page/127198-can-perform-hajj-in-2024-1691000221](https://today.thefinancialexpress.com.bd/last-page/127198-can-perform-hajj-in-2024-1691000221)
-6. **Regulatory context:** Nusuk (Ministry of Hajj & Umrah) — [https://hajj.nusuk.sa/](https://hajj.nusuk.sa/) • U.S. State Dept — Hajj & Umrah advisory — [https://travel.state.gov/content/travel/en/international-travel/before-you-go/travelers-with-special-considerations/hajj.html](https://travel.state.gov/content/travel/en/international-travel/before-you-go/travelers-with-special-considerations/hajj.html)
-7. **KSA OTA context:** WebInTravel (2024) — Saudi online travel/OTA market overview  - [https://www.webintravel.com/saudi-arabia-online-travel-agency-ota-market-skyrockets-ota-air-gbv-hits-us1-9-billion-hotel-climbs-to-2-3-billion/](https://www.webintravel.com/saudi-arabia-online-travel-agency-ota-market-skyrockets-ota-air-gbv-hits-us1-9-billion-hotel-climbs-to-2-3-billion/)
-8. **Cross-reference:** [Detailed TAM Calculation (2024)](https://www.notion.so/TAM-CALCULATION-24e2ba3e525180899f80dd7d4924fc00)
 
 ---
 
@@ -1122,6 +1106,118 @@ We will deploy pre-seed to:
 ---
 
 **Bottom line:** we proceed with **GO**, release funds against these gates, and treat December as a validation **stage to fine-tune direction**, not as the go/no-go determinant.
+
+---
+
+Perfect—here’s a clean, **drop-in Appendix** you can paste **after Section 9** in your thesis, plus the exact places to point to it from Sections 4 and 7.
+
+---
+
+## APPENDICES
+
+### Appendix A — Canonical Data Sources for Market Research (2024)
+
+- **Umrah 2024 foreign performers** — GASTAT (via Argaam): [https://www.argaam.com/en/article/articledetail/id/1799151](https://www.argaam.com/en/article/articledetail/id/1799151)
+- **Hajj 2024 foreign pilgrims** — GASTAT PDF: [https://www.stats.gov.sa/documents/20117/2435281/Hajj%2BStatistics%2BPublication%2B2024EN.pdf](https://www.stats.gov.sa/documents/20117/2435281/Hajj%2BStatistics%2BPublication%2B2024EN.pdf)
+- **Booking Holdings FY2024 10-K** (take-rate 14.3%): [https://www.sec.gov/Archives/edgar/data/1075531/000107553125000010/bkng-20241231.htm](https://www.sec.gov/Archives/edgar/data/1075531/000107553125000010/bkng-20241231.htm)
+- **Expedia FY2024 results** (air low-margin context): [https://www.expediagroup.com/investors/news-and-events/financial-releases/news/news-details/2025/Expedia-Group-Reports-Fourth-Quarter-and-Full-Year-2024-Results/default.aspx](https://www.expediagroup.com/investors/news-and-events/financial-releases/news/news-details/2025/Expedia-Group-Reports-Fourth-Quarter-and-Full-Year-2024-Results/default.aspx)
+- **Hajj quotas 2024** — ID: [https://en.antaranews.com/news/302688/…](https://en.antaranews.com/news/302688/…) • MY: [https://themalaysianreserve.com/2024/06/14/31600-malaysian-hajj-pilgrims-start-moving-to-arafah/](https://themalaysianreserve.com/2024/06/14/31600-malaysian-hajj-pilgrims-start-moving-to-arafah/) • BD: [https://today.thefinancialexpress.com.bd/last-page/127198-can-perform-hajj-in-2024-1691000221](https://today.thefinancialexpress.com.bd/last-page/127198-can-perform-hajj-in-2024-1691000221)
+- **KSA OTA context (WebInTravel, 2024)**: [https://www.webintravel.com/saudi-arabia-online-travel-agency-ota-market-skyrockets-ota-air-gbv-hits-us1-9-billion-hotel-climbs-to-2-3-billion/](https://www.webintravel.com/saudi-arabia-online-travel-agency-ota-market-skyrockets-ota-air-gbv-hits-us1-9-billion-hotel-climbs-to-2-3-billion/)
+- **Regulatory rails** — Nusuk: [https://hajj.nusuk.sa/](https://hajj.nusuk.sa/) • US State Dept advisory: [https://travel.state.gov/content/travel/en/international-travel/before-you-go/travelers-with-special-considerations/hajj.html](https://travel.state.gov/content/travel/en/international-travel/before-you-go/travelers-with-special-considerations/hajj.html)
+- **Full derivation** — Detailed TAM Calculation (Notion): [https://www.notion.so/TAM-CALCULATION-24e2ba3e525180899f80dd7d4924fc00](https://www.notion.so/TAM-CALCULATION-24e2ba3e525180899f80dd7d4924fc00)
+
+---
+
+### Appendix B — TAM Methodology & Assumptions (2024 Base)
+
+#### **Streams & formulae**
+
+- **S1 (DIY local services):** Σ(attach × price × commissio
+- **S2 (agency referrals):** pilgrims × package price × referral
+- **S3 (DIY OTA-like):** (ADR × LOS × **14.3%** × hotel attach) + (Return fare × **2%** × flight attach)
+- **S4 (paid app):** unique users × **\$10** × adoption
+
+**Base pointers used in Section 7:** DIY share **40%**; ADR **\$80**; LOS **6**; hotel attach **80%**; take-rate **14.3%**; return fare **\$700**; air take-rate **2%**; air attach **50%**; S1 per-DIY **\$21.06**; S2 Umrah **\$2,000 × 2%**; S4 Umrah **0.85 × \$10**; Hajj S2 **\$7,000 × 3%**; Hajj S4 **\$10**.
+**Bands:** show 1–3% for air take, ± for ADR/LOS/attach, and referral 1–3% / \$1.5k–\$2.5k.
+
+---
+
+### Appendix C — S4 Adoption Bases (ID • MY • BD)
+
+**Method:** Unique user bases are **implied from Section 7 SOM** using
+$\text{Unique base} = \frac{\text{Payers(Base)}}{0.125}$ (Base adoption **12.5%**; price fixed at **\$10**).
+Adoption bands shown for sensitivity (**Low 8%**, **Base 12.5%**, **High 20%**).
+
+| Country    | Unique user base definition (source)                               | Low adoption | **Base adoption** | High adoption | **Payers (Base)** |
+| ---------- | ------------------------------------------------------------------ | -----------: | ----------------: | ------------: | ----------------: |
+| Indonesia  | **688,800** unique app-addressable pilgrims *(SOM payers ÷ 12.5%)* |         8.0% |         **12.5%** |         20.0% |        **86,100** |
+| Malaysia   | **169,600** unique app-addressable pilgrims *(SOM payers ÷ 12.5%)* |         8.0% |         **12.5%** |         20.0% |        **21,200** |
+| Bangladesh | **59,200** unique app-addressable pilgrims *(SOM payers ÷ 12.5%)*  |         8.0% |         **12.5%** |         20.0% |         **7,400** |
+
+---
+
+### Appendix D — SAM Inputs & Sensitivity (2024)
+
+- **Geos:** BD, ID, MY. **Streams:** S2 (referrals), S4 (app).
+- **Hajj:** Quotas per Appendix A; S2/S4 only.
+- **Umrah:** Origin counts pulled from official + industry; sensitivity range maintained (Low/Base/High).
+- **Rounding:** Totals from unrounded subtotals (±\$0.01M).
+
+---
+
+### Appendix E — SOM Targets & Capacity Constraints (12-Month)
+
+- **Targets:** Umrah S2 — ID **0.6%**, MY **1.0%**, BD **0.3%** of agency cohorts; Hajj S2 **0.8%**; S4 **12.5%** of adoption ceiling.
+- **Hajj seat cap:** **≤5,000** seats/year (current plan ≤3,200).
+- **KPIs:** Activation ≥40%, purchase ≥25%, blended take ≥12%, on-time ≥90%, refund ≤5%.
+
+---
+
+### Appendix F — Interview Glossary & Provenance (Indexes)
+
+**Repository (view-only):** Interview Glossary — Provenance Bundle - [Drive link](https://drive.google.com/drive/folders/1Nl2WR8vFc7RmS8BeiXq9PS4L2vOr__OX?usp=sharing)
+**Contents:**
+
+- `HYPOTHESES_catalog`
+- `OPERATOR_Question_Bank`
+- `PILGRIM_Question_Bank`
+- `MN_index_private` (Meeting notes)
+- `RM_index_private` (Raw Media)
+
+> **Privacy note:** Personally identifying details are presented in the bundle; Only produced for Hasan.VC affiliated members.
+
+---
+
+### Appendix G — Analytics Event Dictionary for future release (v1)
+
+**Entities:** `user_id`, `trip_id`, `session_id`, `city`, `vendor_id`, `sku_id`, `install_source`
+**Events:** `onboard_complete`, `offline_pack_downloaded`, `ritual_start`, `ritual_step_completed`, `ritual_finish`, `ritual_error_undo`, `map_opened`, `poi_viewed`, `poi_saved`, `map_returned`, `service_quote_viewed`, `service_booked`, `service_paid_escrow`, `service_completed`, `dispute_opened`, `refund_processed`, `route_request`, `route_blocked`, `route_rerouted_permit_ok`, `phrase_audio_played`, `translation_used`, `install_source_attrib`
+**Computed:** Activation, purchase-rate, fill-rate, confirm-time P50/P90, on-time %, WAU/MAU, NPS.
+
+---
+
+### Appendix H — Regulatory & Licensing Checklist (KSA)
+
+- **Hajj**: Sales only via authorized platforms (e.g., **Nusuk**).
+- **Travel & Tourism Services license** (or licensed partner) required for OTA-like S3.
+- **Supplier KYC**: license ID + expiry; spot audits; visible badges.
+- **PDPL/consent**: location/mic opt-in logs; minimal data collection.
+- **Dispute SOP**: intake ≤24h; resolve ≤72h; version-controlled.
+
+---
+
+### Appendix I — Early CAC/LTV Snapshot (pre-seed signals)
+
+- **iOS paid installs:** 40 on **\$59.28** spend → CPI **\$1.48**; organic during campaign **28** → total **68** (blended ≈ **\$0.87/install**).
+- **Cumulative iOS installs:** **91**; **Play Store:** **12**.
+- App **free**, **no signup** (baseline for adoption funnel in MVP).
+  *(Use as a starting point; upgrade with cohort retention once analytics ship.)*
+
+---
+
+### Appendix J — Definitions & Acronyms
+
+**ADR** average daily rate • **LOS** length of stay • **Attach** % of eligible users who take a path • **Take-rate** platform revenue ÷ GBV • **S1–S4** monetization streams (see Section 7) • **DIY** self-guided • **SAM/SOM/TAM** market layers.
 
 ---
 
