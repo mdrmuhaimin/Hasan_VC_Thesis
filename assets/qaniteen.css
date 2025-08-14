@@ -1,0 +1,53 @@
+/* --- Brand colors --- */
+:root {
+  --md-primary-fg-color: #000000;  /* Black primary */
+  --md-accent-fg-color: #cfa93f;   /* Subtle Kaaba gold accent */
+  --md-default-bg-color: #ffffff;  /* White background */
+  --md-default-fg-color: #000000;  /* Black text */
+  --md-code-bg-color: #f8f8f8;     /* Light grey for code blocks */
+}
+
+/* --- Layout adjustments for investor readability --- */
+.md-grid { max-width: 1100px; }
+.md-content { font-size: 17px; line-height: 1.7; }
+
+/* Headings: black with gold underline for H1 only */
+.md-typeset h1 {
+  border-bottom: 3px solid #cfa93f;
+  padding-bottom: 0.3rem;
+}
+.md-typeset h2, .md-typeset h3 {
+  color: #000000;
+}
+
+/* Blockquotes: thin gold line accent */
+.md-typeset blockquote {
+  border-left: 3px solid #cfa93f;
+  padding-left: 0.9rem;
+  color: #333333;
+}
+
+/* Tables: minimal borders + gold header underline */
+.md-typeset table {
+  border-collapse: collapse;
+  display: block;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+.md-typeset table th {
+  border-bottom: 2px solid #cfa93f;
+  font-weight: bold;
+  background: #fafafa;
+}
+.md-typeset table td {
+  border-bottom: 1px solid #e0e0e0;
+}
+
+/* Links: black with gold hover */
+.md-typeset a {
+  color: #000000;
+  text-decoration: underline;
+}
+.md-typeset a:hover {
+  color: #cfa93f;
+}
