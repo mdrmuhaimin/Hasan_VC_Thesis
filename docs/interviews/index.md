@@ -30,3 +30,4 @@
 | Tahmeed Sharif | [Raw](./raw_transcript/28._Name_Tahmeed_Sharif.md) | [GPT-5](./gpt5_notes/21_Tahmeed_Sharif.md) | [Gemini](./gemini_notes/28._Name_Tahmeed_Sharif.md) |
 | Wayes Kuruni Azad | [Raw](./raw_transcript/29._Name_Wayes_Kuruni_Azad.md) | [GPT-5](./gpt5_notes/22_Wayes_Kuruni_Azad.md) | [Gemini](./gemini_notes/29._Name_Wayes_Kuruni_Azad.md) |
 | Zohorah Khanam | [Raw](./raw_transcript/30._Name_Zohorah_Khanam.md) | [GPT-5](./gpt5_notes/24_Zohorah_Khanam.md) | [Gemini](./gemini_notes/30._Name_Zohorah_Khanam.md) |
+| Shajed Setu | [Raw](./raw_transcript/31_Sajed_Shetu.md) | [GPT-5](./gpt5_notes/31_Sajed_Shetu.md) | N/A |
