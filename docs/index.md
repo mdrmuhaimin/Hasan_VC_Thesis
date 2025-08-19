@@ -34,53 +34,68 @@ Planned use of funds includes:
 **Licensing Note:**  
 HajjGuide will not sell Hajj packages directly. Package-style bookings will only be conducted through licensed partners or once appropriate licenses are secured.
 
-## SECTION 1: STRATEGIC EXECUTION MODEL
+---
 
-We have identified a critical gap in the $1.45B religious tourism market:
+## Section 1: Strategic Execution Model
+
+We have identified a critical gap in the **$1.45 billion religious tourism market**. 
 **Selected Approach:** **Hybrid Model** – Rocket Internet rigor on supply onboarding, pricing control, and unit economics, combined with BCGDV Solve Model for high-context, regulated in-destination Umrah workflows.
 
-**Justification:**
-We occupy the **post-booking gap** where generic OTAs fail — delivering an offline Ritual Mode, licensed local services marketplace, and curated Ziyarah Explorer for Makkah, Madinah, Taif, and Jeddah.
-This hybrid approach leverages proven marketplace and OTA mechanics while solving unique, “hair-on-fire” pilgrimage needs — compliance, offline usability, and high-context guidance.
+**Our Focus:**  
+We address the *post-booking gap* where traditional online travel agencies (OTAs) fall short. HajjGuide delivers three core services:
+
+- An **offline Ritual Mode** for step-by-step guidance without requiring internet access.  
+- A **licensed local services marketplace** for trusted bookings in Makkah, Madinah, Taif, and Jeddah.  
+- A **curated Ziyarah Explorer** to help pilgrims navigate religious and historical sites.  
+
+This approach combines the efficiency of digital marketplaces with deep sensitivity to compliance, offline usability, and high-context religious guidance.
 By focusing on *in-destination service orchestration*, we create an immediate trust moat in a highly regulated, culturally sensitive environment.
 
 ### Evaluation Scores
 
-- **Market Timing:** – Umrah volumes are rapidly growing post-pandemic, supported by Saudi Vision 2030’s target of 30 million annual pilgrims ([source][1]). Regulatory enforcement against unlicensed operators is increasing, pushing market demand toward compliant, verified services ([SPA suspension][2], [Gulf News][3]).
-- **Team Capability:** – Founder Muhammad Raihan Muhaimin (full-time) brings dual strengths in pilgrimage domain expertise and AI/ML product development. Accelerator and pre-seed support from venture studio adds operational leverage.
-- **Resource Requirements:** – Licensing, marketplace build, AI-driven offline companion development, multi-language content, and compliance infrastructure require moderate-to-high upfront investment.
-- **Competitive Landscape:** – No dominant, vertically integrated in-destination digital platform exists; competitors are either generic OTAs or fragmented offline operators. Our license-first marketplace and offline mode create strong defensibility.
+- **Market Timing:** Umrah volumes are accelerating post-pandemic, with Saudi Vision 2030 targeting **30 million annual pilgrims**  ([Vision 2030][1]). At the same time, Saudi authorities are cracking down on unlicensed operators, driving demand toward compliant, verified platforms ([Saudi Press Agency suspension][2]; [Gulf News][3]).  
+- **Team Capability:** Founder **Muhammad Raihan Muhaimin** brings dual expertise in pilgrimage operations and AI/ML product development. Backing from a venture studio provides additional resources and early-stage support.  
+- **Resource Requirements:** Moderate-to-high investment is needed to secure licenses, build the marketplace, develop the AI-powered offline companion, and produce multi-language verified content.  
+- **Competitive Landscape:** No single platform dominates in-destination digital services. Current competitors are either general OTAs or fragmented offline operators. Our license-first marketplace and offline Ritual Mode create strong defensibility.
 
-### Team Commitment Evidence
+### Team Commitment
 
-- Founder: Muhammad Raihan Muhaimin — full-time, background in AI/ML and religious tourism.
-- Venture Studio (EIR role) providing structural and funding support for transition to accelerator phase with pre-seed funding upon qualification.
+- **Founder:** Muhammad Raihan Muhaimin (full-time) — background in AI/ML and religious tourism.  
+- **Venture Studio:** Providing structural support and early funding to transition into accelerator and pre-seed phases.  
 
-### Scrappy Problem-Solving Examples
+### Evidence of Problem-Solving
 
-- Manually curated flight-visa-hotel Umrah bundles and Hajj Packages for pilgrims via local travel agents; deployed a dua and ritual guidance app that helped pilgrims during Hajj 2024.
+- Piloted **manually curated Umrah bundles** (flights, visas, hotels) through local agents.  
+- Developed and deployed a **dua and ritual guidance app** that successfully assisted pilgrims during Hajj 2024.  
 
-### Wedge
+### Strategic Wedge
 
-DIY Umrah in-destination bundles + offline Ritual Mode + Ziyarah Explorer, trusted and usable without data, with seamless Solo ↔ Hire a Guide handoff.
+Our wedge is a bundled solution:  
+**DIY Umrah tools + Offline Ritual Mode + Ziyarah Explorer** — designed to work seamlessly without internet access, with flexible options to switch between self-guided journeys and hiring verified guides.  
 
 ### Why Now
 
-Rapid market expansion + enforcement-driven shift to licensed operators = timing sweet spot. Generic OTAs are not competing in post-booking, in-destination service orchestration.
+The market is at a tipping point:
 
-### 12-Month “Must Be True” Gates (relative to public beta)
+- Pilgrim volumes are growing rapidly.  
+- Regulatory enforcement is pushing travelers toward licensed operators.  
+- Generic OTAs are not addressing the critical in-destination experience.  
 
-- **Activation:** ≥60% of trip users complete ≥3 meaningful actions in 14 days.
-- **Marketplace:** ≥25% of active users buy ≥1 local service; take rate ≥12%; refunds ≤5%.
-- **Compliance:** 100% of fulfilled jobs by licensed suppliers; complaints <2/100 orders.
-- **Outcome:** ≥70% report ≥5 hours saved or overpayment avoided.
-- **Retention:** ≥20% cross-purchase during trip; ≥30% return to Ziyarah Map within trip.
+This creates a window of opportunity for a license-first, offline-capable platform to establish leadership.
 
-### Guardrails (Day-1)
+### 12-Month “Must Be True” Milestones (after public beta)
 
-- Hajj packages only via authorized providers; D2C focus on Umrah and in-destination services.
-- PDPL-ready consent logs for location/mic; minimal data collection.
-- License-first marketplace (license ID + expiry displayed).
+- **Activation:** At least 60% of travelers complete three or more meaningful actions within 14 days.  
+- **Marketplace:** At least 25% of active users purchase one or more local services; platform take rate ≥12%; refunds ≤5%.  
+- **Compliance:** 100% of bookings fulfilled by licensed suppliers; fewer than 2 complaints per 100 orders.  
+- **Outcome:** At least 70% of users report saving five or more hours or avoiding significant overpayment.  
+- **Retention:** At least 20% make multiple purchases during their trip; 30% return to the Ziyarah Map tool while traveling.  
+
+### Guardrails (Day 1)
+
+- Hajj packages will only be offered via authorized providers; direct-to-consumer focus remains on Umrah and in-destination services.  
+- All data practices are compliant with Saudi privacy law (PDPL), including user consent logs for location and microphone access.  
+- License-first marketplace with transparent display of provider license IDs and expiry dates.  
 
 ---
 
