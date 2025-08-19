@@ -159,7 +159,7 @@ Independent Umrah pilgrims in Saudi Arabia struggle with ritual anxiety, overpri
 
 ---
 
-## SECTION 3 — Competitive Landscape
+## Section 3 — Competitive Landscape
 
 ### Detailed Competitor Table
 
@@ -233,26 +233,26 @@ This section is built on the [Detailed Competitor Table](https://docs.google.com
 
 > Derived from: Competitor Rubic from [Google Drive](https://docs.google.com/spreadsheets/d/1rgbg8PFvxG_L-yodOR_RfjXNCsfgLvZ8ZjEdNqVgNlg/edit?gid=1266947592#gid=1266947592).
 
-### Regional Battlefield (BD • MY • ID) — Shortlist & where we win
+### Regional Battlefield (Bangladesh • Malaysia • Indonesia)
 
-- **ShareTrip / GoZayaan (BD OTAs):** strong pre-trip funnels; **no offline ritual**, **no license-first in-trip orchestration**.
-- **AmarSafar (BD B2B2C):** agency rails; lacks **fiqh-aware in-trip UX** and **Ziyarah Explorer**.
-- **Umrahme / Zamzam / TBO:** deep supply & accreditation; **generic in-trip UX**; **no integrated offline ritual**
-- **Muslim Pro:** huge distribution; Umrah hooks exist; **not** an in-trip, license-badged marketplace; **no offline ritual flow**.
+- **ShareTrip / GoZayaan (Bangladesh OTAs)**: Strong pre-trip funnels; lack offline ritual flows and license-first in-trip orchestration.
+- **AmarSafar (Bangladesh B2B2C)**: Agency rails; lacks fiqh-aware in-trip UX and Ziyarah Explorer.
+- **Umrahme / Zamzam / TBO**: Deep supply and accreditation; generic in-trip UX; no integrated offline ritual.
+- **Muslim Pro**: Massive distribution and hooks; not an in-trip, license-badged marketplace; no offline ritual flow.
 
 ### What this means for GTM (crisply)
 
 - **Message:** “Only app with scholar-approved **offline Ritual Mode**, a curated **Ziyarah Explorer**, and a **license-first** local services marketplace.”
-- **Proof:** Screens + license badges in every listing; mention Taibah governance.
-- **Channel:** Imam/mosque cohorts and agency bundles to neutralize OTA scale.
-- **Focus SKUs:** Fixed-fare **transport** + **guide** listings with escrow; add tours later.
-- **Copy tests:** Feature the three-pillar badges on install/landing (we expect CTR ↑ and CVR ↑ vs generic OTA copy).
+- **Proof:** Screens showing offline steps; license badges (provider IDs and issuing authority) in every listing; mention Shariah governance.
+- **Channel:** Imam/mosque cohorts and agency bundles to neutralize OTA scale; layered with paid performance in key corridors.
+- **Focus SKUs:** Fixed-fare transport and guide listings with escrow (funds held until service completion); tours later.
+- **Copy tests:** Feature the three-pillar badges on install/landing; measure CTR (Click-Through Rate) and CVR (Conversion Rate) uplift versus generic OTA copy.
 
 ### Risks to monitor (competitive moves)
 
-- **Umrahme/Zamzam** add a lightweight “ritual checklist” and call it done → We still win on **offline + fiqh citation + license transparency**.
-- **Nusuk** expands consumer-facing guidance → We partner (rail-compatible) and keep our concierge/marketplace layer.
-- **BD/MY OTAs** bolt on white-label guides via WhatsApp → We differentiate on **governance, offline UX, and license-badged marketplace**.
+- **Umrahme/Zamzam** add a lightweight “ritual checklist” and call it done → We maintain advantage on **offline operation, fiqh citation, and license transparency.**
+- **Nusuk** expands consumer-facing guidance → We remain “rail-compatible,” partnering where possible while owning the concierge/marketplace layer.
+- **BD/MY OTAs** bolt on white-label guides via WhatsApp →  Differentiate on **governance, offline UX, and license‑badged marketplace** with escrow and standardized pricing.
 
 ### Defensible Edge & Go-to-Market
 
@@ -277,7 +277,7 @@ Initial focus on **Bangladesh, Malaysia, and Indonesia**, timed with Ramadan and
 
 ---
 
-## SECTION 4 — Discovery Interviews
+## Section 4 — Discovery Interviews
 
 ### Key Insights from Discovery (Interview Contact Matrix) (30+)
 
@@ -386,7 +386,7 @@ To keep this report concise, the **initial hypotheses (H0_raw)** and the full **
 
 ---
 
-## SECTION 5 — Hypothesis Mapping
+## Section 5 — Hypothesis Mapping
 
 At this pre-seed stage, We draw our hypotheses from 30+ discovery interviews and early MVP deploys (e.g., Hajj-peak test with basic tracker yielding 68 installs). Full quantitative validation awaits funding for analytics. Each includes our belief, test method, and status (validated via interviews, partially validated via deploy, or needs testing).
 
