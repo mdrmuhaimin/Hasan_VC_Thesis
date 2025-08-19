@@ -2,16 +2,37 @@
 
 ## Executive Summary
 
-We are building HajjGuide, a venture-studio backed platform addressing the **$1.45B** religious tourism technology market. We target the critical post-booking, in-destination gap for 16.8 million annual Umrah pilgrims and 1.6 million Hajj pilgrims.
+We are building **HajjGuide**, a venture-studio–backed platform designed to address the **$1.45 billion** religious tourism technology market. Our focus is on the critical *post-booking, in-destination* stage, serving the needs of **16.8 million annual Umrah pilgrims** and **1.6 million Hajj pilgrims**.
 
-**The Opportunity:** The in-destination pilgrimage experience remains fragmented, with pilgrims losing hours and money to unverified services, poor guidance, and logistical confusion.
+**The Opportunity:**  
+Today, the in-destination pilgrimage experience is highly fragmented. Pilgrims often lose valuable time and money due to unverified services, unclear guidance, and logistical difficulties.
 
-**Our Solution:** We deliver an offline-first ritual companion, licensed service marketplace, and curated exploration platform for the four key pilgrimage cities (Makkah, Madinah, Taif, Jeddah).
+**Our Solution:**  
+HajjGuide offers three integrated services:
 
-**Traction:** We have validated demand through 31 customer interviews, shipped an MVP with 91 total installs (~45 organic) with blended **CPI** ≈ **$0.87** and paid **CPI** ≈ **$1.48**. We have a governance partnership (MoU) in progress with Taibah Institute for content verification.
+- An **offline-first ritual companion** for guidance without relying on internet access.  
+- A **licensed service marketplace** connecting pilgrims to trusted providers.  
+- A **curated exploration platform** covering the four key pilgrimage cities: Makkah, Madinah, Taif, and Jeddah.  
 
-**The Ask:** We seek pre-seed funding to validate our core hypotheses through controlled market tests while building toward a **$2.32M** serviceable obtainable market in our first 12 months. Use of funds: content governance & scholar reviews, offline Android reliability, concierge ops for liquidity tests, and trip-anchored analytics.
-**Licensing note:** No direct Hajj sales; OTA-like flows (S3) will run only via licensed partners or post-licensure.
+**Traction:**
+
+- **Customer validation:** 31 structured interviews confirming strong demand.  
+- **Product launch:** An MVP with 91 installs (≈45 organic).  
+- **Unit economics:** Average cost per install (CPI) of **$0.87** overall, and **$1.48** for paid channels.  
+- **Governance:** Memorandum of Understanding in progress with Taibah Institute for scholar-led content verification.  
+
+**The Ask:**  
+We are seeking **pre-seed funding** to validate core market hypotheses through controlled pilots and early operations. Our 12-month target is a **$2.32 million serviceable obtainable market**.  
+
+Planned use of funds includes:
+
+- Strengthening content governance and scholarly review,  
+- Improving offline reliability for Android devices,  
+- Running concierge-style operations to ensure marketplace liquidity,  
+- Developing trip-anchored analytics for user behavior insights.  
+
+**Licensing Note:**  
+HajjGuide will not sell Hajj packages directly. Package-style bookings will only be conducted through licensed partners or once appropriate licenses are secured.
 
 ## SECTION 1: STRATEGIC EXECUTION MODEL
 
