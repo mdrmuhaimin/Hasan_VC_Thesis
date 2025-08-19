@@ -39,7 +39,7 @@ HajjGuide will not sell Hajj packages directly. Package-style bookings will only
 ## Section 1: Strategic Execution Model
 
 We have identified a critical gap in the **$1.45 billion religious tourism market**. 
-**Selected Approach:** **Hybrid Model** – Rocket Internet rigor on supply onboarding, pricing control, and unit economics, combined with BCGDV Solve Model for high-context, regulated in-destination Umrah workflows.
+**Selected Approach:** **Hybrid Model** – **Rocket Internet rigor** on supply onboarding, pricing control, and unit economics, combined with **BCGDV Solve Model** for high-context, regulated in-destination Umrah workflows.
 
 **Our Focus:**  
 We address the *post-booking gap* where traditional online travel agencies (OTAs) fall short. HajjGuide delivers three core services:
@@ -99,61 +99,65 @@ This creates a window of opportunity for a license-first, offline-capable platfo
 
 ---
 
-## SECTION 2: PROBLEM STATEMENT
+## Section 2: Problem Statement
 
 ### Industry
 
-Religious Tourism (Hajj/Umrah) and In-Destination Travel Technology.
+Our focus lies at the intersection of **Religious Tourism (Hajj/Umrah)** and **In-Destination Travel Technology**.
 
 ### Opportunity Description
 
-The global Muslim travel market is projected to exceed **$225B by 2028** ([CrescentRating][17]), with Hajj and Umrah as its most logistically complex and spiritually significant segments. While booking flights and packages has largely digitized, the *in-destination experience* remains fragmented, offline, and dependent on unverified, often overpriced local operators.
+The global Muslim travel market is projected to exceed **$225 billion by 2028** ([CrescentRating][17]). Within this, Hajj and Umrah represent the most logistically complex and spiritually significant segments. While booking flights and packages has become largely digital, the *in-destination experience* is still fragmented, offline, and heavily dependent on unverified, often overpriced local operators.
 
 ### Core Problem
 
 Once in Saudi Arabia, first-time and DIY Umrah travelers face:
 
-- Ritual anxiety from fear of making religious errors.
-- Opaque, overpriced local services without license verification.
-- Language barriers and cultural friction.
-- Crowd and closure uncertainty at key sites.
-- Weak discovery of authentic ziyarah locations.
-- Risk of getting separated from companions in high-density environments.
-Instead of focusing on worship, travelers are forced into constant logistical problem-solving and app juggling.
+- **Ritual anxiety** from fear of making religious mistakes.  
+- **Opaque, overpriced services** without license verification.  
+- **Language barriers** and cultural friction.  
+- **Crowd and closure uncertainty** at key sites.  
+- **Weak discovery** of authentic ziyarah (sacred site) locations.  
+- **Separation risks** in dense crowds.  
+
+Instead of focusing on worship, many travelers are forced into constant logistical problem-solving and juggling multiple apps.
 
 ### Ideal Customer Profile (ICP)
 
-DIY and semi-DIY Umrah travelers aged 25–45 from Indonesia, Malaysia, Bangladesh, and diaspora markets.
-Characteristics:
+Our primary audience is **DIY and semi-DIY Umrah travelers aged 25–45** from Indonesia, Malaysia, Bangladesh, and global diaspora markets.  
 
-- App-native and comfortable with digital tools.
-- Booking flights/hotels via mainstream OTAs.
-- Coordinating trips via WhatsApp and social groups.
-- Seeking offline ritual guidance, licensed service providers, and trustworthy exploration.
+Key characteristics:
+
+- App-native, comfortable with digital tools.  
+- Book flights and hotels through mainstream online travel agencies (OTAs).  
+- Coordinate trips through WhatsApp and social groups.  
+- Actively seek offline ritual guidance, licensed service providers, and trustworthy exploration resources.  
 
 ### Why Incumbents Don’t Win
 
-- OTAs optimize for pre-trip cart conversion, not in-trip decision-making.
-- Pilgrimage decisions are dynamic, context-specific, and fiqh-aware — requiring real-time, personalized guidance.
-- Official channels are essential for permits and inventory, but not designed for concierge-level personalization or hybrid Solo ↔ Hire service models.
+- OTAs optimize for **pre-trip sales conversion**, not for in-trip decision-making.  
+- Pilgrimage requires **real-time, context-specific, and faith-sensitive guidance**.  
+- Official channels are critical for permits and inventory, but are **not built for concierge-level personalization** or hybrid “self-service + hire support” models.  
 
 ### "Hair-on-Fire" Evidence
 
 | Evidence                                                                                                 | Impact on Pilgrims                                        | Source                    |
 | -------------------------------------------------------------------------------------------------------- | --------------------------------------------------------- | ------------------------- |
-| **Seven Umrah companies suspended (Jun 17 2024)** for failing transport commitments                      | Travellers stranded; ministry had to arrange alternatives | ([Saudi Press Agency][2]) |
-| **Ten travel offices shut (Jul 13 2024)** for running unlicensed Umrah services                          | Bookings voided; deposits at risk                         | ([Gulf News][3])          |
-| **Real-world delay:** Malaysian pilgrim waited **2 days under airport canopies** then bought new tickets | Lost 48 h + paid extra airfare                            | ([RSIS International][4]) |
+| **Seven Umrah companies suspended (Jun 17, 2024)** for failing transport commitments                      | Travelers stranded; ministry arranged emergency alternatives | ([Saudi Press Agency][2]) |
+| **Ten travel offices shut (Jul 13, 2024)** for running unlicensed Umrah services                          | Bookings voided; deposits lost or at risk                  | ([Gulf News][3])          |
+| **Real-world delay:** Malaysian pilgrim waited **2 days under airport canopies** then bought new tickets | Lost 48 hours and paid additional airfare                  | ([RSIS International][4]) |
 
 ### Quantified Pain
 
-- **Time Loss:** Hours wasted per trip resolving logistics and finding trusted services.
-- **Financial Loss:** Overpayment on key services like transport, tours, and mobility aids.
-- **Frequency:** Pain recurs every trip; high stakes for first-timers amplify stress and dissatisfaction.
+- **Time Loss:** Hours wasted per trip resolving logistics and finding trusted services.  
+- **Financial Loss:** Significant overpayment for transport, tours, and mobility aids.  
+- **Frequency:** Pain recurs every trip, with particularly high stakes for first-time pilgrims.  
 
 ### One-Sentence Pitch (YC Format)
 
-Independent Umrah pilgrims in Saudi Arabia struggle with ritual anxiety, overpriced unverified services, and poor discovery because in-destination support is fragmented and not fiqh-aware.
+Independent Umrah pilgrims in Saudi Arabia struggle with ritual anxiety, overpriced unverified services, and poor discovery because in-destination support is fragmented and not faith-aware.  
+
+---
 
 ## SECTION 3 — Competitive Landscape
 
