@@ -279,60 +279,67 @@ Initial focus on **Bangladesh, Malaysia, and Indonesia**, timed with Ramadan and
 
 ## Section 4 — Discovery Interviews
 
-### Key Insights from Discovery (Interview Contact Matrix) (30+)
+### Overview
 
-- Total interviews: **31**
-- Dual roles: **All Buyers are also Experts (secondary)** for evidence, while each interviewee retains **one primary** category for quota math.
+We conducted 31 structured interviews across users (pilgrims), economic buyers (agency owners/operators), industry experts, and adjacent providers to validate problem salience, Willingness to Pay (WTP), and distribution paths. This section summarizes the sample, method, validation scores, monetization signals, planned experiments, and operating assumptions. Key terms and acronyms are defined at the end.
 
-**Primary mix (vs. target for n=30):**
+---
 
-- **Users:** 20
-- **Economic Buyers:** 8
-- **Industry Experts:** 1
-- **Adjacent:** 2
+### Interview Mix & Method
 
-### Evidence Collection Methods & Scrappy Outreach
+- Total interviews: 31
+- Primary categories (1 per interviewee for quota discipline):
+  - Users (pilgrims): 20
+  - Economic Buyers (agencies/operators): 8
+  - Industry Experts: 1
+  - Adjacent (local providers/entrepreneurs): 2
+- Dual-role note: Many “Buyer” interviewees also provided secondary “Expert” input for evidence; each interviewee retains a single primary category for counts.
+- Recruitment channels: known community members, diaspora Facebook/WhatsApp groups, and agency work networks; group leaders acted as affiliate referrers.
+- Sampling considerations: over-indexed to Bangladesh (BD) with coverage of KSA-based providers and some diaspora (e.g., Canada). Findings are directionally strong; we will broaden geography in subsequent waves.
 
-- Recruited via **Known Members**, **diaspora Facebook/WhatsApp groups**, and **agency work experiences**.
-- Leveraged **group leaders** as affiliate referrers.
+### Problem Validation Scorecard
 
-### Problem Validation Scorecard (1–5)
+The interviews were scored against five core criteria to assess the viability of the opportunity. The results strongly validate our thesis.
 
-| Criteria                   |                 Score | Evidence summary                                                                                                                                                                                                                                                                                                                                                                         |
-| -------------------------- | --------------------: | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Problem Urgency**        |                 **5** | ≥90% independently cited high-stakes frictions affecting worship logistics (permit/route constraints, trusted transport/guide discovery, price opacity).                                                                                                                                                                                                                                 |
-| **Problem Frequency**      |                 **5** | Issues recur across stages (airport arrival, intra-city moves, ziyarah, meal logistics); multiple daily touchpoints reported by most users.                                                                                                                                                                                                                                              |
-| **Willingness to Pay**     |   **4 (provisional)** | Pilgrims already pay via agencies for end-to-end guided Umrah, guided tours, and transport; commissions are standard. Founder has **1 year of paid sales-partner activity** (revealed WTP). Early reads: **Agency bundles** attach \~**1–2% (Lite)** and **4–5% (Premium)**; **Transport** referrals around **20%** feasible; **In-app guidance** WTP **$5–$20** (mode **$10–$15**). |
-| **Market Size Validation** |                 **4** | Starting geographies **BD, ID, MY** are among the largest Hajj/Umrah source markets by quota and flow; macro demand supports a sizable reachable SAM with agency-bundled distribution.                                                                                                                                                                                                   |
-| **Solution Difficulty**    | **4 (scope-bounded)** | App-centric execution promoting **already-registered, licensed providers** (no direct ops). Complexity mitigated via escrow/referral flows, license-first policy, content-led guidance (offline support), and clear dispute/KYC SOPs. Remaining risks: data QA, cross-border refunds/FX, supplier SLAs.                                                                                  |
+| Criteria                   | Score | Evidence Summary                                                                                                                                                                                                                                                                         |
+| -------------------------- | :---: | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Problem Urgency**        | **5/5** | Over 90% of pilgrims independently cited high-stakes friction related to worship logistics, including permit/route constraints, difficulty finding trusted transport and guides, and lack of price transparency.                                                                         |
+| **Problem Frequency**      | **5/5** | These issues recur at multiple stages of the journey (e.g., airport arrival, inter-city travel, local visits), with most users reporting several frustrating touchpoints per day.                                                                                                        |
+| **Willingness to Pay (WTP)** | **4/5** | WTP is well-established, as pilgrims already pay significant fees for packages, tours, and transport. Interviews confirmed an appetite for our specific solutions, validating key revenue streams (see Monetization Signals below).                                                      |
+| **Market Size Validation** | **4/5** | Initial target geographies (Bangladesh, Indonesia, Malaysia) represent some of the largest Umrah source markets globally, confirming a substantial Serviceable Addressable Market (SAM) accessible via our agency-led distribution model.                                             |
+| **Execution Feasibility**  | **4/5** | Our model avoids direct operational complexity by acting as a marketplace for existing licensed providers. Key risks (e.g., payments, data quality) are mitigated through clear operational policies and partnerships.                                                                     |
 
-**Total Validation Score:** **22/25**
+Total Validation Score: **22/25***
 
-### WTP Focus Areas (High → Low)
+### WTP Priorities (High → Low)
 
-1. **Agency-based end-to-end guided tour** (agency-bundled upsell with escrow).
-2. **Transport** (combined: airport⇄hotel + ziyarah fixed-fare).
-3. **Private guide** (substitutable by in-app guidance).
-   *(Removed: wheelchair; eSIM deprioritized unless agency-driven.)*
+1) Agency-based end-to-end guided tour (agency-bundled upsell with escrow)
+2) Transport (airport↔hotel + Ziyarah fixed-fare)
+3) Private guide (substitutable for many by in-app guidance)
+Removed from near-term scope: wheelchair; eSIM deprioritized unless agency-driven.
 
 ### Monetization Signals (interviews + founder inputs)
 
-- **Agency bundles:** Agencies typically pay **2–5% commission**; many offer **B2B rates** for platform distribution. Founder already monetizes as a **Sales Partner**.
-- **Transport:** \~**20% referral fee** norms; B2B rates available (e.g., per supplier interviews).
-- **Guidance:** **In-app guidance at $5–$10** one-time (some up to **$20**); **private guides** usually bundled with ziyarah or end-to-end packages.
+- **Agency bundles**: typical commission 2–5%; many agencies offer B2B rates for platform distribution. The founder currently monetizes as a Sales Partner.
+- **Transport**: referral fee norms around 20%; B2B rates available per supplier interviews.
+- **Guidance**: in-app module at $5–$10 one-time (some up to $20); private guide fees usually bundled with Ziyarah or full packages.
 
 ### Validation Preview (for Section 7)
 
-- **Agency-guided tour (bundled tiers):** Present Lite/Standard/Premium anchored to B2B rates and 2–5% commission norms. **Target:** ≥40% choose any paid tier in interview simulations (or meet channel-benchmark attach if baseline is lower).
-- **Transport (fixed-fare bands):** Offer 3 fare bands on common routes + escrow option. **Target:** ≥60% choose a band and accept in-app booking; **Supply-side:** ≥70% of providers consent to the target take-rate (benchmarked to \~20%).
-- **Private guide vs in-app:** Side-by-side daily guide fee vs app module at **$5–$10**. **Target:** ≥50% select app-only at these price points.
+- **Agency-guided tour (bundled tiers):** Present Lite/Standard/Premium anchored to B2B rates and 2–5% commission norms. 
+  - **Target:** ≥40% choose any paid tier in interview simulations (or meet channel-benchmark attach if baseline is lower).
+- **Transport (fixed-fare bands):** Offer 3 fare bands on common routes + escrow option. 
+  - **Target:** ≥60% choose a band and accept in-app booking; 
+  - **Supply-side:** ≥70% of providers consent to the target take-rate (benchmarked to \~20%).
+- **Private guide vs in-app:** Side-by-side daily guide fee vs app module at **$5–$10**. 
+  - **Target:** ≥50% select app-only at these price points.
 
 ### Operating Assumptions (to sustain Solution Difficulty = 4/5)
 
 1. **No direct fulfillment** (we list/route; we do not operate transport/tours).
-2. **Payments** collected by agency or via a **compliant PSP** (escrow/settlement; KYC/AML handled).
+2. **Payments** collected by the agency or via a compliant PSP (Payment Service Provider) with escrow/settlement; KYC (Know Your Customer)/AML (Anti-Money Laundering) handled.  
 3. **License-first supplier policy** with visible badges and periodic checks.
-4. **Disputes & refunds** handled by a documented SOP with response SLAs.
+4. **Disputes & refunds** documented SOP (Standard Operating Procedure) with response SLAs (Service-Level Agreements).
 5. **Data QA** pipeline for itinerary/hotel/guidance content with offline fallback.
 
 ---
@@ -341,37 +348,37 @@ Initial focus on **Bangladesh, Malaysia, and Indonesia**, timed with Ramadan and
 
 | Name                      | Role                                                       | Contact Info           | Category | Secondary Category | Status    | Interview Date | Geography  | Persona              | Key Interview Insight                                                                                                                              |
 | ------------------------- | ---------------------------------------------------------- | ---------------------- | -------- | ------------------ | --------- | -------------- | ---------- | -------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Kaiyes Ansari             | Performed Hajj and Umrah                                   | Available upon request | User     |                    | Completed | 2024-07-18     | Bangladesh | Pilgrim-Repeat       | common pains: price transparency, transport logistics, wayfinding; open to app-based guidance                                                      |
-| Munshi Md. Ashfaqul Alam  | Agency Owner                                               | Available upon request | Buyer    | Expert             | Completed | 2024-07-19     | Bangladesh | Agent                | Agency owner; 2–5% commission norms; open to B2B rates; bundle guided tour upsells.                                                                |
-| Rachmat Angga             | Performed Hajj and Umrah                                   | Available upon request | User     |                    | Completed | 2024-07-21     | Bangladesh | Pilgrim-Repeat       | transport logistics & routing; compliance & permits                                                                                                |
-| Moe Fallatah              | Employee at Elaaf group                                    | Available upon request | Adjacent |                    | Completed | 2024-07-23     | KSA        | Local Provider       | Local provider; logistics coordination constraints; regulatory enforcement impacts ops.                                                            |
-| Ehteshamul Hakim          | Performed Hajj and Umrah                                   | Available upon request | User     |                    | Completed | 2024-07-24     | Bangladesh | Pilgrim-Repeat       | in-app guidance & training content; connectivity/SIM issues; compliance & permits                                                                  |
-| Imran Naeem               | Hajj pilgrim, Hajj guide, small hajj business entrepreneur | Available upon request | Buyer    | Expert             | Completed | 2024-07-26     | Bangladesh | Pilgrim-Repeat/Agent | transport logistics & routing; guided tour/Ziyarah expectations; in-app guidance & training content; connectivity/SIM issues; compliance & permits |
-| Abdullah Saleh            | Mid size hajj agency owner                                 | Available upon request | Buyer    | Expert             | Completed | 2024-07-26     | Bangladesh | Agent                | Agency owner; B2B distribution feasible; commission-based referrals standard.                                                                      |
-| Abdullah Hasan            | Performed Hajj and Umrah                                   | Available upon request | User     |                    | Completed | 2024-07-27     | Bangladesh | Pilgrim-Repeat       | in-app guidance & training content; connectivity/SIM issues                                                                                        |
-| A.K.M. Kamrummzaman       | Mid size travel agency owner                               | Available upon request | Buyer    | Expert             | Completed | 2024-07-28     | Bangladesh | Agent                | Agency owner; platform sales via B2B rates; interest in fixed-fare transport partnerships.                                                         |
-| Wayes Kuruni Azad         | Mid size hajj agency owner                                 | Available upon request | Buyer    | Expert             | Completed | 2024-07-29     | Bangladesh | Agent                | Agency owner; commission-driven sales; guided tour add-ons common.                                                                                 |
-| Mohammad Moussa           | Muslim entrepreneur (monetisation strategy)                | Available upon request | Adjacent |                    | Completed | 2024-07-29     | Bangladesh | Expert               | Entrepreneur; monetization focus; B2B + content-led guidance suggested.                                                                            |
-| Reza Waheed               | Performed Hajj and Umrah                                   | Available upon request | User     |                    | Completed | 2024-07-30     | Bangladesh | Pilgrim-Repeat       | common pains: price transparency, transport logistics, wayfinding; open to app-based guidance                                                      |
-| Samee Salehin Khan        | Performed Hajj and Umrah; started hajj business            | Available upon request | Buyer    | Expert             | Completed | 2024-07-30     | Bangladesh | Pilgrim-Repeat/Agent | agency distribution & commissions; open to B2B rates; guided tour upsells common                                                                   |
-| Mohammad Rafiuzzaman      | Hajj operation manager; religious trainer                  | Available upon request | Expert   |                    | Completed | 2024-07-30     | Bangladesh | Local Provider       | Hajj ops/religious trainer; license-first providers; guidance/wayfinding needs.                                                                    |
-| Hasan Mahmud              | Performed Hajj and Umrah                                   | Available upon request | User     |                    | Completed | 2024-07-31     | Bangladesh | Pilgrim-Repeat       | guided tour/Ziyarah expectations; in-app guidance & training content; connectivity/SIM issues                                                      |
-| Abdur Rahman              | Performed Hajj and Umrah                                   | Available upon request | User     |                    | Completed | 2024-07-31     | Bangladesh | Pilgrim-Repeat       | transport logistics & routing; guided tour/Ziyarah expectations; compliance & permits                                                              |
-| Obaidur Rahman            | Performed Hajj and Umrah                                   | Available upon request | User     |                    | Completed | 2024-08-01     | Canada     | Pilgrim-Repeat       | common pains: price transparency, transport logistics, wayfinding; open to app-based guidance                                                      |
-| Sajedul Setu              | First-time Hajj pilgrim                                    | Available upon request | User     |                    | Completed | 2024-08-01     | Bangladesh | Pilgrim-FirstTimer   | Overpaid vs peers; wants transparent package comparison; tent wayfinding; in-app guidance acceptable (\~$5–$10+).                                |
-| Jamael Tanvir             | Performed Hajj and Umrah                                   | Available upon request | User     |                    | Completed | 2024-08-02     | Bangladesh | Pilgrim-Repeat       | common pains: price transparency, transport logistics, wayfinding; open to app-based guidance                                                      |
-| Md Golam Kibria           | Performed Hajj and Umrah                                   | Available upon request | User     |                    | Completed | 2024-08-02     | Canada     | Pilgrim-Repeat       | common pains: price transparency, transport logistics, wayfinding; open to app-based guidance                                                      |
-| Iftikhar Shirajee         | Mid size hajj agency owner                                 | Available upon request | Buyer    | Expert             | Completed | 2024-08-04     | Bangladesh | Agent                | Agency owner; receptive to platform distribution; commission structure already in use.                                                             |
-| Omar Faruk                | Performed Hajj and Umrah                                   | Available upon request | User     |                    | Completed | 2024-08-04     | Bangladesh | Pilgrim-Repeat       | common pains: price transparency, transport logistics, wayfinding; open to app-based guidance                                                      |
-| Abdul Muhid               | Performed Hajj and Umrah                                   | Available upon request | User     |                    | Completed | 2024-08-04     | Bangladesh | Pilgrim-Repeat       | guided tour/Ziyarah expectations; connectivity/SIM issues                                                                                          |
-| Mustafizur Rahman         | Performed Hajj and Umrah                                   | Available upon request | User     |                    | Completed | 2024-08-05     | Bangladesh | Pilgrim-Repeat       | common pilgrim pains (pricing, guidance, transport)                                                                                               |
-| Farhadul Alam             | Performed Hajj and Umrah                                   | Available upon request | User     |                    | Completed | 2024-08-05     | Bangladesh | Pilgrim-Repeat       | general pilgrim pains (pricing, guidance, transport)                                                                                               |
-| Zohorah Khanam            | Performed Hajj and Umrah                                   | Available upon request | User     |                    | Completed | 2024-08-05     | Bangladesh | Pilgrim-Repeat       | transport logistics & routing; guided tour/Ziyarah expectations; compliance & permits                                                              |
-| Mahmud Iqbal Halim        | Performed Hajj and Umrah                                   | Available upon request | User     |                    | Completed | 2024-08-06     | Canada     | Pilgrim-Repeat       | common pains: price transparency, transport logistics, wayfinding; open to app-based guidance                                                      |
-| Tahmeed Sharif            | Performed Hajj and Umrah                                   | Available upon request | User     |                    | Completed | 2024-08-06     | Bangladesh | Pilgrim-Repeat       | transport logistics & routing; in-app guidance & training content; connectivity/SIM issues; compliance & permits                                   |
-| Shamima Ara Leera         | Performed Hajj and Umrah                                   | Available upon request | User     |                    | Completed | 2024-08-07     | Bangladesh | Pilgrim-Repeat       | common pains: price transparency, transport logistics, wayfinding; open to app-based guidance                                                      |
-| Solaiman                  | Hajj transport and guide provider                          | Available upon request | Buyer    | Expert             | Completed | 2024-08-08     | KSA        | Local Provider       | Transport provider; \~20% referral workable; favors fixed-fare + licensed drivers; supports escrowed bookings.                                     |
-| Md Shahjad Hussain Jishan | Performed Hajj and Umrah                                   | Available upon request | User     |                    | Completed | 2024-08-08     | Bangladesh | Pilgrim-Repeat       | transport logistics & routing; guided tour/Ziyarah expectations; compliance & permits                                                              |
+| Kaiyes Ansari             | Performed Hajj and Umrah                                   | Available upon request | User     |                    | Completed | 2025-07-18     | Bangladesh | Pilgrim-Repeat       | common pains: price transparency, transport logistics, wayfinding; open to app-based guidance                                                      |
+| Munshi Md. Ashfaqul Alam  | Agency Owner                                               | Available upon request | Buyer    | Expert             | Completed | 2025-07-19     | Bangladesh | Agent                | Agency owner; 2–5% commission norms; open to B2B rates; bundle guided tour upsells.                                                                |
+| Rachmat Angga             | Performed Hajj and Umrah                                   | Available upon request | User     |                    | Completed | 2025-07-21     | Bangladesh | Pilgrim-Repeat       | transport logistics & routing; compliance & permits                                                                                                |
+| Moe Fallatah              | Employee at Elaaf group                                    | Available upon request | Adjacent |                    | Completed | 2025-07-23     | KSA        | Local Provider       | Local provider; logistics coordination constraints; regulatory enforcement impacts ops.                                                            |
+| Ehteshamul Hakim          | Performed Hajj and Umrah                                   | Available upon request | User     |                    | Completed | 2025-07-24     | Bangladesh | Pilgrim-Repeat       | in-app guidance & training content; connectivity/SIM issues; compliance & permits                                                                  |
+| Imran Naeem               | Hajj pilgrim, Hajj guide, small hajj business entrepreneur | Available upon request | Buyer    | Expert             | Completed | 2025-07-26     | Bangladesh | Pilgrim-Repeat/Agent | transport logistics & routing; guided tour/Ziyarah expectations; in-app guidance & training content; connectivity/SIM issues; compliance & permits |
+| Abdullah Saleh            | Mid size hajj agency owner                                 | Available upon request | Buyer    | Expert             | Completed | 2025-07-26     | Bangladesh | Agent                | Agency owner; B2B distribution feasible; commission-based referrals standard.                                                                      |
+| Abdullah Hasan            | Performed Hajj and Umrah                                   | Available upon request | User     |                    | Completed | 2025-07-27     | Bangladesh | Pilgrim-Repeat       | in-app guidance & training content; connectivity/SIM issues                                                                                        |
+| A.K.M. Kamrummzaman       | Mid size travel agency owner                               | Available upon request | Buyer    | Expert             | Completed | 2025-07-28     | Bangladesh | Agent                | Agency owner; platform sales via B2B rates; interest in fixed-fare transport partnerships.                                                         |
+| Wayes Kuruni Azad         | Mid size hajj agency owner                                 | Available upon request | Buyer    | Expert             | Completed | 2025-07-29     | Bangladesh | Agent                | Agency owner; commission-driven sales; guided tour add-ons common.                                                                                 |
+| Mohammad Moussa           | Muslim entrepreneur (monetisation strategy)                | Available upon request | Adjacent |                    | Completed | 2025-07-29     | Bangladesh | Expert               | Entrepreneur; monetization focus; B2B + content-led guidance suggested.                                                                            |
+| Reza Waheed               | Performed Hajj and Umrah                                   | Available upon request | User     |                    | Completed | 2025-07-30     | Bangladesh | Pilgrim-Repeat       | common pains: price transparency, transport logistics, wayfinding; open to app-based guidance                                                      |
+| Samee Salehin Khan        | Performed Hajj and Umrah; started hajj business            | Available upon request | Buyer    | Expert             | Completed | 2025-07-30     | Bangladesh | Pilgrim-Repeat/Agent | agency distribution & commissions; open to B2B rates; guided tour upsells common                                                                   |
+| Mohammad Rafiuzzaman      | Hajj operation manager; religious trainer                  | Available upon request | Expert   |                    | Completed | 2025-07-30     | Bangladesh | Local Provider       | Hajj ops/religious trainer; license-first providers; guidance/wayfinding needs.                                                                    |
+| Hasan Mahmud              | Performed Hajj and Umrah                                   | Available upon request | User     |                    | Completed | 2025-07-31     | Bangladesh | Pilgrim-Repeat       | guided tour/Ziyarah expectations; in-app guidance & training content; connectivity/SIM issues                                                      |
+| Abdur Rahman              | Performed Hajj and Umrah                                   | Available upon request | User     |                    | Completed | 2025-07-31     | Bangladesh | Pilgrim-Repeat       | transport logistics & routing; guided tour/Ziyarah expectations; compliance & permits                                                              |
+| Obaidur Rahman            | Performed Hajj and Umrah                                   | Available upon request | User     |                    | Completed | 2025-08-01     | Canada     | Pilgrim-Repeat       | common pains: price transparency, transport logistics, wayfinding; open to app-based guidance                                                      |
+| Sajedul Setu              | First-time Hajj pilgrim                                    | Available upon request | User     |                    | Completed | 2025-08-01     | Bangladesh | Pilgrim-FirstTimer   | Overpaid vs peers; wants transparent package comparison; tent wayfinding; in-app guidance acceptable (\~$5–$10+).                                |
+| Jamael Tanvir             | Performed Hajj and Umrah                                   | Available upon request | User     |                    | Completed | 2025-08-02     | Bangladesh | Pilgrim-Repeat       | common pains: price transparency, transport logistics, wayfinding; open to app-based guidance                                                      |
+| Md Golam Kibria           | Performed Hajj and Umrah                                   | Available upon request | User     |                    | Completed | 2025-08-02     | Canada     | Pilgrim-Repeat       | common pains: price transparency, transport logistics, wayfinding; open to app-based guidance                                                      |
+| Iftikhar Shirajee         | Mid size hajj agency owner                                 | Available upon request | Buyer    | Expert             | Completed | 2025-08-04     | Bangladesh | Agent                | Agency owner; receptive to platform distribution; commission structure already in use.                                                             |
+| Omar Faruk                | Performed Hajj and Umrah                                   | Available upon request | User     |                    | Completed | 2025-08-04     | Bangladesh | Pilgrim-Repeat       | common pains: price transparency, transport logistics, wayfinding; open to app-based guidance                                                      |
+| Abdul Muhid               | Performed Hajj and Umrah                                   | Available upon request | User     |                    | Completed | 2025-08-04     | Bangladesh | Pilgrim-Repeat       | guided tour/Ziyarah expectations; connectivity/SIM issues                                                                                          |
+| Mustafizur Rahman         | Performed Hajj and Umrah                                   | Available upon request | User     |                    | Completed | 2025-08-05     | Bangladesh | Pilgrim-Repeat       | common pilgrim pains (pricing, guidance, transport)                                                                                               |
+| Farhadul Alam             | Performed Hajj and Umrah                                   | Available upon request | User     |                    | Completed | 2025-08-05     | Bangladesh | Pilgrim-Repeat       | general pilgrim pains (pricing, guidance, transport)                                                                                               |
+| Zohorah Khanam            | Performed Hajj and Umrah                                   | Available upon request | User     |                    | Completed | 2025-08-05     | Bangladesh | Pilgrim-Repeat       | transport logistics & routing; guided tour/Ziyarah expectations; compliance & permits                                                              |
+| Mahmud Iqbal Halim        | Performed Hajj and Umrah                                   | Available upon request | User     |                    | Completed | 2025-08-06     | Canada     | Pilgrim-Repeat       | common pains: price transparency, transport logistics, wayfinding; open to app-based guidance                                                      |
+| Tahmeed Sharif            | Performed Hajj and Umrah                                   | Available upon request | User     |                    | Completed | 2025-08-06     | Bangladesh | Pilgrim-Repeat       | transport logistics & routing; in-app guidance & training content; connectivity/SIM issues; compliance & permits                                   |
+| Shamima Ara Leera         | Performed Hajj and Umrah                                   | Available upon request | User     |                    | Completed | 2025-08-07     | Bangladesh | Pilgrim-Repeat       | common pains: price transparency, transport logistics, wayfinding; open to app-based guidance                                                      |
+| Solaiman                  | Hajj transport and guide provider                          | Available upon request | Buyer    | Expert             | Completed | 2025-08-08     | KSA        | Local Provider       | Transport provider; \~20% referral workable; favors fixed-fare + licensed drivers; supports escrowed bookings.                                     |
+| Md Shahjad Hussain Jishan | Performed Hajj and Umrah                                   | Available upon request | User     |                    | Completed | 2025-08-08     | Bangladesh | Pilgrim-Repeat       | transport logistics & routing; guided tour/Ziyarah expectations; compliance & permits                                                              |
 
 #### Research Provenance (Raw Hypothesis + Question Bank + Media)
 
@@ -383,6 +390,19 @@ To keep this report concise, the **initial hypotheses (H0_raw)** and the full **
 **Contents:** `HYPOTHESES_catalog`, `OPERATOR_Question_Bank`, `PILGRIM_Question_Bank`, `MN_index.csv`, `RM_index.csv` (+ consent metadata)
 
 > *Privacy note:* Personally identifying details are presented in the bundle; Only produced for Hasan.VC affiliated members.
+
+### Key Terms and Acronyms
+
+- WTP (Willingness to Pay): how much a customer is willing to pay for a product or feature.  
+- SAM (Serviceable Addressable Market): the portion of the total market we can serve with our model and channels.  
+- PSP (Payment Service Provider): third-party processor enabling payments, including escrow/settlement.  
+- KYC/AML (Know Your Customer/Anti-Money Laundering): compliance checks for customer identity and financial crime prevention.  
+- SOP/SLA (Standard Operating Procedure/Service-Level Agreement): documented process and response-time commitments.  
+- FX (Foreign Exchange): currency conversion and cross-border settlement.  
+- Attach rate: share of customers selecting an add-on at checkout or post-purchase.  
+- Take-rate: platform commission/referral fee as a percent of gross booking value.  
+- Fiqh: Islamic jurisprudence; fiqh-approved guidance is validated by qualified scholars.  
+- Ziyarah: religious visits to historically or spiritually significant sites.  
 
 ---
 
