@@ -165,7 +165,7 @@ Independent Umrah pilgrims in Saudi Arabia struggle with ritual anxiety, overpri
 
 This section is built on the [Detailed Competitor Table](https://docs.google.com/spreadsheets/d/1rgbg8PFvxG_L-yodOR_RfjXNCsfgLvZ8ZjEdNqVgNlg/edit?usp=drive_link)
 
-### A. Strategic Clusters View
+### Strategic Clusters View
 
 | Company / Cluster                                          | Role & Core Offer                 | Focus       | Strengths                         | Weaknesses vs Us                            | Exploitable Gap                                                                |
 | ---------------------------------------------------------- | --------------------------------- | ----------- | --------------------------------- | ------------------------------------------- | ------------------------------------------------------------------------------ |
@@ -173,9 +173,7 @@ This section is built on the [Detailed Competitor Table](https://docs.google.com
 | **Umrah OTAs (e.g., [Umrahme][7], [Zamzam][8], [TBO Umrah][9], [Funadiq][13])** | Packages, visas, hotels           | GCC/SEA     | Full-package funnel, supply reach | No in-trip support or offline ritual        | **Offline Ritual Mode + license-badged marketplace + curated city plans**      |
 | **Large KSA OTAs ([Almosafer][10]/[Seera][12])**            | Full OTA experience               | KSA/global  | Brand scale, flights & hotels     | Generic UX, non fiqh-aware                  | **Pilgrimage-specific concierge + exploration + Solo/Hire toggle**             |
 
----
-
-### B. Detailed Competitive Table
+### Detailed Competitive Table
 
 | Company                      | Location     | Business Model             | Pricing Strategy                    | Target Market                | Revenue/Funding Stage                   | Strengths                                      | Weaknesses                                   | Exploitable Gap                                        |
 | ---------------------------- | ------------ | -------------------------- | ----------------------------------- | ---------------------------- | --------------------------------------- | ---------------------------------------------- | -------------------------------------------- | ------------------------------------------------------ |
@@ -193,7 +191,7 @@ This section is built on the [Detailed Competitor Table](https://docs.google.com
 | **[GoZayaan][29]**           | Bangladesh   | OTA                        | Flight deals: BDT 49k–190k          | Bangladeshi travelers        | Emerging OTA                            | Flight comparison & deals                      | No pilgrimage-specific UX or ritual tools    | Bundle offline Ritual Mode + local service marketplace |
 | **[AmarSafar][30]**          | Bangladesh   | B2B2C Travel Marketplace   | OTA-style pricing                   | Agencies & travelers         | Local focus; app-based                  | One-stop travel services: visa, flights, tours | Not pilgrimage-specific                      | Add Ritual & Ziyarah features + licensed services      |
 
----
+#### Adjacent media, research, and community
 
 | Company                           | What they do                                         | Strengths             | Weaknesses vs Us                              | Gap we exploit                                                                     |
 | --------------------------------- | ---------------------------------------------------- | --------------------- | --------------------------------------------- | ---------------------------------------------------------------------------------- |
@@ -201,16 +199,14 @@ This section is built on the [Detailed Competitor Table](https://docs.google.com
 | **[Have Halal Will Travel (HHWT)][16]** | Media/community for halal travel                     | Reach & content       | No bookings; no Umrah concierge               | **Convert content demand into licensed services**.                                 |
 | **[CrescentRating / GMTI][17]**   | Industry research & destination ratings              | Category authority    | Not consumer concierge                        | **Use insights; don’t compete**.                                                   |
 
----
+#### Enabling categories (non-competing utilities)
 
 | Category                 | Players                        | What users get               | Weakness vs us                                                             | Our angle                                                                                                             |
 | ------------------------ | ------------------------------ | ---------------------------- | -------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
 | **Ride-hailing / Taxis** | **[Careem][18], [Uber][19], [Jeeny][20]** | App rides with upfront fares | Not ritual-aware; not curated for ziyarah; meter compliance still variable | **Pre-quoted, license-badged transfers; meter prompts & receipt checks**.                                             |
 | **eSIM / Connectivity**  | **[Airalo][21], [Holafly][22], [Nomad][23]** | Quick data on arrival        | No pilgrimage UX; spotty value vs local SIMs                               | **Bundle eSIM with app + offline failover**.                                                                          |
 
----
-
-### C. Pillar Gap: Differentiation Index (from attached analysis)
+### Pillar Gap: Differentiation Index (from attached analysis)
 
 **Method.** For each competitor in BD/MY/ID and adjacent GCC players, we scored the three pillars on a 1–5 scale: **Ritual Mode**, **Ziyarah Explorer**, **License-First**. The **Differentiation Index** is the average of those three.
 
@@ -237,18 +233,14 @@ This section is built on the [Detailed Competitor Table](https://docs.google.com
 
 > Derived from: Competitor Rubic from [Google Drive](https://docs.google.com/spreadsheets/d/1rgbg8PFvxG_L-yodOR_RfjXNCsfgLvZ8ZjEdNqVgNlg/edit?gid=1266947592#gid=1266947592).
 
----
-
-### D. Regional Battlefield (BD • MY • ID) — Shortlist & where we win
+### Regional Battlefield (BD • MY • ID) — Shortlist & where we win
 
 - **ShareTrip / GoZayaan (BD OTAs):** strong pre-trip funnels; **no offline ritual**, **no license-first in-trip orchestration**.
 - **AmarSafar (BD B2B2C):** agency rails; lacks **fiqh-aware in-trip UX** and **Ziyarah Explorer**.
 - **Umrahme / Zamzam / TBO:** deep supply & accreditation; **generic in-trip UX**; **no integrated offline ritual**
 - **Muslim Pro:** huge distribution; Umrah hooks exist; **not** an in-trip, license-badged marketplace; **no offline ritual flow**.
 
----
-
-### E. What this means for GTM (crisply)
+### What this means for GTM (crisply)
 
 - **Message:** “Only app with scholar-approved **offline Ritual Mode**, a curated **Ziyarah Explorer**, and a **license-first** local services marketplace.”
 - **Proof:** Screens + license badges in every listing; mention Taibah governance.
@@ -256,15 +248,11 @@ This section is built on the [Detailed Competitor Table](https://docs.google.com
 - **Focus SKUs:** Fixed-fare **transport** + **guide** listings with escrow; add tours later.
 - **Copy tests:** Feature the three-pillar badges on install/landing (we expect CTR ↑ and CVR ↑ vs generic OTA copy).
 
----
-
-### F. Risks to monitor (competitive moves)
+### Risks to monitor (competitive moves)
 
 - **Umrahme/Zamzam** add a lightweight “ritual checklist” and call it done → We still win on **offline + fiqh citation + license transparency**.
 - **Nusuk** expands consumer-facing guidance → We partner (rail-compatible) and keep our concierge/marketplace layer.
 - **BD/MY OTAs** bolt on white-label guides via WhatsApp → We differentiate on **governance, offline UX, and license-badged marketplace**.
-
----
 
 ### Defensible Edge & Go-to-Market
 
