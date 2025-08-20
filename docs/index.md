@@ -408,53 +408,91 @@ To keep this report concise, the **initial hypotheses (H0_raw)** and the full **
 
 ## Section 5 — Hypothesis Mapping
 
-At this pre-seed stage, We draw our hypotheses from 30+ discovery interviews and early MVP deploys (e.g., Hajj-peak test with basic tracker yielding 68 installs). Full quantitative validation awaits funding for analytics. Each includes our belief, test method, and status (validated via interviews, partially validated via deploy, or needs testing).
+### Scope and Maturity
 
-### **Interview-validated core hypotheses**
+At the pre-seed stage, our hypotheses are grounded in 31 structured discovery interviews and limited pre-build experiments (e.g., a peak-season Hajj test with a basic ritual tracker yielding 68 installs). Full quantitative validation will follow once analytics and broader product testing are funded. Each hypothesis includes the belief, rationale, evidence to date, status, and the next test with target metrics.
 
-| Hypothesis | Why do we believe this? | **How have we validated via interviews (no build)** | Preliminary result | Next step |
-| --- | --- | --- | --- | --- |
-| **H1 — Core pilgrim problem–solution fit** | Recurrent pains: wayfinding, fragmented guidance, price opacity; trust is paramount. | In 31 interviews, **≥90%** described guidance/wayfinding/price issues; multiple pilgrims asked for a single trusted app with **offline “Ritual Mode.”** Founder’s 2024 guide role echoed these gaps. | **Supported.** | When ready: concierge MVP; target **Activation ≥40%**, **2-wk retention ≥30%**, **Net Promoter Score (NPS) ≥40 (post-beta target)**. |
-| **H2 — Marketplace liquidity** | Licensed transport/guides exist; discovery—not raw capacity—drives pain. | Provider/buyer interviews (e.g., agency owners; Driver Solaiman) reported capacity, typical response times, and peak patterns; collected **license/permit** statements and SLA promises. | **Provisionally supported.** (No live fill-rate yet.) | Small **concierge fill log** (no app): measure time-to-confirm & cancels across peak windows. |
-| **H3 — WTP / take-rate viability** | Pilgrims already pay for agency bundles, tours, transport; guidance WTP **$5–$20** (mode **$10–$15**). Agencies pay **2–5%**; transport referrals \~**20%**. | Buyers (who are also experts) confirmed **commission norms & B2B rates**; multiple users expressed willingness to pay for **in-app guidance**; founder has **paid sales-partner income**. | **Supported (provisional).** | Structure **price-card tallies** (n≥30/SKU) + **provider poll** (n≈15) to lock price points & take-rates. |
-| **H4 — Acquisition cost repeatability** | Imam/mosque endorsements, group leaders, agency bundles, diaspora FB/WA groups surfaced as effective. | Interviewees named these as **trusted join paths**; referrer influence noted; we logged **acceptable incentives** qualitatively. | **Qualitatively supported.** | Quantify **Customer Acquisition Cost (CAC) by channel** (Cost Per Install (CPI)\~$1 benchmark); aim **payback <3 months**; keep affiliate CAC as commission. |
-| **H5 — Regulatory compliance** | Permit/route enforcement & driver legality are common themes; license-first lowers risk. | Users and providers described **checks, stops, and documentation**; **license badges** perceived as trust-building; comfort with **escrow/KYC** discussed. | **Supported.** | Shortlist **PSP/escrow (TBD)**; draft **license audit** cadence & **<72h** dispute SOP. |
-| **H6 — Guidance engine (AI + curated, offline)** | Desire for authoritative, low-distraction answers; strong preference for **scholar-endorsed** content. | Pilgrims reacted positively to the idea of **compiled, concise rulings**; caution on accuracy and screen usage during rituals; acceptance higher with **named scholars**. | **Provisionally supported.** | Build curated Q&A; set **scholar double-review**; later evaluate AI (accuracy ≥90%, harmful=0, CSAT ≥4.3/5). |
-| **H7 — Group-aware routing & tent coordination** | Lost/meeting-point confusion is frequent; printed maps are cumbersome. | Multiple pilgrims recounted **tent-finding** and regrouping issues; interest in **meeting-point cards** and simple timed routes; willingness to **share location** in group contexts. | **Supported.** | Pilot GPS group mode later; targets: **ETA error ±15%**, **lost-person ↓50%** vs baseline. |
-| **H8 — Trust, safety, dispute resolution** | Fear of overpaying/middlemen; appetite for **fixed fares + escrow** and transparent reviews. | Users preferred **escrowed fixed-fare** over open-ended quotes; providers indicated comfort with platform-mediated payouts; review usefulness acknowledged. | **Supported.** | A/B escrow copy & refund terms during pilots; aim **conversion rate (CVR) +15%**, **disputes <2%**, **chargebacks <0.5%**. |
-| **H9 — Seasonality resilience** | Umrah is year-round; diaspora and ziyarah logistics persist off-peak. | Some pilgrims indicated **post-Hajj** and **off-peak** needs; intensity varies by segment and country. | **Partial.** | Define off-peak segments & content; later track **Trip-Active WAU/MAU ≥ 0.60, Global WAU/MAU (T3M median) ≥ 0.30.** and **≥20%** off-peak bookings. |
-| **H10 — Supply-side economics & retention** | Providers value predictable payouts and B2B pricing; retention hinges on earnings. | Providers discussed **payout expectations**, **B2B rates**, and service preferences; churn drivers surfaced qualitatively. | **Partial.** | Set **earnings targets** per SKU/market; later track **churn <15%/qtr**, **NRR >100%**. |
-| **H11 — Brand credibility & endorsements** | Imam/scholar endorsements and **license badges** reduce perceived risk and nudge choice. | Interview ranking exercises placed **endorsements/badges** high among trust signals; outreach via mosques worked. | **Supported.** | Secure **≥3** endorsements; later A/B **badge presence** (target **CTR +20%**, **conversion rate +10%**). |
-| **H12 — OTA / halal travel adjacency (Phase 2)** | Consolidated booking desire exists; not core to pre-seed. | Interviewees expressed interest in **one-stop** options; also cited existing solutions; focus remained on core SKUs. | **Adjacent—defer.** | After core validation, test **affiliate APIs**; aim **hotel attach ≥2%**, **CPA within OTA norms**. |
+### A. Interview‑Validated Core Hypotheses
 
-### **MVP-testable future hypotheses**
+| ID  | Hypothesis (belief)                                   | Rationale (why we believe)                                                                                                   | Evidence to date                                                                                                                                            | Status                  | Next test and target metric(s)                                                                                                                                                                                                                                  |
+| --- | ------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| H1  | Core pilgrim problem–solution fit                      | Recurrent pains: wayfinding, fragmented guidance, price opacity; trust is central to choice                                   | In 31 interviews, ≥90% cited guidance/wayfinding/price issues; multiple asked for a single trusted app with offline “Ritual Mode”; founder’s 2024 guide experience corroborates | Supported               | Instrumented product tests: Activation ≥40% (share completing ≥3 meaningful actions in 14 days; e.g., ritual_start, ritual_finish, map_opened, poi_saved, phrase_audio_played) with n ≥ 50; 2‑week retention ≥30%; Trust NPS (Net Promoter Score) ≥30 with n ≥ 30. |
+| H2  | Marketplace liquidity exists                           | Licensed transport/guides exist; discovery—not raw capacity—is the friction                                                    | Provider/buyer interviews (incl. agency owners; driver Solaiman) reported capacity, response times, peak patterns; collected license/permit statements and SLA promises          | Provisionally supported | Prepare instrumentation for requests/confirmations; defer live measures (time‑to‑confirmation, cancellations) until transactions are enabled. Later-phase targets: median ≤30 min; p90 ≤90 min; cancellation ≤5% on n ≥ 100 job requests.                                                             |
+| H3  | WTP and take‑rate viability                            | Pilgrims already pay for bundles, tours, and transport; in‑app guidance WTP $5–$20 (mode $10–$15); agencies 2–5% commission; transport ~20% referral | Buyers confirmed commission norms and B2B (Business‑to‑Business) rates; multiple users expressed WTP; founder has paid sales‑partner income                                             | Supported (provisional) | In‑app price/intent experiments (n ≥ 30 per SKU (service type)) and provider settings capture (n ≈ 15) to lock ranges; transactional validation deferred to later-phase.                                                                                                                              |
+| H4  | Acquisition cost can be repeatable                     | Imam/mosque endorsements, group leaders, agency bundles, and diaspora social groups are trusted channels                      | Interviewees consistently named these join paths; referrer influence noted; acceptable incentive structures surfaced                                           | Qualitatively supported | Quantify CAC (Customer Acquisition Cost) by channel; CPI (Cost Per Install) ≈ $1 benchmark.                                                                                                                                                                                                            |
+| H5  | Regulatory compliance de‑risks experience              | Permit/route enforcement and driver legality are common; license‑first approach reduces risk                                   | Users and providers described checks and documentation; license badges perceived as trust‑building; comfort with escrow and KYC (Know Your Customer) discussed | Supported               | Implement automated license verification workflow; define verification cadence; publish dispute SOP (Standard Operating Procedure) with ≤72‑hour response SLA (Service‑Level Agreement); target disputes <2% over ≥100 fulfillments (when transactions are active).                                      |
+| H6  | Guidance engine (curated + offline; AI later)          | Desire for authoritative, low‑distraction answers; preference for scholar‑endorsed content                                     | Positive reaction to compiled rulings; caution on accuracy and screen use during rituals; acceptance higher with named scholars                               | Provisionally supported | Build curated Q&A; implement scholar double‑review; later evaluate AI with accuracy ≥90%, harmful outputs = 0, CSAT (Customer Satisfaction) ≥4.3/5.                                                                                                                                                      |
+| H7  | Group‑aware routing reduces loss/coordination issues   | Lost/meeting‑point confusion is common; printed maps are cumbersome                                                            | Multiple accounts of tent‑finding and regrouping issues; interest in meeting‑point cards, timed routes, and group location sharing                            | Supported               | Evaluate coordination proxies in v1: Map Return Rate ≥30% (same‑session), route_hint_viewed adoption, and qualitative reports; full group‑location features deferred.                                                                                                                                    |
+| H8  | Trust/safety via escrow and fixed fares increases CVR  | Fear of overpaying/middlemen; preference for fixed fares + escrow + transparent reviews                                       | Users preferred escrowed fixed‑fare over open quotes; providers comfortable with platform‑mediated payouts; reviews seen as useful                             | Supported               | Deferred to later-phase when payments are active: A/B escrow/refund copy; target CVR (Conversion Rate) +15% with ≥1,000 impressions; disputes <2%; chargebacks <0.5% over ≥100 fulfillments.                                                                                                            |
+| H9  | Seasonality resilience (Umrah year‑round)              | Umrah runs year‑round; diaspora and Ziyarah logistics persist off‑peak                                                         | Some pilgrims cited post‑Hajj and off‑peak needs; intensity varies by segment and country                                                                     | Partial                 | Define off‑peak segments/content; track Trip‑Active WAU/MAU (Weekly/Monthly Active Users) ≥0.60; Global WAU/MAU (T3M median) ≥0.30; report off‑peak engagement; booking share measured later.                                                                                                           |
+| H10 | Supply‑side economics support retention                | Providers value predictable payouts and B2B pricing; retention hinges on earnings                                              | Providers discussed payout expectations, B2B rates, and preferences; qualitative churn drivers surfaced                                                       | Partial                 | Set earnings targets per SKU/market; track quarterly provider churn <15%; NRR (Net Revenue Retention) >100% once transactions are live.                                                                                                                          |
+| H11 | Brand credibility and endorsements drive selection     | Imam/scholar endorsements and license badges reduce perceived risk and nudge conversion                                        | Ranking exercises placed endorsements/badges high among trust signals; mosque outreach effective                                                               | Supported               | Secure ≥3 endorsements; A/B test badge presence: CTR (Click‑Through Rate) +20%; conversion rate +10%.                                                                                                                                                                                                    |
+| H12 | OTA adjacency is a Phase‑2 opportunity                 | Some desire for “one‑stop” booking, but not core at pre‑seed                                                                   | Interest exists; incumbents already serve pieces; focus remains on core SKUs                                                                                   | Adjacent — defer        | After core validation, test affiliate APIs: hotel attach rate ≥2%; CPA (Cost Per Acquisition) within OTA (Online Travel Agency) norms.                                                                                                                                                                   |
 
-Based on our primary Hypothesis validation, these are the future hypotheses we are planning to validate with our MVP
+### Hypothesis Taxonomy and Mapping
 
-| Hypothesis | Why do we believe this? | How will we test it? | Current Status |
-| --- | --- | --- | --- |
-| FH1: ≥60% of users complete ≥3 meaningful actions in 14 days (Activation). | Interviews show high ritual/logistics pains (e.g., discovery in 28/30); early deploy implied engagement via 68 installs and K=1.28 virality. | Track via TripID analytics in full beta post-funding; benchmark vs. 40% first-session target. | Validated via Interviews (28/30 support); Partially Validated via Deploy (virality signals positive); Needs Beta Testing for metrics. |
-| FH2: ≥25% buy ≥1 service; take rate ≥12% (Marketplace). | Transport opacity in 20/30 interviews; WTP mentions (e.g., 1000 Taka) suggest demand. | Marketplace pilot with escrow; measure refunds ≤5% in post-funding beta. | Validated via Interviews (25/30 support); Needs Beta Testing (no transaction data yet). |
-| FH3: Users willing to pay $5-10 for premium features (WTP). | Inferred from mentions (e.g., 70-200 Riyal/600-1500 Taka); low explicit but consistent scam avoidance signals. | Mock upsells/surveys in beta; test $5 sub conversion post-funding. | Partially Validated via Interviews (1/30 explicit, but implied in 20/30 pains); Needs Beta Testing for conversion rates. |
-| FH4: Offline mode reduces anxiety for rituals (Usability). | Lap counting in 7/30; strong signals for ritual tools (e.g., H6 at 26/30). | Usability tests (E2); ≥95% error-free completion in post-funding pilots. | Validated via Interviews (25/30 support); Partially Validated via Deploy (basic tracker live, user feedback pending); Needs Beta Testing for error rates. |
-| FH5: 100% compliance with licensed suppliers (Trust). | Permit constraints in 21/30; agency distrust in 11/30 highlight verification needs. | Supplier audits; complaints <2/100 in beta fulfillment. | Validated via Interviews (23/30 support); Needs Beta Testing (guardrails in thesis, but no live fulfillment yet). |
-| FH6: Language/ritual tools preferred over incumbents (Preference). | Language barrier in 19/30; JTBD like phrasebooks show gaps in WhatsApp/YouTube. | A/B test vs. incumbents; measure preference in post-funding usability. | Validated via Interviews (26/30 support); Partially Validated via Deploy (tracker implies preference over manual tools); Needs Beta Testing for direct comparisons. |
-| FH7: ≥20% cross-purchase; ≥30% map returns (Retention). | Discovery pains recur (28/30); connectivity in 19/30 drive repeat use. | Analytics on repeat actions during trip in full beta. | Validated via Interviews (21/30 support); Partially Validated via Deploy (virality suggests stickiness); Needs Beta Testing for repeat metrics. |
-| FH8: Escrow/fixed fares cut overpayment (Value). | Wheelchair/transport opacity (20/30); WTP for scam avoidance evident. | User reports of hours saved/overpayment avoided (≥70% ≥5 hours) post-funding. | Validated via Interviews (21/30 support); Needs Beta Testing (no value reports yet). |
-| FH9: eSIM bundles as failover (Connectivity). | SIM issues in 19/30; pre-trip JTBD indicate utility. | Onboarding tests; adoption rate in beta. | Validated via Interviews (19/30 support); Needs Beta Testing. |
-| FH10: B2B agency upsell viable (Monetization). | Referral patterns in interviews (e.g., agency distrust in 11/30); low explicit B2B. | Pilot white-label with agencies; commission uptake post-funding. | Partially Validated via Interviews (11/30 support); Needs Beta Testing for upsell pilots. |
+Core H‑series hypotheses (interview‑validated) inform two downstream layers: (1) near‑term trust/usability/compliance tests (FH) and (2) later‑phase monetization/durability KPIs.
 
-**Our Validation Philosophy**: **Interviews → Deploy → Scale**
+| Core Hypothesis | What it asserts                                   | Linked Future Hypotheses (near‑term and later‑phase)                |
+| --------------- | -------------------------------------------------- | ------------------------------------------------------------------- |
+| H1              | Strong problem–solution fit                        | FH1 (Activation), FH2 (Ritual task success)                         |
+| H3              | WTP and take‑rate are viable                       | FH8 (Purchase conversion), FH9 (Premium pricing)                    |
+| H5              | Compliance reduces risk                            | FH3 (Pre‑listing verification; complaints measured later)           |
+| H6              | Scholar‑endorsed, offline guidance preferred       | FH2 (Usability), FH4 (Preference vs incumbents)                     |
+| H7              | Group‑aware routing adds value                     | FH5 (Map returns/repeat usage proxy)                                |
+| H8              | Escrow + fixed fares increase trust and CVR        | FH6 (Perceived certainty/value; survey‑only in v1)                  |
+| H9              | Seasonality resilience matters                     | Tracked later (off‑peak WAU/MAU, booking share)                     |
+| H10             | Supply economics underpin provider retention       | Tracked later (provider churn, NRR)                                 |
 
-We validate demand before building, test hypotheses before committing resources, and scale only when metrics prove unit economics. This disciplined approach maximizes capital efficiency.
+### B. Near‑Term Future Hypotheses (planned)
 
----
+Run to confirm trust, usability, compliance, and reliability. Monetization is observed but not optimized at this stage.
+
+| ID  | Hypothesis (metric target)                                                        | Rationale                                                                                                  | Test plan                                                                                                   | Current status                                                                                  |
+| --- | --------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------- |
+| FH1 | Activation ≥60%: users complete ≥3 meaningful actions in 14 days                  | High ritual/logistics pain (evidenced in 28/30 interviews); early deploy: 68 installs; K‑factor = 1.28     | Instrument in product; benchmark gate at 40% (n ≥ 50); evaluate cohorts toward 60% target                   | Validated via interviews; partially supported by deploy; quantitative product data pending      |
+| FH2 | Offline Ritual Mode reduces ritual anxiety; ≥95% error‑free task completion       | Strong signals for lap counting/ritual tools (e.g., 26/30)                                                 | Instrumented task‑completion tests; n ≥ 20 moderated sessions; measure success/error rates                   | Validated via interviews; ritual tracker live; quantitative usability pending                   |
+| FH3 | 100% of listed providers verified (pre‑listing)                                   | Permit constraints and agency distrust highlight verification needs                                        | 100% pre‑listing license verification; 0 unverified in production; complaints metric deferred until transactions | Validated via interviews; fulfillment‑level compliance pending                                  |
+| FH4 | Language/ritual tools preferred vs incumbents                                     | Language barrier (19/30); reliance on WhatsApp/YouTube is sub‑optimal                                      | In‑product A/B vs our baseline and a curated set of incumbent content; measure stated preference/task performance | Validated via interviews; head‑to‑head tests pending                                            |
+| FH5 | Retention proxy: ≥30% Map Return Rate or ritual‑feature revisit                   | Recurrent discovery pains and connectivity issues imply repeated use                                        | Instrument repeat actions/events across on‑trip cohorts (n ≥ 50); Map Return Rate is same‑session            | Validated via interviews; repeat‑use metrics pending                                            |
+| FH6 | Perceived benefit of fixed fares/escrow (survey‑only)                              | Users report fear of overpaying; desire for certainty                                                       | In‑app survey of off‑platform transport experiences: ≥70% report time saved or reduced overpayment risk; n ≥ 50 | Validated via interviews; outcomes measurement pending                                          |
+| FH7 | eSIM bundles adopted as connectivity failover                                     | SIM issues (19/30) and pre‑trip needs indicate utility                                                      | Onboarding prompt; measure adoption and usage across n ≥ 200 new users                                       | Validated via interviews; adoption rates pending                                                |
+
+### C. Later‑Phase Monetization Hypotheses (run after trust clears)
+
+Executed only after trust KPIs are met; used to validate early unit economics and channel fit.
+
+| ID  | Hypothesis (metric target)                                                        | Rationale                                                                                                  | Test plan                                                                                   | Current status                                                                                  |
+| --- | --------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- |
+| FH8 | ≥25% of users purchase ≥1 service; platform take‑rate ≥12%                        | Transport opacity noted in interviews; indicative WTP in price points                                      | Instrumented transactions with escrow; refunds ≤5% over ≥100 orders; provider acceptance n ≥ 15 | Validated via interviews; transaction‑level validation pending                                  |
+| FH9 | Users purchase premium features at $5–$10                                         | Interview signals (e.g., WTP for scam avoidance and ritual tools)                                          | In‑product upsell experiments; measure conversion with ≥500 qualified exposures              | Partially validated via interviews; pricing conversion pending                                  |
+| FH10| B2B agency upsell viable; commission uptake                                       | Referral patterns and agency distrust suggest appetite for trusted layers                                   | Limited‑scope partner pilots; n ≥ 5 agencies; measure commission acceptance                  | Partially validated via interviews; pilot data pending                                          |
+
+### D. Validation Philosophy
+
+Interviews → Build → Instrumented product tests (trust and usability) → Monetization pilots → Durability (seasonality and supply). Revenue and channel tests run only after trust and reliability metrics clear targets. We validate demand before building, confirm trust and reliability before monetization, and scale only after unit economics and durability are proven.
+
+### E. Acronyms and Metrics (for accessibility)
+
+- Activation: share of users completing a defined set of actions (here, ≥3 meaningful actions in 14 days; e.g., ritual_start, ritual_finish, map_opened, poi_saved, phrase_audio_played).
+- WTP (Willingness to Pay): what a customer is prepared to pay for a product or feature.
+- CAC (Customer Acquisition Cost): total cost to acquire a customer; CPI (Cost Per Install): cost to acquire an app install.
+- NPS (Net Promoter Score): −100 to +100 measure of advocacy; 40+ is strong for consumer apps (30 used as an early gate).
+- CSAT (Customer Satisfaction): post‑interaction satisfaction rating, typically 1–5.
+- CVR/CTR (Conversion Rate/Click‑Through Rate): engagement and purchase funnel metrics.
+- WAU/MAU (Weekly/Monthly Active Users): engagement ratio indicating habit; Trip‑Active WAU/MAU focuses on users currently on trip; T3M: trailing three‑month period.
+- PSP (Payment Service Provider): third party that processes payments; escrow holds funds until service completion.
+- KYC/AML (Know Your Customer/Anti‑Money Laundering): identity and compliance checks.
+- NRR (Net Revenue Retention): cohort revenue including expansion/churn; >100% implies net expansion.
+- SKU: service type or offer (e.g., transport, guide).
+- BDT: Bangladeshi Taka (currency).
+- Ziyarah: religious visits to historically or spiritually significant sites.
+- p90: the 90th percentile (e.g., 90% of confirmations occur within this time).
+- n: sample size used for a given measurement.
 
 ## SECTION 6 — Ideal Customer Profiles (ICP)
 
 We serve two primary customers—pilgrims (B2C) and group leaders/agencies (B2B)—and one tertiary B2B customer (local service providers). Below is a crisp, VC-ready snapshot in the requested format, plus why each segment picks us.
-
----
 
 ### ICP #1 — Pilgrim (B2C)
 
@@ -468,8 +506,6 @@ We serve two primary customers—pilgrims (B2C) and group leaders/agencies (B2B)
   - Human guides/imams; agency briefings; WhatsApp groups; printed handouts/books; YouTube/TikTok; official apps (e.g., Nusuk; local ministry apps)
 - **Why they pick us (fit):**
   - Offline-first, step-by-step rituals and a simple dua journal, with **cited, scholar-approved** content that reduces confusion at the moment of need.
-
----
 
 ### ICP #2 — Group Leader / Agency (B2B) — *also uses us as a sales channel*
 
@@ -488,8 +524,6 @@ We serve two primary customers—pilgrims (B2C) and group leaders/agencies (B2B)
   - **White-label/cohort tools** to standardize prep across groups.
   - **Sales channel:** we can route pilgrims to their packages and cohorts, supporting **B2B rates** and **2–5% commission norms** (from interviews and our sales-partner experience), creating incremental demand rather than cannibalizing their existing channels.
 
----
-
 ### ICP #3 — Local Service Provider (B2B, tertiary) — *uses us as a sales channel*
 
 - **Target industry:** Transport operators (airport⇄hotel; ziyarah routes), private guides, local ziyarah tour providers
@@ -504,8 +538,6 @@ We serve two primary customers—pilgrims (B2C) and group leaders/agencies (B2B)
   - **Targeted sales channel** to reach relevant pilgrims and groups.
   - **Standardized listings & reviews** to build trust and repeat business.
   - **(Later) Payments/escrow and B2B pricing** to smooth cash flow and reduce disputes—activated only after trust KPIs are met.
-
----
 
 **Positioning note:** We start with **Pilgrim (B2C)** for trust and usage proof, while **Group Leaders/Agencies (B2B)** provide amplification and early revenue optionality (white-label, commission-based referrals). **Local Providers (B2B)** are a tertiary lane we unlock once guidance trust and governance are established.
 
@@ -658,218 +690,150 @@ We segment monetization into four discrete streams, with explicit **no-double-co
 
 ---
 
-## SECTION 8 - MVP Canvas Plan — HajjGuide (Pre-Seed)
+## SECTION 8 — MVP Canvas Plan — HajjGuide (Pre-Seed)
 
-### TLDR
+### TL;DR
 
-- **Goal:** Prove problem–solution fit and live marketplace feasibility for DIY Umrah, with strict compliance.
-- **Scope:** Offline-first rituals, compliant routing, license-first marketplace, ziyarah discovery, phrasebook; light eSIM.
-- **Primary success gates (v1 beta):** Activation ≥ **40%** in 14 days, Marketplace purchase rate ≥ **25%**, blended take-rate ≥ **12%**, on-time fulfillment ≥ **90%**, refund ≤ **5%**, Net Promoter Score (NPS) ≥ **30 (v1 gate)**.
+- **Goal**: Validate trust-first problem–solution fit for DIY Umrah guidance and in-destination utility (no transactions in this phase).
+- **Scope (v1)**: Offline-first Ritual Mode, compliant routing hints, Ziyarah Explorer (offline POIs), phrasebook/translation, scholar-governed content with visible citations, and optional light eSIM attach.
+- **Primary success gates** (v1 controlled release):
+  - Activation ≥40% (n ≥ 50),
+  - Trust NPS (Net Promoter Score) ≥30 (n ≥ 30),
+  - Ritual task success ≥95% (moderated; n ≥ 20),
+  - Source_view rate ≥25%, crash-free ≥99%.
 
----
+### Objective, Scope, and Target Segments
 
-### Objective and Scope
+- Objective: **Validate**
+  - H1 (problem–solution fit),
+  - H4 (acquisition paths),
+  - H5 (compliance signaling),
+  - H6 (guidance preference and accuracy),
+  - H7 (coordination proxies), and
+  - H11 (endorsements/credibility)
+  - As well as near-term FH1–FH7 using an offline-first app with instrumented analytics.
+- Scope (v1): Trust-first guidance and in-destination utility; Offline Ritual Mode, compliant routing hints, Ziyarah Explorer (offline POIs), and language tools (phrasebook/translation). No transactional integrations in v1.
+- Deferred (out of scope for v1): H2/H8/H10 (marketplace liquidity, escrow, supply-side economics), H3 (WTP (Willingness to Pay)/take-rate), H9 (seasonality resilience). These will be tested after trust and content KPIs are met (see Section 9).
+- Primary ICP (Ideal Customer Profile): DIY or semi-DIY Umrah pilgrims aged 25–45, digital-native, from Bangladesh/Indonesia/Malaysia and the English-speaking diaspora.
+- Amplifiers: Group leaders and local agencies as distribution partners and credibility anchors (non-transactional partnerships in v1).
 
-* **Objective:** Validate H1–H9 and H11 with measurable user behavior and real fulfillment using a minimal, offline-first app and a concierge backstop for supply matching.
-* **Out of scope:** Direct Hajj package sales, advanced AI concierge, community feeds, full B2B console.
+### Sketch / MVP Description (no code)
 
----
+A lightweight, offline-first Umrah companion app focused on trust and guidance:
 
-### ICP and Target Segments
+- Users download an offline pack (ritual steps, city POIs, citations).
+- Ritual Mode provides step cards and a lap counter for Tawaf/Sa’i; all content is scholar-approved with visible sources. 
+- Ziyarah Explorer offers offline points of interest across Makkah, Madinah, Taif, and Jeddah; a Solo/Hire toggle is presented as information only (no in‑app bookings; any external contact is user‑initiated and outside the app).
+- Compliant routing hints surface permit-aware reminders and soft re-route guidance.
+- Optional language tools (phrasebook + offline audio) lower friction in destination.
+- Analytics measure Activation, trust signals (source_view), stability, and engagement (Map Return Rate).
+- If time permits enhance ritual mode and ziyarah explorer further using AI. ( Q&A citation using RAG )
 
-- **Primary ICP:** DIY or semi-DIY Umrah pilgrims, age 25–45, digital-native, BD/ID/MY and English-speaking diaspora.
-- **Amplifiers:** Group leaders and local agencies as distribution partners and supply anchors.
+Flow sketch (text)
+Onboard → Download Offline Pack  
+Home  
+  ├─ Ritual Mode → Step cards → Lap counter → Finish → Feedback  
+  ├─ Ziyarah Explorer → POI → Save → Map return (same-session)  
+  └─ Routing Help → Permit hint → Soft re-route guidance  
+Feedback → Optional language pack
 
----
+Validation linkage: Hypothesis mapping and experiment design live in Section 9 (MVP Validation Plan). Section 8 intentionally avoids duplicating those details.
 
-### Hypothesis → Feature Traceability
+### Core Features (ranked by value)
 
-| Hypothesis IDs            | MVP Feature                                            | What it proves                                 | Success indicator (v1)                                        |
-| ------------------------- | ------------------------------------------------------ | ---------------------------------------------- | ------------------------------------------------------------- |
-| H1, H6, FH1, FH4          | **Offline Ritual Mode**                                | Ritual anxiety relief and engagement           | Activation ≥50%, ritual error-free ≥95%                       |
-| H2, H5, H8, FH2, FH5, FH8 | **License-First Marketplace** + **Concierge Fill Log** | Liquidity, compliance, trust                   | Fill ≥80%, P50 confirm ≤30 min, disputes <2%                  |
-| H5, H7                    | **Compliant Route and Timing Guidance**                | Permit-aware usefulness and group coordination | Route blocks auto-rerouted, lost incidents ↓                  |
-| H1, H7, H9, FH7           | **Ziyarah Explorer (offline POI + Solo/Hire toggle)**  | Discovery value and repeat map use             | Map returns ≥30%, cross-purchase ≥20%                         |
-| H6, FH6                   | **Phrasebook + Translation**                           | Language barrier relief                        | Phrase audio plays per session; CSAT on language tools ≥4.3/5 |
-| H9, FH9                   | **eSIM Onboarding (light attach)**                     | Connectivity failover utility                  | Opt-in attach as secondary metric                             |
+1) Offline Ritual Mode (step cards, lap counter, scholar-approved content with citations)  
+2) Ziyarah Explorer (offline POIs; Solo/Hire toggle presented as content-only)  
+3) Compliant Routing Hints (permit-aware reminders; soft-fail to content when uncertain)  
+4) Trust & Governance UI (source citations, endorsement badges)  
+5) Phrasebook + Translation (offline audio for key phrases)  
+6) Light eSIM attach (links only; measured as an observed, non-gating metric)
 
----
+### What We Will Exclude from v1
 
-### Feature Set and Prioritization
+- Transactions and marketplace flows (no bookings, no escrow, no price cards)
+- Supply onboarding/operations and any manual/concierge activity
+- Advanced AI concierge or voice; community feeds/journaling
+- Full B2B (Business-to-Business) console; hotel OTA (Online Travel Agency) layer
+- Group location sharing; anything requiring background location
 
-#### Must (ship in v1)
+### MVP Success Criteria (measurable)
 
-1. **Offline Ritual Mode**
-   Step cards for Tawaf/Sa’i, lap counter with undo, scholar-approved content packs.
-2. **Compliant Route and Timing Guidance**
-   Policy-aware routing hints and permit reminders; soft-fail to content when unsure.
-3. **License-First Marketplace (transport, ziyarah guide)**
-   Pre-quoted fixed fares, license badges, escrow prompt, post-trip rating.
-   **Concierge Fill Log** for manual matching during v1 to ensure liquidity.
-4. **Ziyarah Explorer**
-   Offline POIs for Makkah, Madinah, Taif, Jeddah; Solo/Hire toggle.
-5. **Core Analytics & Telemetry**
-   Event tracking, cohort dashboards, crash-free monitoring.
+- **Activation**: ≥40% of users complete ≥3 core actions in 14 days (n ≥ 50). Core actions: {ritual_start, ritual_finish, map_opened, poi_saved, phrase_audio_played}.
+- **Ritual task success**: ≥95% error-free completion in moderated usability sessions (n ≥ 20).
+- **Trust NPS**: ≥30 among active users (n ≥ 30).
+- **Source_view rate**: ≥25% of guidance sessions open at least one citation/source.
+- **Map Return Rate**: ≥30% of sessions return to the map after first open (same-session).
+- **Stability**: Crash-free sessions ≥99% (with emphasis on low-end Android).
 
-#### Should (add during v1 if time allows)
+### Observed, non-gating (reported only)
 
-1. **Phrasebook + Translation** with offline audio.
-2. **Endorsement Badges** placement test on listings and ritual content.
-
-#### Could (defer unless trivial)
-
-1. **eSIM Onboarding** with simple bundle links.
-2. **Wheelchair as add-on** bundled under transport, not its own SKU.
-
-#### Exclusions (post-PMF)
-
-- Advanced AI voice concierge, journaling/community, full B2B console, hotel OTA layer.
-
----
-
-### Success Metrics and Definitions
-
-| Metric                        | Definition                                                                                                                                                 | Target (v1 beta) | Stretch      |
-| ----------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------- | ------------ |
-| **Activation**                | User completes ≥3 distinct core actions in first 14 days: {ritual_start, ritual_finish, map_opened, poi_saved, service_booked, phrase_audio_played} | ≥ **40%**        | ≥ **60%**    |
-| **Marketplace Purchase Rate** | % of active users who complete ≥1 paid service                                                                                                             | ≥ **25%**        | ≥ **35%**    |
-| **Blended Take-Rate**         | Commission across marketplace SKUs (weighted)                                                                                                              | ≥ **12%**        | ≥ **15%**    |
-| **Fill-Rate**                 | Confirmed bookings / total requests                                                                                                                        | ≥ **80%**        | ≥ **90%**    |
-| **Confirm Time (P50)**        | Median minutes from request to confirmed supplier                                                                                                          | ≤ **30 min**     | ≤ **20 min** |
-| **On-time Fulfillment**       | Completed on or before scheduled time                                                                                                                      | ≥ **90%**        | ≥ **95%**    |
-| **Refund Rate**               | Refunds / completed bookings                                                                                                                               | ≤ **5%**         | ≤ **3%**     |
-| **Disputes**                  | Disputes / completed bookings                                                                                                                              | < **2%**         | < **1%**     |
-| **Chargebacks**               | Chargebacks / completed bookings                                                                                                                           | < **0.5%**       | < **0.3%**   |
-| **Map Return Rate**           | % of sessions with ≥1 return to map after first open                                                                                                       | ≥ **30%**        | ≥ **40%**    |
-| **Cross-Purchase**            | % of buyers who purchase a second SKU                                                                                                                      | ≥ **20%**        | ≥ **30%**    |
-| **NPS**                       | Standard 0–10 promoter score among active users                                                                                                            | ≥ **30 (v1 gate)**         | ≥ **40 (post-beta target)**     |
-| **Crash-Free**                | Sessions without crash on low-end Android                                                                                                                  | ≥ **99%**        | ≥ **99.5%**  |
-
----
+- CPI (Cost Per Install) and CAC (Customer Acquisition Cost) by channel; CPI target band around prior field signal (±25%).
+- WAU/MAU (Weekly/Monthly Active Users) and language-tool CSAT (Customer Satisfaction) ≥4.3/5.
+- eSIM attach opt-ins as a directional signal.
 
 ### Minimal Analytics Schema (events)
 
-**Entities:** `user_id`, `trip_id`, `session_id`, `city`, `vendor_id`, `sku_id`, `install_source`.
+Entities: user_id, trip_id, session_id, city, install_source, language.
 
-**Events:**
+Events
 
-- Onboarding: `onboard_complete`, `offline_pack_downloaded`
-- Rituals: `ritual_start`, `ritual_step_completed`, `ritual_finish`, `ritual_error_undo`
-- Maps/POI: `map_opened`, `poi_viewed`, `poi_saved`, `map_returned`
-- Marketplace: `service_quote_viewed`, `service_booked`, `service_paid_escrow`, `service_completed`, `dispute_opened`, `refund_processed`
-- Routing: `route_request`, `route_blocked`, `route_rerouted_permit_ok`
-- Language: `phrase_audio_played`, `translation_used`
-- Acquisition: `install_source_attrib` (imam_referral, agency_bundle, fb_group, wa_group, organic)
+- Onboarding: onboard_complete, offline_pack_downloaded
+- Rituals: ritual_start, ritual_step_completed, ritual_finish, ritual_error_undo
+- Maps/POI: map_opened, poi_viewed, poi_saved, map_returned
+- Routing: route_request, route_blocked, route_hint_viewed
+- Guidance trust: source_view, endorsement_view
+- Language: phrase_audio_played, translation_used
+- Acquisition: install_source_attrib (imam_referral, agency_bundle, fb_group, wa_group, organic)
 
-**Computed metrics:** Activation, purchase rate, fill-rate, confirm-time median (P50) and 90th percentile (P90), on-time %, Weekly to Monthly Active User ratio (WAU/MAU), NPS.
-
----
-
-### Experiments Plan (first 2–4 weeks)
-
-1. **E1 — Concierge Fill Log**
-   n ≥ 50 requests across dayparts and cities; targets: fill ≥80%, P50 confirm ≤30 min, disputes <2%.
-
-2. **E2 — Ritual Usability Lab**
-   n = 20 users; targets: error-free ritual completion ≥95%, SUS ≥80; collect CSAT on guidance clarity.
-
-3. **E3 — Channel CAC Micro-Tests**
-   Four channels × 100 USD budget each; CPI ≤1.50 USD, signup→activation ≥35%, payback <90 days on service GM.
-
-4. **E4 — Price-Card A/B per SKU**
-   Three SKUs with n ≥ 30 per arm; maintain target commission with conversion loss ≤20%.
-
-Optional:
-**E5 — Escrow Copy A/B** (conversion rate +15% without disputes rising).
-**E6 — Endorsement Badge A/B** (CTR +20%, conversion rate +10%).
-
----
+Computed: Activation, Map Return Rate, WAU/MAU, Trust NPS, Crash-free %, source_view rate.
 
 ### Operational and Compliance Guardrails
 
-- **License-first supply:** KYC checklist with document uploads, expiry tracking, spot audits.
-- **Payments:** Escrow flow with clear refund rules and T+2 day payouts (P95).
-- **Disputes SOP:** Intake, triage within 24 hours, resolve within 72 hours.
-- **Safety and privacy:** Opt-in location sharing for group features, minimal data collection, offline-first by default.
-- **Content integrity:** Scholar double-review for ritual content; AI shadow-mode only after curated v1 hits accuracy targets.
-
----
-
-### Vendor Onboarding Playbook (v1)
-
-- **Targets:** 20+ active drivers, 10+ ziyarah guides across Makkah/Madinah; at least 3 per daypart.
-- **Bundles:** Airport transfer, city ziyarah half-day, city ziyarah full-day.
-- **Pricing:** Pre-quoted fixed fares with allowed variance bands; display license badge; standardized cancellation policy.
-
----
+- Content governance: scholar double-review; versioned content packs with rollback path.
+- Safety and privacy: opt-in location sharing if added later; minimal data collection; offline-first by default.
+- Payments and disputes: not active in v1; specifications drafted for later transactional phases.
 
 ### Risks and Mitigations
 
-| Risk                | Impact                    | Mitigation                                                                     |
-| ------------------- | ------------------------- | ------------------------------------------------------------------------------ |
-| Permit rule changes | Routing value and trust   | Maintain ruleset content, soft-fail to guidance, frequent policy checks        |
-| Peak-time liquidity | Cancellations and poor UX | Over-recruit vendors, concierge backstop, smart daypart caps                   |
-| CAC escalation      | Unprofitable growth       | Imam/Mosque and group leader referrals, affiliate-as-commission, optimize creatives |
-| Content errors      | Trust loss                | Scholar double-review, versioned content packs, rollback path                  |
-| Vendor churn        | Liquidity instability     | Reliable payouts, fair rotation, earnings insights                             |
-
----
-
-### Delivery Timeline (8 weeks, Dhaka time)
-
-| Week | Milestone                                                           |
-| ---- | ------------------------------------------------------------------- |
-| 1    | Final specs, event schema, vendor KYC forms, route content v1       |
-| 2    | Ritual Mode alpha, Ziyarah POIs seed, Concierge Log sheet live      |
-| 3    | Marketplace booking flow skeleton, escrow copy v1, analytics wiring |
-| 4    | Compliant routing hints MVP, endorsement badge placement            |
-| 5    | E2 usability lab, E1 concierge run starts, vendor onboarding wave 1 |
-| 6    | E3 CAC micro-tests, price-card A/B setup (E4), bug fixes            |
-| 7    | Stabilize, measure gates, iterate copy and POIs, vendor wave 2      |
-| 8    | Beta cut, gate review: activation, marketplace, compliance, NPS     |
-
-**Go/No-Go:** Ship public beta only if activation ≥40%, purchase rate ≥25%, on-time ≥90%, NPS ≥30 (v1 gate).
-
----
+| Risk | Impact | Mitigation |
+| --- | --- | --- |
+| Permit rule changes | Routing value and trust | Maintain ruleset content; soft-fail to guidance; frequent policy checks |
+| Content errors | Trust loss | Scholar double-review; visible citations; versioned updates with QA |
+| Low engagement | Weak signal on fit | Shorten onboarding; improve copy; expand POIs; add language audio quickly |
 
 ### Resourcing (lean)
 
-- **Product/PM:** 0.5 FTE
-- **Mobile (Flutter):** 1 FTE
-- **Backend/light ops:** 0.5 FTE
-- **Design/Content:** 0.5 FTE (ritual content, POIs)
-- **Ops/Concierge:** 0.5–1.0 FTE during E1
-- **Scholars:** reviewer pool, part-time
-
----
+- Product/PM: 0.5 FTE
+- Mobile (Flutter): 1.0 FTE
+- Backend: 0.5 FTE
+- Design/Content (ritual content, POIs): 0.5 FTE
+- Scholars: reviewer pool, part-time
 
 ### User Flow (concise)
 
-```ascii
-Onboard → Download Offline Pack
-Home
-  ├─ Ritual Mode → Lap Counter → Finish → Rate
-  ├─ Ziyarah Explorer → POI → Solo/Hire → Book
-  ├─ Marketplace → Fixed Fare → Escrow → Track → Rate/Dispute
-  └─ Routing Help → Permit Hint → Reroute
-Feedback → Light Upsell
-```
-
----
+Onboard → Download Offline Pack  
+Home  
+  ├─ Ritual Mode → Lap Counter → Finish → Feedback  
+  ├─ Ziyarah Explorer → POI → Save → Map return  
+  └─ Routing Help → Permit hint → Reroute guidance  
+Feedback → Light upsell (language pack)
 
 ### Reporting Cadence
 
-- **Daily:** Liquidity snapshot (fills, confirm times), crash-free, incident log.
-- **Weekly:** Activation cohort, purchase rate, NPS, funnel by channel, dispute summary.
-- **Post-beta:** Gate review memo with charts and decision.
-
----
+- Daily: Crash-free, key incidents, time-to-first-action.
+- Weekly: Activation cohort, Map Return Rate, Trust NPS, source_view, funnel by channel.
+- Gate Review: Decision memo with charts and recommended next actions.
 
 ## SECTION 9 — MVP Validation Plan
 
 ### Scope & Current Status
 
-We shipped an **offline-first Umrah guidance MVP** (FlutterFlow) with two modules: **Ritual Mode** (step-by-step checklists) and a **Dua Journal**. The released build had **no audio**, **no AI**, **no ziyarah cards**, and **no provider integrations**. Before December, We will add **RAG search (answers with citations)** and **trip-anchored analytics**; We will also formalize an **MoU with Taibah Institute**, who will approve and curate content. We will deploy **whatever is production-ready in the first week of December**.
+We shipped an **offline-first Umrah guidance MVP** (FlutterFlow) with two modules:
+
+- **Ritual Mode** (step-by-step checklists) and a 
+- **Dua Journal**.
+
+The released build had **no audio**, **no AI**, **no ziyarah cards**, and **no provider integrations**.
 
 ### Field Signal to Date (Hajj-peak test, June 5–13, 2025; Makkah)
 
@@ -884,65 +848,67 @@ We shipped an **offline-first Umrah guidance MVP** (FlutterFlow) with two module
 
 **Takeaway.** Even without analytics or AI, early adoption showed **healthy blended cost** and **encouraging organic pickup** in a pilgrimage context.
 
----
+### What we are testing and how
 
-### What we Will Ship Before December
+- Controlled release in early December of an offline-first app focused on trust and guidance (no in‑app bookings, no manual/concierge operations).
+- Feature set under test:
+  - Ritual Mode (step cards, lap counter),
+  - Dua Journal, content‑only Ziyarah/Local guidance cards, and
+  - Optional RAG (Retrieval‑Augmented Generation) Q&A with citations if production‑ready.
+- Methods and instrumentation:
+  - Trip‑anchored analytics keyed to TripID (privacy‑safe cohorts).
+  - Activation tracking with clearly defined core actions; same‑session Map Return Rate.
+  - Live vs Pre/Post ritual usage classification to understand when guidance is used.
+  - A/B placement of citation and endorsement UI to drive trust (source_view).
+  - Moderated usability sessions (n = 20) for Ritual Mode task completion and clarity.
+  - Channel micro‑tests with modest paid spend to benchmark CPI (Cost Per Install) and CAC (Customer Acquisition Cost) to Activation.
+- Governance and quality safeguards:
+  - MoU (Memorandum of Understanding) with accredited institute; scholar‑approved content with visible citations and a refusal policy for out‑of‑scope questions.
+  - Offline fallback to Ritual Mode for any network‑dependent flows.
 
-- **RAG Guidance (text, with citations).** Answers from vetted Umrah/Hajj sources; visible references; refusal policy for out-of-scope questions; offline fallback to Ritual Mode.
-- **Trip-Anchored Analytics.** Minimal, privacy-safe event schema keyed to **TripID**.
-- **Lightweight Ziyarah & Local Guidance Cards (content-only).** A small set of cards (no bookings) to measure interest/utility in-destination.
-- **Localization & Onboarding.** Bangla + English + Malay / Bahasa (if translator available); time-to-first-checklist-action ≤ 60s.
-- **Governance.** MoU with **Taibah Institute**; Taibah decides inclusions and phrasing; We enforce verbatim citations and a transparent change log.
+### Timeline for testing (4‑week controlled release)
 
----
+- Week 0 (prep): Finalize RAG/text guidance (if ready), analytics schema, and localization; sign MoU with accredited institute.
+- Week 1 (launch): Release to controlled cohort; begin trip‑anchored tracking and gate monitoring.
+- Weeks 1–2 (trust/usability): Run 20 moderated usability sessions; A/B test citations/endorsements; tune onboarding to lift Activation.
+- Weeks 2–3 (channels/iteration): Run channel micro‑tests; refine copy and content; optimize for Map Return Rate and source_view without harming Activation.
+- Week 4 (gate review): Go/Iterate decision and a memo summarizing gates, directional metrics, and next steps. Deliver Reporting Pack (gates with n, directional metrics, governance status, feature signals)
 
-### Hypotheses in Scope (readable narrative + metrics)
+### Expected cost (this phase, USD)
 
-**H1 — Problem–solution fit (Umrah guidance, in peak conditions).**
-In December we will validate whether guidance solves an immediate need **during busy periods**. we will consider this passed if **≥50%** of new signups complete a key action in their first session (start a checklist step or create a dua). Because the window is short, **Trip-Day Coverage** will be reported descriptively; for trips that finish within the window, we are targeting **Trip NPS ≥ 40 (post-beta target)**.
+- Paid acquisition micro‑tests: ~$1500
+- Localization and content QA: ~$1,500
+- Scholar honoraria/governance: ~$1,500
+- Analytics/tooling (Firebase/Amplitude tier) and infra: ~$400
+- AI Development Tools: ~$1000
+- Development Cost:~$15000
+- Contingency/miscellaneous: ~$500
+- Estimated total: ~$25000
 
-**H1a — Live-during-ritual usage vs pre/post usage.**
-We want to know **when** people actually use guidance (e.g., Tawaf). We will classify events into:
+### What success looks like (metrics, gates, and decision rules)
 
-- **Live**: a step page is opened ≤2 minutes before the matching **step_completed** event, on the same Trip Day.
-- **Pre**: a step page is opened >60 minutes before its completion (study/prep).
-- **Post**: a step page is opened after completion (review/debrief).
+- Must‑hit gates (trust‑first)
+  - Activation: ≥40% of users complete ≥3 core actions in 14 days (n ≥ 50). Core actions: {ritual_start, ritual_finish, map_opened, poi_saved, phrase_audio_played}.
+  - Ritual task success: ≥95% error‑free completion in moderated usability sessions (n ≥ 20).
+  - Trust NPS (Net Promoter Score): ≥30 among active users (n ≥ 30).
+  - Source_view rate: ≥25% of guidance sessions open at least one citation/source.
+  - Engagement proxy: same‑session Map Return Rate ≥30%.
+  - Stability: crash‑free sessions ≥99% (with emphasis on low‑end Android).
+  - Safety (if RAG is active): harmful outputs = 0; ≤5% ambiguous answers resolved within 24 hours.
 
-**Decision signal.** If **Live Usage Ratio** (Live / \[Live+Pre+Post]) is **<10%** and **Pre** dominates, we will prioritize **pre-Umrah training modules** (Duolingo-style micro-lessons) over live guidance UX work. If Live ≥30%, we will equally be investing in both live ritual UX and **pre-Umrah training modules** (Duolingo-style micro-lessons)
+- Directional, non‑gating indicators
+  - CPI (Cost Per Install) within ±25% of $1.48; K (viral coefficient) ≥0.70.
+  - Time‑to‑first‑action ≤60 seconds median.
+  - Language tools CSAT (Customer Satisfaction) ≥4.3/5.
+  - Retention (Day‑14): ≥30% (n ≥ 50).
 
-**H2 — Ziyarah & Local Guidance card utility (TripAdvisor-like signal).**
-We will add **content-only** cards for a small set of sites and local guidance topics. Success looks like **≥50%** of trip-active users open ≥2 cards, with median **time-on-card ≥20s**. If engagement is high, we will expand toward a **TripAdvisor-for-Makkah/Madinah** content layer (still self-guided, no bookings).
+- Decision rules
+  - Go (scale content; prep monetization tests): all must‑hit gates are achieved in the first controlled cohort (respecting n thresholds). Proceed to expand content, finalize governance, and prepare post‑trust experiments (pricing/monetization in later phase).
+  - Iterate (tighten trust/UX): if any single gate misses by ≤20% with identifiable fixes. Example fixes: shorten onboarding to lift Activation; surface citations earlier to raise source_view; refine retrieval/chunking to reduce ambiguity; retitle POIs/cards to improve Map Return Rate. Re‑run gates after changes.
+  - Pivot (content model): if harmful outputs persist or Trust NPS remains <0 despite fixes. Shift to curated, scholar‑controlled guidance (no RAG answers), maintain instrumentation, and reassess AI later.
+  - Fallback (business model): if self‑guided usage/Activation remains below gate after two iterate cycles or a confirmation test, realign toward agency‑curated flows, a package marketplace, and OTA (Online Travel Agency) distribution; if licensing is blocked, distribute via licensed partners.
 
-**H6 — Guidance accuracy & safety (RAG + citations).**
-RAG answers must be precise, safe, and transparent. The bar is **zero harmful outputs**, **≤5%** ambiguous answers resolved within **24 hours**, and **source-view ≥25%** among active users. Sampled sessions should show **CSAT ≥ 4.3/5**.
-
-**H11 — Brand credibility & endorsements (Taibah governance).**
-Success is the **MoU signed**, Taibah-approved content live with citations, and visible endorsement/source interactions (tracked via **source_view** and **endorsement_view** rates). **Trip NPS** serves as the downstream trust proxy.
-
-**H4 — Acquisition efficiency & repeatability (trust-first).**
-We will benchmark paid acquisition against June’s field test, aiming for **CPI within ±25%** of **$1.48** (i.e., **$1.11–$1.85**). With analytics live, we will report **CAC→Activation by channel** and look for **virality K ≥ 0.70** during the December run.
-
-**H6a — AI vs human-verified usage preference.**
-We will measure **RAG query adoption** (share of actives issuing ≥1 query; queries per active; repeat-query rate). If <20% of actives use RAG and **source_view** remains high, We will emphasize **curated, human-verified answers** and treat AI as secondary.
-
-**H9 — Dua module behavior (preset vs custom; post-trip revisits).**
-We will observe whether users prefer **preset duas** or adding **their own**; We will also track **post-trip revisits** (any dua view/edit ≥7 days after Trip End). If post-trip revisits are **≥20%** of dua creators, We will invest in light post-trip habit features; otherwise we will keep the Dua module minimal.
-
----
-
-### Success Criteria & Decision Rules
-
-**Go (scale content; prep monetization tests)** if:
-Activation **≥40%**, **Trip NPS ≥40 (post-beta target)**, **source-view ≥25%**, **CPI** in band, **K ≥0.70**, **harmful = 0**, crash-free **≥99%**.
-Directional signals: **Live Usage ≥30%** → continue live ritual UX; **Card Engagement high** → expand TripAdvisor-like content; **RAG adoption ≥20%** → continue investing in RAG; **Dua revisits ≥20%** → explore post-trip habit features.
-
-**Iterate (tighten trust/UX)** if a single Key Performance Indicator (KPI) misses by **≤20%** with clear fixes (shorten onboarding to lift Activation; surface citations earlier to lift source-view; refine chunks/reranker to reduce ambiguity; reword card titles to raise card engagement).
-
-**Pivot (content model)** if **harmful outputs persist** or **Trip NPS < 0** despite fixes: move to **curated, scholar-controlled guidance** under Taibah editorial ownership (no RAG answers), keep analytics, and reassess AI later.
-
-**Fallback (business model)** if **self-guided** usage/activation remains weak after a confirmation test: shift focus to **agency-curated flows, package marketplace**, and OTA distribution. Long-term, if obtaining an **Umrah license** is blocked, We will sell via **licensed agency partners**.
-
----
+Note: Gates are trust‑first and non‑transactional, consistent with Section 8. CPI/K/Retention are directional to inform channel and sequencing, not to trigger Go/No‑Go in this phase.
 
 ### Minimal Instrumentation (production)
 
@@ -955,18 +921,21 @@ Directional signals: **Live Usage ≥30%** → continue live ritual UX; **Card E
 - **Acquisition:** `install_source`, `campaign_id`
 - **Stack:** Firebase (+ BigQuery) or Amplitude; offline queueing; no PII
 
----
+### Hypotheses in scope (narrative + decision signals)
 
-### Reporting Pack After Early-December Deploy
+- H1 — Problem–solution fit (peak conditions): pass if ≥50% of new signups complete a key action in first session; track Trust NPS ≥30 among active users (≥40 stretch).
+- H1a — Live vs Pre/Post ritual usage: if Live / (Live + Pre + Post) <10% and Pre dominates → prioritize pre‑Umrah micro‑lessons; if Live ≥30% → invest in both live ritual UX and micro‑lessons.
+- H1b — Ziyarah/Local card utility (TripAdvisor‑like signal): ≥50% of trip‑active users open ≥2 cards; median time‑on‑card ≥20s; expand content if high (self‑guided, no bookings).
+- H6 — Guidance accuracy and safety (RAG + citations): harmful outputs = 0; ≤5% ambiguous answers resolved ≤24h; source_view ≥25%; sampled CSAT ≥4.3/5.
+- H11 — Brand credibility and endorsements: MoU signed; Taibah‑approved content live with citations; source_view and endorsement_view show engagement.
+- H4 — Acquisition efficiency and repeatability: benchmark CPI within ±25% of $1.48; report CAC→Activation by channel; track K ≥0.70 (directional).
+- H6a — AI vs human‑verified preference: if <20% of actives use RAG and source_view remains high → emphasize curated answers; treat AI as secondary.
+- H1c — Dua module behavior: observe preset vs custom usage; if post‑trip revisits ≥20% of dua creators → explore light habit features.
 
-- **Activation**, **CPI**, **CAC→Activation (by channel)**, **Virality K**, **Trip NPS**, **source-view rate**, stability, and **Taibah endorsement status** with sample **cited answers**.
-- Feature-direction signals: **Live Usage Ratio**, **Card Engagement**, **RAG adoption vs curated usage**, and **Dua preset/custom split** with post-trip revisit rate.
+### Out of scope for this cycle (deferred)
 
----
-
-### Out of Scope for This Cycle (Deferred)
-
-We will not test **H3 (WTP/take-rates)**, **H2/H8/H10 (marketplace liquidity, escrow, supply-side economics)**, or **H12 (OTA adjacency)** until content and trust KPIs above are reliably met. Longer-term, We will pursue the **Umrah license**; if licensing remains a blocker, We will distribute through **licensed agency partners**.
+- H3 (Willingness to Pay/take‑rates); H2/H8/H10 (marketplace liquidity, escrow, supply‑side economics); H12 (OTA adjacency).
+- Transactions and manual/concierge operations remain out of scope until trust/content KPIs are reliably met.
 
 ---
 
