@@ -1,10 +1,58 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&family=Gelasio:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Open+Sans:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Proxima+Nova:wght@400;500;600;700&family=Raleway:wght@400;500;600;700&family=Roboto:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;500;600;700&family=Merriweather:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Poppins:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Serif:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600&family=Libre+Baskerville:wght@400;700&display=swap');
 
+/* Font Selection - Change these variables to switch fonts */
+:root {
+  /* Current selection (your original choice) */
+  --body-font: 'Source Sans 3', sans-serif;
+  --heading-font: 'Merriweather', serif;
+  
+  /* Alternative combinations (uncomment to use):
+  
+  Modern elegance:
+  --body-font: 'Inter', sans-serif;
+  --heading-font: 'Playfair Display', serif;
+  
+  Balanced contrast:
+  --body-font: 'Source Sans 3', sans-serif;
+  --heading-font: 'Merriweather', serif;
+  
+  Contemporary professional:
+  --body-font: 'Lato', sans-serif;
+  --heading-font: 'Poppins', sans-serif;
+  
+  Cohesive system:
+  --body-font: 'IBM Plex Sans', sans-serif;
+  --heading-font: 'IBM Plex Serif', serif;
+  
+  Classic meets modern:
+  --body-font: 'Work Sans', sans-serif;
+  --heading-font: 'Libre Baskerville', serif;
+  
+  Other original options:
+  --body-font: 'Open Sans', sans-serif;
+  --heading-font: 'Montserrat', sans-serif;
 
+  --body-font: 'Gelasio', serif;
+  --heading-font: 'Lora', serif;
+  
+  --body-font: 'Raleway', sans-serif;
+  --heading-font: 'Raleway', sans-serif;
+  
+  --body-font: 'Roboto', sans-serif;
+  --heading-font: 'Roboto', sans-serif;
+  */
+}
 
 /* Apply body font */
 body, .md-content, .md-typeset {
-  font-family: 'Gelasio', serif;
+  font-family: var(--body-font);
 }
 
 /* Apply heading font */
@@ -15,7 +63,7 @@ body, .md-content, .md-typeset {
 .md-typeset h5,
 .md-typeset h6,
 .md-header__title {
-  font-family: 'Lora', serif;
+  font-family: var(--heading-font);
 }
 
 .md-typeset h1 {
