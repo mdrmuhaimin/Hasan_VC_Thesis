@@ -490,60 +490,69 @@ Interviews → Build → Instrumented product tests (trust and usability) → Mo
 - p90: the 90th percentile (e.g., 90% of confirmations occur within this time).
 - n: sample size used for a given measurement.
 
-## SECTION 6 — Ideal Customer Profiles (ICP)
+## Section 6 — Ideal Customer Profiles (ICP)
 
-We serve two primary customers—pilgrims (B2C) and group leaders/agencies (B2B)—and one tertiary B2B customer (local service providers). Below is a crisp, VC-ready snapshot in the requested format, plus why each segment picks us.
+We serve two primary customers—pilgrims (B2C) and group leaders/agencies (B2B)—and one tertiary B2B customer (local service providers). This section outlines who they are, their pain points, current alternatives, why we fit, and how we reach them.
 
 ### ICP #1 — Pilgrim (B2C)
 
-- **Target industry:** Faith travel (Umrah/Hajj)
-- **Role/Persona:** First-time or occasional pilgrim; the family’s “tech helper” who plans for others
-- **Geography:** Bangladesh, Malaysia, Indonesia + diaspora (GCC/UK/US/CA)
-- **Business size (if B2B):** N/A
-- **Pain points:**
-  - Clarity on exact steps and sequence; trusted rulings (school/fiqh variants); poor on-site connectivity; cognitive overload during peak days; fragmented guidance across YouTube/WhatsApp/books; language/localization gaps
-- **Current solutions used:**
+- Target category: Faith travel (Umrah/Hajj)
+- Role/Persona: First-time or occasional pilgrim; often the family’s “tech helper”
+- Geography: Bangladesh, Malaysia, Indonesia + diaspora (GCC (Gulf Cooperation Council)/UK/US/Canada)
+- Pain points:
+  - Need clarity on exact steps and sequence; trusted rulings across schools/fiqh (Islamic jurisprudence)
+  - Poor on-site connectivity; cognitive overload during peak days
+  - Fragmented guidance across YouTube/WhatsApp/books; language/localization gaps
+- Current alternatives:
   - Human guides/imams; agency briefings; WhatsApp groups; printed handouts/books; YouTube/TikTok; official apps (e.g., Nusuk; local ministry apps)
-- **Why they pick us (fit):**
-  - Offline-first, step-by-step rituals and a simple dua journal, with **cited, scholar-approved** content that reduces confusion at the moment of need.
+- Why they pick us:
+  - Offline-first Ritual Mode and a simple dua journal with cited, scholar-approved content—reducing confusion at the moment of need
+- Primary acquisition channels (aligned with H4):
+  - Imam/mosque referrals, agency cohorts, diaspora Facebook/WhatsApp groups, and organic search/store
 
-### ICP #2 — Group Leader / Agency (B2B) — *also uses us as a sales channel*
+### ICP #2 — Group Leader / Agency (B2B)
 
-- **Target industry:** Imam-led cohorts; Umrah/Hajj tour operators; mosque groups
-- **Role/Persona:** Imam or group leader; agency owner/operations lead who needs standardized, cited guidance for cohorts and lighter support load
-- **Geography:** Bangladesh, Malaysia, Indonesia; export segments in GCC/UK/US/CA
-- **Business size (if B2B):**
-  - Imam/mosque cohorts: \~30–150 pilgrims per group
-  - Mid-size agencies: \~200–3,000 pilgrims per season
-- **Pain points:**
-  - Inconsistent training quality; repetitive Q&A on WhatsApp; multilingual content gaps; ensuring pilgrims actually follow steps; lack of printable/offline materials; seasonality in demand
-- **Current solutions used:**
+- Target category: Imam-led cohorts; Umrah/Hajj tour operators; mosque groups
+- Role/Persona: Imam or group leader; agency owner/ops lead seeking standardized, cited guidance and lower support load
+- Geography: Bangladesh, Malaysia, Indonesia; export segments in GCC/UK/US/Canada
+- Business size:
+  - Imam/mosque cohorts: ~30–150 pilgrims per group
+  - Mid-size agencies: ~200–3,000 pilgrims per season
+- Pain points:
+  - Inconsistent training quality; repetitive Q&A on WhatsApp; multilingual content gaps
+  - Ensuring pilgrims actually follow steps; lack of printable/offline materials; seasonality in demand
+- Current alternatives:
   - In-person workshops; PDFs/printouts; WhatsApp broadcasts; DIY slide decks; reliance on on-site human guides only
-- **Why they pick us (fit):**
-  - **Cited, scholar-approved content** they can hand to every pilgrim (less repetitive Q&A).
-  - **White-label/cohort tools** to standardize prep across groups.
-  - **Sales channel:** we can route pilgrims to their packages and cohorts, supporting **B2B rates** and **2–5% commission norms** (from interviews and our sales-partner experience), creating incremental demand rather than cannibalizing their existing channels.
+- Why they pick us:
+  - Cited, scholar-approved content they can hand to every pilgrim (less repetitive Q&A)
+  - Cohort tools to standardize preparation across groups (white-label optionality)
+  - Post-trust (later phase): ability to list cohorts/packages with B2B rates and 2–5% commission norms as an additional distribution lane
+- Primary acquisition/partnership channels:
+  - Imam networks, mosque boards, regional agency associations, and diaspora community leaders
 
-### ICP #3 — Local Service Provider (B2B, tertiary) — *uses us as a sales channel*
+### ICP #3 — Local Service Provider (B2B, tertiary; later phase)
 
-- **Target industry:** Transport operators (airport⇄hotel; ziyarah routes), private guides, local ziyarah tour providers
-- **Role/Persona:** SME/owner-operator in KSA serving BD/MY/ID pilgrims; wants predictable demand and reputation building
-- **Geography:** Primarily KSA (Makkah/Madinah) with BD/MY/ID pilgrim traffic
-- **Business size (if B2B):** Micro to SME (single owner-operators up to small fleets)
-- **Pain points:**
-  - Discovery and trust; inconsistent referrals; opaque pricing; disputes and cancellations; compliance/payments friction
-- **Current solutions used:**
+- Target category: Transport operators (airport↔hotel; ziyarah routes), private guides, local ziyarah tour providers
+- Role/Persona: SME/owner-operator in KSA serving BD/MY/ID pilgrims; wants predictable demand and reputation building
+- Geography: KSA (Makkah/Madinah) targeting BD/MY/ID pilgrim traffic
+- Business size: Micro to SME (single owner-operators up to small fleets)
+- Pain points:
+  - Discovery and trust; inconsistent referrals; opaque pricing; disputes/cancellations; compliance/payments friction
+- Current alternatives:
   - Word-of-mouth; brokered WhatsApp groups; agency referrals; ad-hoc Facebook pages
-- **Why they pick us (fit):**
-  - **Targeted sales channel** to reach relevant pilgrims and groups.
-  - **Standardized listings & reviews** to build trust and repeat business.
-  - **(Later) Payments/escrow and B2B pricing** to smooth cash flow and reduce disputes—activated only after trust KPIs are met.
+- Why they pick us (later phase, post-trust):
+  - Targeted access to relevant pilgrims and groups; standardized listings and reviews to build trust and repeat business
+  - (Later) payment/escrow options and B2B pricing to smooth cash flow and reduce disputes
+- Partnership channels:
+  - Licensed provider directories, agency partners, and local associations
 
-**Positioning note:** We start with **Pilgrim (B2C)** for trust and usage proof, while **Group Leaders/Agencies (B2B)** provide amplification and early revenue optionality (white-label, commission-based referrals). **Local Providers (B2B)** are a tertiary lane we unlock once guidance trust and governance are established.
+Positioning
 
----
+- We start with Pilgrim (B2C) to establish trust and usage proof.
+- Group Leaders/Agencies (B2B) amplify distribution and provide future revenue optionality (commission/white-label) once trust KPIs are met.
+- Local Providers (B2B) are a tertiary lane activated after governance and content trust are established, consistent with our non-transactional v1 scope.
 
-## SECTION 7 — Market Sizing (TAM • SAM • SOM)
+## Section 7 — Market Sizing (TAM • SAM • SOM)
 
 ### Summary
 
@@ -690,7 +699,7 @@ We segment monetization into four discrete streams, with explicit **no-double-co
 
 ---
 
-## SECTION 8 — MVP Canvas Plan — HajjGuide (Pre-Seed)
+## Section 8 — MVP Canvas Plan — HajjGuide (Pre-Seed)
 
 ### TL;DR
 
@@ -824,7 +833,7 @@ Feedback → Light upsell (language pack)
 - Weekly: Activation cohort, Map Return Rate, Trust NPS, source_view, funnel by channel.
 - Gate Review: Decision memo with charts and recommended next actions.
 
-## SECTION 9 — MVP Validation Plan
+## Section 9 — MVP Validation Plan
 
 ### Scope & Current Status
 
@@ -939,7 +948,7 @@ Note: Gates are trust‑first and non‑transactional, consistent with Section 8
 
 ---
 
-## SECTION 10 — Pivot Plan
+## Section 10 — Pivot Plan
 
 ### Scope anchor
 
@@ -1097,7 +1106,7 @@ We shipped an offline-first **Umrah Ritual Guidance + Dua Journal** MVP. Before 
 
 ---
 
-## SECTION 11 — Final Go/No-Go Decision
+## Section 11 — Final Go/No-Go Decision
 
 ### Our call (concise)
 
