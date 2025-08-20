@@ -556,146 +556,157 @@ Positioning
 
 ### Summary
 
-**2024 Headline (Base):**
+2024 headline (Base):
 
 - **Total Addressable Market (TAM, Base)**: **$1.45B**
   – Umrah: **$1,095.83M**
   – Hajj: **$354.49M**
 
 - **Serviceable Addressable Market (SAM)**: **$151.49M**
-  – Bangladesh, Indonesia, and Malaysia; streams limited to **S2** (agency referrals) and **S4** (paid app)
+  – Bangladesh, Indonesia, and Malaysia
+  - Streams included: S2 (agency referrals) and S4 (paid app)
+- Serviceable Obtainable Market (SOM, 12‑month target): $2.32M
 
-- **Serviceable Obtainable Market (SOM, 12-month target)**: **$2.32M**
+Primary reference points:
 
-**Primary reference points:**
+- Foreign Umrah performers (2024): 16.80M (GASTAT, summarized by [Argaam](https://www.argaam.com/en/article/articledetail/id/1799151))
+- Foreign Hajj pilgrims (2024): 1,611,310 ([GASTAT — Hajj Statistics Publication 2024](https://www.stats.gov.sa/documents/20117/2435281/Hajj%2BStatistics%2BPublication%2B2024EN.pdf))
 
-- **Foreign Umrah performers (2024):** 16.80 million (GASTAT, summarized by [Argaam](https://www.argaam.com/en/article/articledetail/id/1799151))
-- **Foreign Hajj pilgrims (2024):** 1,611,310 ([GASTAT — Hajj Statistics Publication 2024](https://www.stats.gov.sa/documents/20117/2435281/Hajj%2BStatistics%2BPublication%2B2024EN.pdf))
+Full derivation: see [Detailed TAM Calculation (2024)](tam_calculation.md); supporting assumptions, sources, S4 adoption bases, and SAM/SOM details are in Appendices A–E.
 
-**Full derivation:** see **[Detailed TAM Calculation (2024)](tam_calculation.md)**; supporting assumptions, sources, S4 adoption bases, and SAM/SOM details are in Appendices A–E at the end of this document.
+Notes:
 
----
+- OTA (Online Travel Agency) activity (S3) is addressable, not a v1 commitment; any S3 execution will be via licensed partners or post‑licensure in KSA (Kingdom of Saudi Arabia).
+- All streams follow explicit no‑double‑count rules (see below).
 
-### Market Scope & Stream Definitions
-
-We segment monetization into four discrete streams, with explicit **no-double-count** rules:
+### Monetization Streams (scope and rules)
 
 | Stream | Description                                                | Umrah DIY | Umrah Agency | Hajj |
 | :----- | :--------------------------------------------------------- | --------: | -----------: | ---: |
-| **S1** | Local services (e.g., rides, tours, eSIMs, equipment hire) |         ✔ |            ✖ |    ✖ |
-| **S2** | Agency package referrals                                   |         ✖ |            ✔ |    ✔ |
-| **S3** | Hotels & flights booked via an intermediary (OTA-like)     |         ✔ |            ✖ |    ✖ |
-| **S4** | Paid application ($10 per unique user)                    |         ✔ |            ✔ |    ✔ |
+| S1     | Local services (rides, tours, eSIMs, equipment hire)       |        ✔  |           ✖  |  ✖   |
+| S2     | Agency package referrals (commission on booked packages)   |        ✖  |           ✔  |  ✔   |
+| S3     | Hotels & flights via intermediary (OTA‑like take‑rates)    |        ✔  |           ✖  |  ✖   |
+| S4     | Paid app ($10 per unique user)                             |        ✔  |           ✔  |  ✔   |
 
-**Rules:** S1/S3 apply only to **DIY Umrah**; S2 applies only to **agency** cohorts; **Hajj** monetized via **S2+S4** only; **S4** is on **unique users** (Umrah de-duplicated).
+Rules:
 
-**Licensing/Regulatory note:** We do **not** currently hold KSA travel licensure. Any **S3** sales (OTA-like) will commence **only** via licensed partners or post-licensure. **S3 values represent addressable opportunity, not a go-to-market commitment.**
+- S1 and S3 apply only to DIY Umrah cohorts (self‑organized, non‑agency).
+- S2 applies to agency cohorts (Umrah and Hajj).
+- Hajj monetization is S2 + S4 only.
+- S4 is modeled on unique users (de‑duplicated across Umrah).
 
----
+Licensing/regulatory note:
+
+- We do not currently hold KSA travel licensure. S3 is an addressable opportunity only; execution will be via licensed partners or post‑licensure. This aligns with our trust‑first, non‑transactional v1 scope.
 
 ### Section 1 — Total Addressable Market (Global, 2024)
 
-#### Scenario Summary (2024)
+Scenario summary (2024):
 
-| Scenario                                              |           Umrah |  Hajj (S2+S4) |           Total |
-| :---------------------------------------------------- | --------------: | ------------: | --------------: |
-| **Defensive**                                         |       **$778.51M** |     **$339.99M** |     **$1,118.50M** |
-| **Conservative Base** *(previous “VC-Balanced Base”)* |       **$919.33M** |     **$343.21M** |     **$1,262.54M** |
-| **Base** *(matches Detailed TAM doc)*                 | **$1,095.83M** | **$354.49M** | **$1,450.32M** |
-| **Aspirational**                                      |     **$1,039.38M** |     **$354.49M** |     **$1,393.87M** |
+| Scenario                                              |      Umrah | Hajj (S2+S4) |     Total |
+| :---------------------------------------------------- | ---------: | -----------: | --------: |
+| Defensive                                             |   $778.51M |     $339.99M | $1,118.50M |
+| Conservative Base |   $919.33M |     $343.21M | $1,262.54M |
+| Base               | $1,095.83M | $354.49M | $1,450.32M |
+| Aspirational                                          | $1,039.38M |     $354.49M | $1,393.87M |
 
-#### Base Stream Breakdown (2024)
+Base stream breakdown (2024):
 
-| Scenario |      Umrah S1 |      Umrah S3 |      Umrah S2 |      Umrah S4 |       **UMRAH** |       Hajj S2 |      Hajj S4 |      **HAJJ** |       **TOTAL** |
-| :------- | ------------: | ------------: | ------------: | ------------: | --------------: | ------------: | -----------: | ------------: | --------------: |
-| **Base** | **$141.52M** | **$408.31M** | **$403.20M** | **$142.80M** | **$1,095.83M** | **$338.38M** | **$16.11M** | **$354.49M** | **$1,450.32M** |
+| Scenario | Umrah S1 | Umrah S3 | Umrah S2 | Umrah S4 |    UMRAH | Hajj S2 | Hajj S4 |    HAJJ |   TOTAL |
+| :------- | -------: | -------: | -------: | -------: | -------: | ------: | ------: | ------: | ------: |
+| Base     | $141.52M | $408.31M | $403.20M | $142.80M | $1,095.83M | $338.38M | $16.11M | $354.49M | $1,450.32M |
 
-> **S3 per-DIY correction:** (ADR $80 × LOS 6 × **14.0%** × **80%**) + (Return fare $700 × **2%** × **50%**) = **$60.76** per DIY; **6.72M × 60.76 = $408.31M**.
+S3 per‑DIY calculation (Base):
 
-#### Scenario Inputs — **Base** (explicit)
+- (ADR (Average Daily Rate) $80 × LOS (Length of Stay) 6 × hotel take‑rate 14.0% × hotel attach 80%) + (Return fare $700 × air take‑rate 2% × flight attach 50%) = $60.76 per DIY traveler; 6.72M DIY travelers × $60.76 = $408.31M.
 
-| DIY share | ADR (USD) | LOS (n) | Hotel attach % | Hotel take-rate | Return fare (USD) | Air attach % |               Air take-rate | S1 per-DIY (USD) | S2 Umrah (price × ref.) | S4 Umrah (unique factor × price) |
-| --------: | --------: | ------: | -------------: | --------------: | ----------------: | -----------: | --------------------------: | ---------------: | ----------------------: | -------------------------------: |
-|   **40%** |    **80** |   **6** |        **80%** |       **14.0%** |           **700** |      **50%** | **2%** *(assumption: 1–3%)* |        **21.06** |        **$2,000 × 2%** |                  **0.85 × $10** |
+Key Base inputs (explicit):
 
-**Key modelling references:**
+| DIY share | ADR | LOS | Hotel attach | Hotel take‑rate | Return fare | Flight attach | Air take‑rate | S1 per‑DIY | S2 (Umrah) | S4 (Umrah) |
+| --------: | --: | --: | -----------: | --------------: | ----------: | ------------: | ------------: | ---------: | ---------: | ---------: |
+| 40%       | $80 | 6   | 80%          | 14.0%           | $700        | 50%           | 2% (1–3% sens.) | $21.06     | $2,000 × 2% | 0.85 × $10 |
 
-- **Hotel OTA take-rate:** 14.0% (Booking Holdings FY2024 Form 10-K)
-- **Air OTA take-rate:** **2%** *(assumption; low single-digit based on Expedia FY2024 mix; show 1–3% sensitivity)*
-- **KSA online/OTA context:** OTA share concentrated in online channel (industry reports)
+References:
 
-**Formula overview:**
+- Hotel OTA take‑rate: 14.0% (Booking Holdings FY2024 10‑K)
+- Air OTA take‑rate: 2% (assumption; low single‑digit based on Expedia mix; show 1–3% sensitivity)
 
-- **S3 (DIY):** (ADR × LOS × take-rate × hotel attach %) + (Return fare × take-rate × flight attach %)
-- **S1 (DIY):** Σ(attach × price × commission) per local service
-- **S2 (Agency/Hajj):** pilgrims × package price × referral %
-- **S4 (Umrah/Hajj):** unique users × **$10** × adoption rate
+Formulas:
 
----
+- S3 (DIY): (ADR × LOS × hotel take‑rate × hotel attach %) + (Return fare × air take‑rate × flight attach %)
+- S1 (DIY): Σ(attach × price × commission) per local service
+- S2 (Agency/Hajj): pilgrims × package price × referral %
+- S4 (Umrah/Hajj): unique users × $10 × adoption rate
 
-### Section 2 — Serviceable Addressable Market (Current Scope)
+### Section 2 — Serviceable Addressable Market (Current scope)
 
-**Geographies:** Bangladesh, Indonesia, Malaysia
-**Streams included:** **S2 (agency referrals)** and **S4 (paid app)** only
+Geography: Bangladesh, Indonesia, Malaysia  
+Streams included: S2 (agency referrals) and S4 (paid app) only
 
-**Hajj quotas (2024):**
+Hajj quotas (2024):
 
-- **Indonesia:** 241,000 (Antara)
-- **Malaysia:** 31,600 (The Malaysian Reserve)
-- **Bangladesh:** 127,198 (The Financial Express)
+- Indonesia: 241,000 (Antara)
+- Malaysia: 31,600 (The Malaysian Reserve)
+- Bangladesh: 127,198 (The Financial Express)
 
-#### SAM — 2024 Base ($M, rounded to $0.01M)
+SAM — 2024 Base ($M, rounded to $0.01M):
 
-| Country    |  Umrah S2 | Umrah S4 |   Hajj S2 |  Hajj S4 |      Total |
-| :--------- | --------: | -------: | --------: | -------: | ---------: |
-| Indonesia  |     43.20 |     6.88 |     50.61 |     0.72 |     101.42 |
-| Malaysia   |      8.00 |     1.70 |      6.64 |     0.11 |      16.45 |
-| Bangladesh |      6.00 |     0.59 |     26.71 |     0.32 |      33.62 |
-| **Total**  | **57.20** | **9.17** | **83.96** | **1.15** | **151.49** |
+| Country    | Umrah S2 | Umrah S4 | Hajj S2 | Hajj S4 |   Total |
+| :--------- | -------: | -------: | ------: | ------: | ------: |
+| Indonesia  |   43.20  |   6.88   |  50.61  |  0.72   | 101.42  |
+| Malaysia   |    8.00  |   1.70   |   6.64  |  0.11   |  16.45  |
+| Bangladesh |    6.00  |   0.59   |  26.71  |  0.32   |  33.62  |
+| Total      |  57.20   |   9.17   |  83.96  |  1.15   | 151.49  |
 
-**Sensitivity (Umrah origin counts):** Low **$136.29M** • Base **$151.49M** • High **$161.13M**
-*(Hajj components are quota-anchored; Umrah origin counts draw from multiple official/industry sources.)*
+Sensitivity (Umrah origin counts): Low $136.29M • Base $151.49M • High $161.13M  
+Note: Hajj components are quota‑anchored; Umrah origin counts draw from multiple official/industry sources.
 
----
+### Section 3 — Serviceable Obtainable Market (12‑month horizon)
 
-### Section 3 — Serviceable Obtainable Market (12-Month Horizon)
+Target capture rates:
 
-**Target capture rates:**
+- Umrah S2: ID 0.6%, MY 1.0%, BD 0.3% (of agency cohorts)
+- Hajj S2: 0.8% of each country’s pilgrims
+- S4: 12.5% of each country’s adoption ceiling in year one
 
-- **Umrah S2:** ID **0.6%**, MY **1.0%**, BD **0.3%** (of agency cohorts)
-- **Hajj S2:** **0.8%** of each country’s pilgrims
-- **S4:** **12.5%** of each country’s adoption ceiling in year one
+Capacity constraints:
 
-**Capacity constraints:** Hajj referrals capped at **5,000 seats/year** (targets do not exceed).
+- Hajj referrals capped at 5,000 seats/year (targets do not exceed the cap)
 
-#### SOM — 12-Month Target ($M; users rounded to nearest 100)
+SOM — 12‑month target ($M; users rounded to nearest 100):
 
-| Country    | Umrah S2 ($M) | Referrals | Umrah S4 ($M) |      Payers | Hajj S2 ($M) |     Seats | Hajj S4 ($M) |     Payers | Total ($M) |
-| :--------- | -------------: | --------: | -------------: | ----------: | ------------: | --------: | ------------: | ---------: | ----------: |
-| Indonesia  |           0.26 |     6,500 |           0.86 |      86,100 |          0.40 |     1,900 |          0.09 |      9,000 |        1.62 |
-| Malaysia   |           0.08 |     2,000 |           0.21 |      21,200 |          0.05 |       300 |          0.01 |      1,400 |        0.36 |
-| Bangladesh |           0.02 |       400 |           0.07 |       7,400 |          0.21 |     1,000 |          0.04 |      4,000 |        0.35 |
-| **Total**  |       **0.36** | **8,900** |       **1.15** | **114,700** |      **0.67** | **3,200** |      **0.14** | **14,400** |    **2.32** |
+| Country    | Umrah S2 ($M) | Referrals | Umrah S4 ($M) |   Payers | Hajj S2 ($M) |  Seats | Hajj S4 ($M) |  Payers | Total ($M) |
+| :--------- | -------------: | --------: | -------------: | -------: | ------------: | -----: | ------------: | ------: | ---------: |
+| Indonesia  |           0.26 |     6,500 |           0.86 |   86,100 |          0.40 |  1,900 |          0.09 |   9,000 |      1.62  |
+| Malaysia   |           0.08 |     2,000 |           0.21 |   21,200 |          0.05 |    300 |          0.01 |   1,400 |      0.36  |
+| Bangladesh |           0.02 |       400 |           0.07 |    7,400 |          0.21 |  1,000 |          0.04 |   4,000 |      0.35  |
+| Total      |           0.36 |     8,900 |           1.15 |  114,700 |          0.67 |  3,200 |          0.14 |  14,400 |      2.32  |
 
-> **Defined S4 adoption ceiling:** list per-country **unique user bases + sources** in the Appendix or the linked TAM doc; keep S4 at **$10**.
+S4 adoption ceiling:
 
----
+- See per‑country unique user bases and sources in the Appendix or the linked TAM document; S4 modeled at $10.
 
 ### Section 4 — Key Risks & Mitigations
 
-1. **Regulatory framework (Hajj):** All bookings/visas via authorized platforms (e.g., **Nusuk**).
-   *Mitigation:* Operate as referral/education layer aligned with authorized providers.
+1) Regulatory framework (Hajj)  
+Risk: All bookings/visas via authorized platforms (e.g., Nusuk).  
+Mitigation: Operate as a referral/education layer aligned with authorized providers.
 
-2. **KSA licensing (OTA operations):** S3 requires a KSA Travel & Tourism Services license or licensed partner.
-   *Mitigation:* Secure licensure or partner agreements prior to S3.
+2) KSA licensing (OTA operations)  
+Risk: S3 requires a KSA Travel & Tourism Services license or licensed partner.  
+Mitigation: Secure licensure or partner agreements prior to S3 execution.
 
-3. **Data variability (Umrah origins):** No single centralized source for all origins.
-   *Mitigation:* Maintain low/base/high SAM scenarios; cite government/industry sources.
+3) Data variability (Umrah origins)  
+Risk: No single centralized source for all origin counts.  
+Mitigation: Maintain low/base/high SAM scenarios; cite government/industry sources.
 
-4. **Attach/adoption uncertainty:** OTA attach and paid-app adoption vary by market.
-   *Mitigation:* Use conservative bands; tighten with product analytics post-MVP.
+4) Attach/adoption uncertainty  
+Risk: OTA attach and paid‑app adoption vary by market.  
+Mitigation: Use conservative input bands; tighten with product analytics post‑v1.
 
-*Displayed values may differ by ±$0.01M due to rounding.*
+Assumptions and rounding:
+
+- Some values may differ by ±$0.01M due to rounding.
 
 ---
 
