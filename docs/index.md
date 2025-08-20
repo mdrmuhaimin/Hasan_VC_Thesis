@@ -217,11 +217,11 @@ This section is built on the [Detailed Competitor Table](https://docs.google.com
 
 | Rank | Company                        | Differentiation Index |
 | ---: | ------------------------------ | :-------------------: |
-|    1 | Umrahme (Traveazy Group)       |        **3.67**       |
-|    2 | IKHLAS by Capital A (AirAsia)  |        **3.00**       |
-|    2 | Umroh.com (Indonesia)          |        **3.00**       |
-|    2 | Muslim Pro                     |        **3.00**       |
-|    2 | Nusuk (Hajj & Umrah)           |        **3.00**       |
+|    1 | Nusuk (Hajj & Umrah)           |        **4.3**       |
+|    2 | Umrahme (Traveazy Group)       |        **3.67**       |
+|    3 | IKHLAS by Capital A (AirAsia)  |        **3.00**       |
+|    3 | Umroh.com (Indonesia)          |        **3.00**       |
+|    3 | Muslim Pro                     |        **3.00**       |
 |    6 | Zamzam.com (JV with TBO)       |        **2.67**       |
 |    6 | TBO Umrah (TBO Tek Ltd)        |        **2.67**       |
 |    8 | Maqam GDS (Official Umrah GDS) |        **2.33**       |
@@ -229,7 +229,7 @@ This section is built on the [Detailed Competitor Table](https://docs.google.com
 |    8 | Funadiq                        |        **2.33**       |
 |    8 | Almosafer (Seera Group)        |        **2.33**       |
 
-**Takeaway.** Even the front-runners are **not** integrating: (1) offline, fiqh-approved **Ritual Mode** + (2) a true **Ziyarah Explorer** + (3) a **license-transparent marketplace** into one in-destination product. That’s our wedge.
+**Takeaway.** Other than Nusuk any front-runners are **not** integrating: (1) offline, fiqh-approved **Ritual Mode** + (2) a true **Ziyarah Explorer** + (3) a **license-transparent marketplace** into one in-destination product. On the other hand Nusuk relies on online conncetivity and heavily focused arabic speaker looking for VIP trip. That’s our wedge.
 
 > Derived from: Competitor Rubic from [Google Drive](https://docs.google.com/spreadsheets/d/1rgbg8PFvxG_L-yodOR_RfjXNCsfgLvZ8ZjEdNqVgNlg/edit?gid=1266947592#gid=1266947592).
 
