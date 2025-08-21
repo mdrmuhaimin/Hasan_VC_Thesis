@@ -10,8 +10,8 @@
 /* Font Selection - Change these variables to switch fonts */
 :root {
   /* Current selection (your original choice) */
-  --body-font: 'Work Sans', sans-serif;
-  --heading-font: 'Libre Baskerville', serif;
+  --body-font: 'Source Sans 3', sans-serif;
+  --heading-font: 'Merriweather', serif;
   
   /* Alternative combinations (uncomment to use):
   
