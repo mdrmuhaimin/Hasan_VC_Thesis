@@ -1,13 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&family=Gelasio:wght@400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Open+Sans:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Proxima+Nova:wght@400;500;600;700&family=Raleway:wght@400;500;600;700&family=Roboto:wght@400;500;600;700&display=swap');
 
+/* Font Selection - Change these variables to switch fonts */
+:root {
+  --body-font: 'Raleway', sans-serif;      /* Options: 'Gelasio', 'Open Sans', 'Proxima Nova', 'Raleway', 'Helvetica', 'Roboto' */
+  --heading-font: 'Montserrat', sans-serif;   /* Options: 'Lora', 'Montserrat', 'Proxima Nova', 'Raleway', 'Helvetica', 'Roboto' */
+}
 
 /* Apply body font */
-/* body, .md-content, .md-typeset {
-  font-family: 'Gelasio', serif;
-} */
 body, .md-content, .md-typeset {
-  font-family: 'Open Sans', sans-serif;
+  font-family: var(--body-font);
 }
 
 /* Apply heading font */
@@ -18,8 +21,7 @@ body, .md-content, .md-typeset {
 .md-typeset h5,
 .md-typeset h6,
 .md-header__title {
-  /* font-family: 'Lora', serif; */
-  font-family: 'Montserrat', sans-serif;
+  font-family: var(--heading-font);
 }
 
 .md-typeset h1 {
