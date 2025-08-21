@@ -1,53 +1,75 @@
 /* --- Brand colors --- */
 :root {
-  --md-primary-fg-color: #000000;  /* Black primary */
-  --md-accent-fg-color: #cfa93f;   /* Subtle Kaaba gold accent */
+  --md-primary-fg-color: #000000;  /* Black */
+  --md-accent-fg-color: #cfa93f;   /* Subtle Kaaba gold */
   --md-default-bg-color: #ffffff;  /* White background */
   --md-default-fg-color: #000000;  /* Black text */
   --md-code-bg-color: #f8f8f8;     /* Light grey for code blocks */
 }
 
-/* --- Layout adjustments for investor readability --- */
-.md-grid { max-width: 1100px; }
-.md-content { font-size: 17px; line-height: 1.7; }
+/* --- Layout adjustments --- */
+.md-grid { 
+  max-width: 1100px; 
+}
+.md-content { 
+  font-size: 17px; 
+  line-height: 1.7; 
+}
 
-/* Headings: black with gold underline for H1 only */
-.md-typeset h1 {
-  border-bottom: 3px solid #cfa93f;
+/* --- Headings --- */
+.md-typeset h1,
+.md-typeset h2 {
+  border-bottom: 3px solid #cfa93f;   /* Gold underline */
   padding-bottom: 0.3rem;
-}
-.md-typeset h2, .md-typeset h3 {
-  color: #000000;
+  margin-bottom: 1.2rem;
+  color: #000000;                     /* Pure black text */
 }
 
-/* Blockquotes: thin gold line accent */
+.md-typeset h3,
+.md-typeset h4,
+.md-typeset h5,
+.md-typeset h6 {
+  color: #000000;                     /* Keep clean, black only */
+  margin-top: 2rem;
+}
+
+/* --- Blockquotes --- */
 .md-typeset blockquote {
-  border-left: 3px solid #cfa93f;
-  padding-left: 0.9rem;
+  border-left: 3px solid #cfa93f;   /* Gold accent line */
+  padding: 1rem 1rem 1rem 1.5rem;
   color: #333333;
+  background-color: #fafafa;         /* Subtle contrast */
 }
 
-/* Tables: minimal borders + gold header underline */
+/* --- Tables --- */
 .md-typeset table {
   border-collapse: collapse;
   display: block;
   overflow-x: auto;
   white-space: nowrap;
+  margin: 1.5rem 0;
 }
 .md-typeset table th {
-  border-bottom: 2px solid #cfa93f;
+  border-bottom: 2px solid #cfa93f;  /* Gold underline on headers */
   font-weight: bold;
   background: #fafafa;
+  padding: 0.75rem 1rem;
+  text-align: left;
 }
 .md-typeset table td {
-  border-bottom: 1px solid #e0e0e0;
+  border-bottom: 1px solid #e0e0e0;  /* Light grid */
+  padding: 0.75rem 1rem;
 }
 
-/* Links: black with gold hover */
+/* --- Links --- */
 .md-typeset a {
   color: #000000;
   text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 2px;
+  transition: color 0.25s ease;
 }
 .md-typeset a:hover {
   color: #cfa93f;
+  text-decoration-color: #cfa93f;
 }
