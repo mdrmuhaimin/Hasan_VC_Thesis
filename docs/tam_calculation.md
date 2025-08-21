@@ -93,7 +93,7 @@ Platform commission on high-demand local services. [6–9]
 - **UMRAH TAM = S1 + S3 + S2 + S4 =** $139.51M + $416.05M + $403.20M + $142.80M = **$1,101.56M ≈ $1.10B**
 - **DIY-only TAM = S1 + S3 + S4 =** $139.51M + $416.05M + $142.80M = $698.36M
 
-### 7. Low/Base/High Band Scenario
+### 7. Sensitivity Snapshot (relative to Base)
 
 | Category | Low | Base | High |
 | --- | ---: | ---: | ---: |
@@ -178,21 +178,6 @@ Platform commission on high-demand local services. [6–9]
 S4 annual subscription is counted once across Umrah + Hajj and reported within Umrah for accounting simplicity.
 
 Licensing note: We do not currently hold KSA travel licensure. Any S3 sales commence only via licensed partners or post-licensure. S3 values represent addressable opportunity, not a go-to-market commitment.
-
----
-
-## Sensitivity Snapshot (relative to Base)
-
-| Lever                       |      Low |        Base |      High | Impact on TOTAL                      |
-|-----------------------------|---------:|------------:|----------:|--------------------------------------|
-| DIY share                   |      30% |        40%  |       50% | ↑ DIY increases S1/S3; S2 falls      |
-| Hotel ADR (USD)             |       70 |         80  |      100  | S3 grows with ADR×LOS                |
-| LOS (nights)                |        5 |          6  |        7  | Linear effect on S3                  |
-| Hotel attach %              |      60% |         80% |       90% | Major driver for S3                  |
-| Air take-rate               |       1% |          2% |        3% | Smaller than hotel, but material     |
-| S1 per-DIY ($)              |     −35% |        base |     +35%  | Captures local services spread       |
-| S2 (referral, % × price)    | 1%×$1.5k | 2%×$2.0k    | 3%×$2.5k  | Large lever on agency revenue        |
-| S4 (annual unique × price)  | 0.75×$8  | 0.85×$10    | 0.90×$12  | Counted once across Umrah + Hajj     |
 
 ---
 
